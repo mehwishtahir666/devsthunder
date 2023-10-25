@@ -1,0 +1,40 @@
+.platforms{
+    border: 1px solid;
+    height: auto;
+    width: 100%;
+    background-color: var(--color2);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .platforms .left, .platforms .right{
+    /* border: 1px solid; */
+    height: auto;
+    width: calc(35% - 20PX);
+ }
+ .platforms .box1{
+     background-color:#FBFBFB;
+     text-align: right;
+     padding: 35px 20px;
+     border-radius: 10px;
+     margin-top: 50px;
+     box-shadow:1px  0px 8px 24px ;
+     box-shadow:  2px 2px 3px 3px var(--color3);
+ }
+ 
+ .platforms .center img{
+     width: 100%;
+ }
+ .platforms .box2{
+     text-align: left;
+ }
+ .platforms .box1 p{
+     font-size: 18px;
+     margin-top: 5px;
+ }
+ .platforms .center{
+     height: auto;
+     width: calc(30% - 20px);
+ }
+ 
