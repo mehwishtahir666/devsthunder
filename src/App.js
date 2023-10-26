@@ -1,14 +1,14 @@
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
-import Platforms from './components/Platforms/Platforms';
-import About from "./components/About/About"
-import Banner from "/components/Banner/Banner"
-import Engangment from "./components/Engangment/Engangment"
-import Footer from "/components/Footer/Footer"
-import Header from "./components/Header/Header"
-import Services from "/components/Services/Services"
-import Trending from "/components/Trending/Trending"
+import Platforms from './components/platforms/platforms';
+import About from "./components/about/about"
+import Banner from "./components/banner/banner"
+import Engangment from "./components/engangment/engangment"
+import Footer from "./components/footer/footer"
+import Header from "./components/header/header"
+import Services from "./components/services/services"
+import Trending from "./components/trending/trending"
 function App() {
   return (
     <BrowserRouter>
