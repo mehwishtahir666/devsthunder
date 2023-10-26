@@ -9,7 +9,6 @@ function App() {
       <Route path="/platforms" element={<Platforms/>}/>
     </Routes>
     </BrowserRouter>
-
   );
 }
 
