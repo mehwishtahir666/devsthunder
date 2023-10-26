@@ -6,15 +6,6 @@
   }
   
   @import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Bungee&family=Catamaran:wght@100&family=Noto+Serif+Vithkuqi:wght@700&family=Orbitron&family=Oswald:wght@200&family=Pacifico&family=Shrikhand&family=Tangerine&family=Ubuntu:wght@300&display=swap');
-  
-  :root {
-    --mainColor: #127A93;
-    --color1: #0C5C97;
-    --subColor: #FAD509;
-    --paragraphSize: 18px;
-    --fontFamily: Catamaran;
-    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
   .container {
     height: max-content;
   }

@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
 :root {
-    --color1: #05716c;
-    --color2: #1fbfb8;
-    --color3: #1978a5;
-    --paragraphSize: 18px;
-    /* --mainHeadingSize: ; */
-    --fontFamily:'Catamaran', sans-serif;
-    /* --paraColor:   ; */
-    /* --headingColor:   ; */
-    /* --padding:0px 0px 0px 0px; */
-    /* --border-radius:0px; */
-    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+  --mainColor: #127A93;
+  --color1: #0C5C97;
+  --subColor: #FAD509;
+  --paragraphSize: 18px;
+  --fontFamily: Catamaran;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 *{
     margin: 0;
     padding: 0;
