@@ -1,12 +1,9 @@
-import './App.css';
+import './header.css';
 import { LiaFacebookF } from "react-icons/lia";
 import { LiaGithub } from "react-icons/lia";
 import { LiaWhatsapp } from "react-icons/lia";
 import { LiaPhoneSolid } from "react-icons/lia";
-import { FcSupport } from "react-icons/fc";
-import { FcFaq } from "react-icons/fc";
-import { FcEndCall } from "react-icons/fc";
-import logo from "./WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png";
+// import logo from "./WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png";
 import { LiaEnvelopeOpenSolid } from "react-icons/lia";
 function Header() {
   return (
@@ -36,7 +33,7 @@ function Header() {
         {/* --------navbar-------- */}
         <nav>
         <div className='nav_logoDiv'>
-           <img src={logo}/>
+           {/* <img src={logo}/> */}
           </div>
           <ul className='nav_ul'>
               <li>Home</li>
