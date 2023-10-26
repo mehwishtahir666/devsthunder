@@ -8,7 +8,7 @@ import { FcFaq } from "react-icons/fc";
 import { FcEndCall } from "react-icons/fc";
 import logo from "./WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png";
 import { LiaEnvelopeOpenSolid } from "react-icons/lia";
-function App() {
+function Header() {
   return (
     <div className='container-fluid p-0 m-0 border border-dark'>
       {/* header element */}
@@ -54,4 +54,4 @@ function App() {
   )
   
 }
-export default App;
+export default Header;
