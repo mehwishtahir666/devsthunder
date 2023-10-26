@@ -1,10 +1,10 @@
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
-import Platforms from './components/platforms/Platforms';
-import About from "./components/about/About"
+import Platforms from './components/Platforms/Platforms';
+import About from "./components/About/About"
 import Banner from "/components/banner/Banner"
-import Engangment from "./components/engangment/Engangment"
+import Engangment from "./components/Engangment/Engangment"
 import Footer from "/components/footer/Footer"
 import Header from "./components/header/Header"
 import Services from "/components/services/Services"
