@@ -14,8 +14,8 @@ import Home from './components/Home';
 function App() {
   return (
     <BrowserRouter>
+          <Home/>
     <Routes>
-      <Home/>
       <Route path="/platforms" element={<Platforms/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/banner" element={<Banner/>}/>

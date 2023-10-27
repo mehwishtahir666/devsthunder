@@ -4,6 +4,7 @@ import { LiaGithub } from "react-icons/lia";
 import { LiaWhatsapp } from "react-icons/lia";
 import { LiaPhoneSolid } from "react-icons/lia";
 import { LiaEnvelopeOpenSolid } from "react-icons/lia";
+
 function Header() {
   return (
     <div className='container-fluid p-0 m-0'>
@@ -45,7 +46,7 @@ function Header() {
 <div class=" nav_component-main container-fluid m-0 d-flex align-items-center border-0 border-warning px-4 h-100">
  
    <div className='nav_logoDiv p-0 m-0 '>
-         <img src={logo} className='w-100 h-100 p-0 m-0'/>
+         {/* <img src={logo} className='w-100 h-100 p-0 m-0'/> */}
         </div>
 
   <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
