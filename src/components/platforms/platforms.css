@@ -8,6 +8,19 @@
     justify-content: space-between;
     flex-wrap: wrap;
  }
+ .platforms .p-1{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(24, 24, 24); 
+ }
+ .platforms h1{
+     color: rgb(48, 47, 47);
+ }
+ .platforms .cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
  .platforms .left, .platforms .right{
     /* border: 1px solid; */
     height: auto;
