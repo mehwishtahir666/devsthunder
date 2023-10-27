@@ -9,8 +9,8 @@ function Header() {
   return (
     <div className='container-fluid p-0 m-0 border border-dark'>
       {/* header element */}
-      <div className='mainheader p-0 container-lg border border-dark'>
-        <div className='header d-flex align-items-center'>  
+      <div className='mainheader p-0 container-lg border border-success'>
+        <header className='d-flex align-items-center'>  
         <div className='header_infodiv p-0 m-0 '>
             <div className='header_info1 p-0 m-0 border border-danger d-flex align-items-center'>
               <LiaEnvelopeOpenSolid className='icon'/>
@@ -28,7 +28,7 @@ function Header() {
               <LiaGithub />
             </div>
           </div>
-        </div>
+        </header>
 
         {/* --------navbar-------- */}
         <nav>
