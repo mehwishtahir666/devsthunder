@@ -3,6 +3,9 @@ import React from 'react'
  const Platforms = () => {
   return (
     <div className='platforms'>
+     <h1>Awards & Recognitions that Keep uUs Motivated</h1>
+     <p className='p-1'>dispkay of credentails bestowed on siddhi infosoft by top tech influencers acress the globe</p>
+        <div className="cont">
         <div className="left">
             <div className="box1">
                  <img src="/images/top-developer.png.webp" alt="" />
@@ -33,6 +36,7 @@ import React from 'react'
                  <img src="/images/developer_new.png" alt="" />
                  <p>Top Mobile App Development Company</p>
             </div>
+        </div>
         </div>
     </div>
   )
