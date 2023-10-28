@@ -1,4 +1,5 @@
 import React from 'react'
+import "./platforms.css"
 
  const Platforms = () => {
   return (
