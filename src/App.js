@@ -11,6 +11,7 @@ import Services from "./components/services/services"
 import Trending from "./components/trending/trending"
 import Projects from './components/projects/projects';
 import Home from './components/Home';
+import Portfolio from './components/portfolio/portfolio';
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,8 @@ function App() {
       <Route path="/services" element={<Services/>}/>
       <Route path="/trending" element={<Trending/>}/>
       <Route path="/projects" element={<Projects/>}/>
+      <Route path="/portfolio" element={<Portfolio/>}/>
+
     </Routes>
     </BrowserRouter>
   );
