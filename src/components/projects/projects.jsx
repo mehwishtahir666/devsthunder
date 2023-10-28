@@ -1,9 +1,5 @@
 import React from 'react'
 import "./projects.css"
-import img1 from "./images/tab2.webp"
-import pc1 from "./images/pc2.jpeg"
-import pc2 from "./images/pc3.jpeg"
-import pc3 from "./images/pc4.png"
 import pc4 from "./images/home_post_2.gif"
 import {AiFillEye} from "react-icons/ai";
 
@@ -66,10 +62,6 @@ const Projects = () => {
               <button>Details</button>
             </div>
           </div>
-
-
-
-
           <div className="card-1 card-one">
             <img src={pc4} alt="" />
             <h3>Project name</h3>
@@ -110,8 +102,6 @@ const Projects = () => {
               <button>Details</button>
             </div>
           </div>
-
-
         </div>
       </div>
     </>

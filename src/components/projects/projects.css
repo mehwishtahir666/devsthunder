@@ -24,7 +24,6 @@
 .projects .heading-box{
     width:50%;
     height:auto;
-    /* border:1px solid; */
     padding:10px;
 }
 .heading-box h1{
@@ -39,7 +38,6 @@
 .projects .button-box{
     width:100%;
     height:auto;
-    /* border:1px solid red; */
     margin-top:20px;
 }
 .projects .button-box button{
@@ -52,19 +50,16 @@
 .projects .card-box{
     width:100%;
     height:auto;
-    /* border:1px solid red; */
     padding-bottom:40px;
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    /* margin-top:20px; */
 }
 .card-box .card-one{
     margin:0;
     padding:0;
 }
 .card-1{
-    /* width: 22%; */
     transition: 400ms ease;
 }
 .card-1:hover{
@@ -73,7 +68,6 @@
 .card-box .card-1{
     width:calc(23% - 20px);
     height:90%;
-    /* border:1px solid red; */
     box-shadow: -11px 8px 20px -7px rgba(142, 141, 141, 0.53);
     border-radius:5px;
     margin-top:40px;
@@ -100,7 +94,6 @@
 .button-div{
     width:150px;
     height:auto;
-    /* border:1px solid red; */
     padding:10px;
     padding-bottom:20px;
     margin-top:20px;
@@ -121,28 +114,23 @@
     cursor: pointer;
     transition: all .4s ease-in-out
 }
-
-
 /* ===================== */
 @media screen and (max-width:1000px) {
     .card-box .card-1{
         width:calc(33% - 20px);
         height:90%;
-        /* border:1px solid red; */
     }
 }
 @media screen and (max-width:770px) {
     .card-box .card-1{
         width:calc(50% - 20px);
         height:90%;
-        /* border:1px solid red; */
     }
 }
 @media screen and (max-width:580px) {
     .card-box .card-1{
         width:calc(100% - 20px);
         height:90%;
-        /* border:1px solid red; */
     }
     .heading-box h1{
         font-size:25px;
