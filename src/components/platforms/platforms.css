@@ -1,12 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+:root {
+    --color1: #05716c;
+    --color2: #1fbfb8;
+    --color3: #1978a5;
+    --background: #FFFFFF;
+    --paragraphSize: 18px;
+    --fontFamily:'Catamaran', sans-serif;  
+    --box-shadow: rgb(193, 217, 217);
+    --mainColor: #127A93;
+  --color1: #0C5C97;
+  --subColor: #FAD509;
+  --paragraphSize: 18px;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: var(--fontFamily);
+}
 .platforms{
-    border: 1px solid;
     height: auto;
     width: 100%;
-    background-color: var(--color2);
+    background-color: var(--background);
     padding: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
+ }
+ .platforms .cont{
+     height: auto;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     flex-wrap: wrap;
+     align-items: center;
  }
  .platforms .p-1{
     margin-top: 20px;
@@ -16,28 +50,25 @@
  .platforms h1{
      color: rgb(48, 47, 47);
  }
- .platforms .cont{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
  .platforms .left, .platforms .right{
-    /* border: 1px solid; */
     height: auto;
     width: calc(35% - 20PX);
  }
  .platforms .box1{
      background-color:#FBFBFB;
      text-align: right;
-     padding: 35px 20px;
+     padding: 7% 2%;
+     height: 180px;
      border-radius: 10px;
-     margin-top: 50px;
+     margin-top: 30px;
      box-shadow:1px  0px 8px 24px ;
-     box-shadow:  2px 2px 3px 3px var(--color3);
+     box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
  }
- 
  .platforms .center img{
      width: 100%;
+ }
+ .platforms .box1 img{
+     width: 180px;
  }
  .platforms .box2{
      text-align: left;
@@ -49,5 +80,45 @@
  .platforms .center{
      height: auto;
      width: calc(30% - 20px);
- }
  
+ }
+ @media screen and (max-width:1000px) {
+    .platforms .center{
+        display: none;
+    }
+    .platforms .left, .platforms .right{
+        width: calc(50% - 20px);
+    }
+    .platforms .box1{
+        height: 140px;
+    }
+}
+@media screen and (max-width:750px) {
+    .platforms .left, .platforms .right{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .platforms img{
+        margin: 0;
+    }
+    .platforms .box1{
+        text-align: left;
+        margin: 10px;
+        padding: 15px;
+        height: auto;
+    }
+    .platforms h1{
+        font: 30px;
+    }
+}
+@media screen and (max-width:450px) {
+    .platforms .left, .platforms .right{
+        padding: 0;
+    }
+    .award{
+        padding: 20px 10px;
+    }
+    .platforms{
+        padding: 20px 0px;
+    }
+}
