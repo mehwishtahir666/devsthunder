@@ -1,11 +1,12 @@
 import './header.css';
-import { LiaFacebookF } from "react-icons/lia";
-import { LiaGithub } from "react-icons/lia";
-import { LiaWhatsapp } from "react-icons/lia";
 import { LiaPhoneSolid } from "react-icons/lia";
-import logo from "./image/WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png"
+import { FaTwitterSquare } from "react-icons/fa";
+import { BiLogoFacebookSquare } from "react-icons/bi";
+import { BiLogoLinkedinSquare } from "react-icons/bi";
 import { LiaEnvelopeOpenSolid } from "react-icons/lia";
 import { Link } from 'react-router-dom';
+
+import logo from "./image/WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png"
 
 function Header() {
   return (
@@ -27,9 +28,9 @@ function Header() {
         </div>
         <div className='header_sideDiv h-100 px-sm-5  d-flex'>
           <div className='header_icondiv fw-bolder d-flex align-items-center justify-content-around px-sm-0 px-4'>
-            <LiaFacebookF className='fs-sm-1 fs-lg-3' />
-            <LiaWhatsapp />
-            <LiaGithub />
+            <BiLogoFacebookSquare className='fs-sm-1 fs-lg-3' />
+            <BiLogoLinkedinSquare />
+            <FaTwitterSquare />
           </div>
         </div>
 

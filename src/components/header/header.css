@@ -16,7 +16,7 @@ header {
 }
 .header_icondiv {
   width: 110px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .header_sideDiv {
   background-color: var(--subColor);

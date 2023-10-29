@@ -1,42 +1,53 @@
 .banner {
-	background-image: linear-gradient(to right bottom , rgb(255, 255, 255),rgba(0, 0, 255, 0.241)),url("https://gocsb.com/wp-content/uploads/layerslider/Web-Development-1-Mobile/web-developer_slider-1.jpg");
+	background-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(0, 0, 255, 0.241)), url("https://gocsb.com/wp-content/uploads/layerslider/Web-Development-1-Mobile/web-developer_slider-1.jpg");
 	background-size: cover;
 	width: 100%;
-	background-repeat:no-repeat ;
+	background-repeat: no-repeat;
 }
-.carousel{
-	margin-top:100px;
+
+.carousel {
+	margin-top: 100px;
 }
-.carousel-inner{
+
+.carousel-inner {
 	min-height: 80vh;
 }
-.banner_texttogether{
+
+.banner_texttogether {
 	margin: 50px 0px;
 }
+
 .banner_one h1 {
 	color: var(--primary-white);
 }
+
 .banner_one .p1 {
 	color: var(--primary-white);
 }
+
 .banner_one h2 {
 	color: var(--primary-white);
 }
+
 .banner_one .p2 {
 	color: var(--primary-white);
 }
+
 /* ==== two item===== */
 .two h1 {
 	color: var(--primary-white);
 }
+
 .two p {
 	color: var(--primary-white);
 }
+
 /* ----- three--------- */
 
 .three h1 {
 	color: var(--primary-white);
 }
+
 .three-images {
 	height: auto !important;
 	width: 100%;
@@ -44,236 +55,274 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
 .image {
 	width: 120px;
 }
+
 /* ------ four --------- */
 .four .heading h1 {
 	color: var(--primary-white);
 }
+
 .four .student-intro img {
 	width: 5em;
 	height: 5em;
 	top: -34%;
 	left: 50%;
-	transform: translate(-50%,0%);
+	transform: translate(-50%, 0%);
 	border: 5px solid var(--subColor);
 }
+
 .four .student-intro h4 {
 	color: var(--primary-white);
 	font-size: var(--h2);
 }
+
 .four .student-intro p {
 	color: var(--primary-white);
 	font-size: var(--normal--para);
 }
 
 /* ================technologies================ */
-.banner_circle{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    margin: auto;
-    position: relative;
-    margin-top: 30px;
-    background-color:var(--mainColor);
-}
-.banner_whiteDiv h6{
-	font-size: 19px;
-	
-	color: var(--mainColor);
-}
-.banner_techno-main{
-	/* background-color: green; */
+.banner_techno-main {
 	max-height: 80vh;
 }
-.banner_techno-sec1,.banner_techno-sec2{
-    width: 47%;
+/* banner_techno-sec2 */
 
-
+.banner_circle {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin: auto;
+	position: relative;
+	margin-top: 30px;
+	background-color: var(--mainColor);
 }
-.banner_techno-sec1 h4{
+
+.banner_circle img {
+	position: absolute;
+	left: 20%;
+	top: -19%;
+	width: 250px;
+	/* border: 1px solid red; */
+}
+
+.banner_techno-sec1 h4 {
 	color: var(--mainColor);
 }
-.banner_techno-sec1 h3{
-	color:white;
+
+.banner_techno-sec1 h3 {
+	color: white;
 	text-shadow: 2px 2px 2px var(--mainColor);
 }
-.banner_circle img{
-    position: absolute;
-    left: -30%;
-    top: -20%;
-    width: 650px;
-    /* border: 1px solid red; */
+
+.banner_textwhiteDiv {
+	position: absolute;
+	width: 260px;
+	padding: 8px;
+	height: 55px;
+	border-radius: 20px;
+	bottom: 0;
+	left: 80px;
+	box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.267);
+	background-color: white;
 }
-.banner_whiteDiv{
-    position: absolute;
-    width: 260px;
-    padding: 8px;
-    height: 55px;
-    border-radius: 20px;
-    bottom: 0;
-    left: 100px;
-	box-shadow:4px 4px 10px 2px rgba(0, 0, 0, 0.267);
-    background-color: white;
+
+.banner_textwhiteDiv p {
+	font-size: 13px;
 }
-.banner_whiteDiv p{
-    font-size: 14px;
+
+.banner_textwhiteDiv h6 {
+	font-size: 19px;
+	color: var(--mainColor);
 }
-.banner_img-circle{
- width: 60px;
- height: 60px;
- box-shadow:4px 4px 10px 2px rgba(0, 0, 0, 0.267);
- position: absolute;
- background-color: white;
- border-radius: 50%;
- font-size: 25px;
+
+.banner_img-circle {
+	width: 60px;
+	height: 60px;
+	box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.267);
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	font-size: 25px;
+	color: #26a7de;
 }
-.ban_c-1{
-    bottom:10%;
-    left: 3%;
+
+.ban_c-1 {
+	bottom: 10%;
+	left: 3%;
 }
-.ban_c-2{
-    bottom:28%;
-    left: -8%;
+
+.ban_c-2 {
+	bottom: 28%;
+	left: -8%;
 }
-.ban_c-3{
-    bottom:50%;
-    left: -10%;
+
+.ban_c-3 {
+	bottom: 50%;
+	left: -10%;
 }
-.banner_mainWhite{
-    height: 350px;
-    position: relative;
-flex-wrap: wrap;
-width: 600px;
-    border-radius: 20px;
-    box-shadow: var(--box-shadow);
+
+/* banner_techno-sec2 */
+
+.banner_sec2-mainWhite {
+	height: max-content;
+	position: relative;
+	flex-wrap: wrap;
+	width: max-content;
+	border-radius: 20px;
+
 }
-.banner_groupimg{
-    width: 500px;
+.wCircleDiv2,.wCircleDiv3{
+	margin-top: 30px;
 }
-.wCircle{
+.wCircle {
 	width: 95px;
-    height: 95px;
-    /* position: absolute; */
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    border-radius:50% ;
-	box-shadow:4px 4px 10px 2px rgba(0, 0, 0, 0.267);
-    background-color: white;
+	height: 95px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.267);
+	background-color: white;
 }
-.wCircle .noclassimg{
-    width: 100%;
-    height: auto;
+.marginleftCustom{
+	margin-left: 18px;
 }
-.wCircle .classimg{
-    width: 50px;
-    height: auto;
-}
-.wcir1{
-    top: 0;
-    left: 0;
-}
-.wcir1{
-    top: -15%;
-    left: 40%;
-}
-.wcir3{
-    top: -10%;
-    left: 80%;
-}
-.wcir4{
-    top: 40%;
-    left: -5%;
-}
-.wcir5{
-    top: 30%;
-    left: 35%;
-}
-.wcir6{
-    top: 75%;
-    left: 20%;
-}
-.wcir7{
-    top: 40%;
-    right:10%;
-}
-.wcir8{
-    right: 30%;
-    bottom: 0;
+.wCircle .noclassimg {
+	width: 100%;
+	height: auto;
 }
 
+.wCircle .classimg {
+	width: 50%;
+	height: auto;
+}
 
+.wcir1 {
+	top: 0;
+	left: 0;
+}
 
+.wcir1 {
+	top: -15%;
+	left: 40%;
+}
+
+.wcir3 {
+	top: -10%;
+	left: 80%;
+}
+
+.wcir4 {
+	top: 40%;
+	left: -5%;
+}
+
+.wcir5 {
+	top: 30%;
+	left: 35%;
+}
+
+.wcir6 {
+	top: 75%;
+	left: 20%;
+}
+
+.wcir7 {
+	top: 40%;
+	right: 10%;
+}
+
+.wcir8 {
+	right: 30%;
+	bottom: 0;
+}
 
 /*  ===========================*/
 @media screen and (max-width:1150px) {
-	.banner_circle{
-		width:300px;
-		height:300px;
+	.banner_circle {
+		width: 300px;
+		height: 300px;
 	}
-	.banner_whiteDiv{
+
+	.banner_textwhiteDiv {
 		width: 230px;
 		right: 0px;
 	}
-	.banner_img-circle{
-	 width: 50px;
-	 height: 50px;
+
+	.banner_img-circle {
+		width: 50px;
+		height: 50px;
 	}
-	.wCircle{
-		width:85px;
-		height:85px;
+
+	.wCircle {
+		width: 85px;
+		height: 85px;
 	}
-	.banner_circle img{
-		width: 500px;
+
+	.banner_circle img {
+		width: 190px;
+
 	}
 }
+
 @media screen and (max-width:1084px) {
 	.banner_one h2 {
 		font-size: 20px;
 	}
+
 	.banner_one h1,
 	.two h1,
 	.three h1,
 	.four .heading h1 {
 		font-size: 45px;
 	}
+
 	.banner_one .p2 {
 		font-size: 18px;
 	}
 }
+
 @media (max-width:992px) {
-	.wCircle{
+	.wCircle {
 		width: 75px;
 		height: 75px;
 	}
- }
+}
+
 @media screen and (max-width:906px) {
 	.banner_one h2 {
 		font-size: 18px;
 	}
+
 	.banner_one h1,
 	.two h1,
 	.three h1,
 	.four .heading h1 {
 		font-size: 35px;
 	}
+
 	.banner_one .p2,
 	.banner_one .p1 {
 		font-size: 16px;
 	}
+
 	.image {
 		width: 20%;
 	}
+
 	.three-images {
 		width: 166%;
 		justify-content: space-around;
 		animation: innerSlider 6s linear infinite;
 	}
+
 	.image {
 		width: 120px;
 	}
+
 	@keyframes innerSlider {
 		0% {
 			margin-left: 0;
@@ -299,70 +348,103 @@ width: 600px;
 			margin-left: -66%;
 		}
 	}
+
+	.wCircle{
+		width: 52px;
+		height: 52px;
+	}
+	.marginleftCustom{
+		margin-left: 10px;
+	}
 }
 
 @media screen and (max-width:800px) {
 	.four {
 		flex-direction: column;
 	}
+
 	.heading,
 	.student-intro {
 		width: 90%;
 	}
-	.student-intro{
-		margin-top:20px;
+
+	.student-intro {
+		margin-top: 20px;
 	}
 }
+
 @media (max-width:760px) {
-    .banner_techno-sec1{
-        width: 100%;
-    }
-    .banner_techno-sec2{
-        width: 100%;
-    }
+	.banner_techno-sec1 {
+		width: 100%;
+	}
+}
+@media (max-width:780px) {
+	.wCircle{
+		width: 45px;
+		height: 45px;
+	}
+	.marginleftCustom{
+		margin-left: 5px;
+	}
+}
+@media (max-width:730px) {
+.banner_techno-sec2{
+	display: none;
+}
 }
 @media screen and (max-width:672px) {
 	.banner_one h2 {
 		font-size: 16px;
 		margin-left: 0;
 	}
+
 	.banner_one h1,
 	.two h1,
 	.three h1,
 	.four .heading h1 {
 		font-size: 30px;
 	}
+
 	.banner_one .p2,
 	.banner_one .p1 {
 		font-size: 14px;
 	}
+
 	.banner_one {
 		padding: 0 20px;
 	}
+
 	.two,
 	.four {
 		flex-direction: column;
 	}
+
 	.two-cont1,
 	.two-cont2 {
 		width: 90%;
 	}
+
 	.two-cont2 img {
 		width: 100%;
 	}
+
 	.four .heading h1 {
 		text-align: center;
 	}
+
 	.three-images {
 		justify-content: space-between;
 	}
+
 	.image {
 		width: 100px;
 	}
-	.student-intro{
-		margin-top:50px;
+
+	.student-intro {
+		margin-top: 50px;
 	}
 }
+
 @media screen and (max-width:520px) {
 	.banner_one h2 {
 		font-size: 14px;
@@ -373,12 +455,15 @@ width: 600px;
 		font-size: 12px;
 		margin-right: 0;
 	}
+
 	.banner_one .p1 {
 		font-size: 13px;
 	}
+
 	.two p {
 		font-size: var(--small-text);
 	}
+
 	.two {
 		align-items: center;
 	}
@@ -437,8 +522,8 @@ width: 600px;
 }
 
 @media screen and (max-width:485px) {
-	.student-intro{
-		margin-top:50px;
+	.student-intro {
+		margin-top: 50px;
 	}
 }
 
@@ -446,28 +531,74 @@ width: 600px;
 	.image {
 		width: 100px;
 	}
-	.student-intro p{
-		font-size:16px;
+	.student-intro p {
+		font-size: 16px;
+	}
+	.banner_circle {
+		width: 230px;
+		height: 230px;
+	}
+	.banner_textwhiteDiv {
+		width: 170px;
+		height: 50px;
+	}
+
+	.banner_img-circle {
+		width: 40px;
+		height: 40px;
+		font-size: 19px
+	}
+
+	.banner_circle img {
+		width: 145px;
+	}
+	.ban_c-1 {
+		bottom: 10%;
+		left: 4%;
 	}
 	
+	.ban_c-2 {
+		bottom: 28%;
+		left: -6%;
+	}
+	
+	.ban_c-3 {
+		bottom: 50%;
+		left: -8%;
+	}
+	.banner_textwhiteDiv p {
+		font-size: 12px;
+		/* border: 1px solid red; */
+	}
+	
+	.banner_textwhiteDiv h6 {
+		font-size: 15px;
+		/* border: 1px solid red; */
+		color: var(--mainColor);
+	}
+
 }
 
 @media screen and (max-width:375px) {
 	.banner_one .p2 small {
 		display: block;
 	}
+
 	.banner_one h1,
 	.two h1,
 	.four .heading h1 {
 		font-size: 25px;
 	}
+
 	.three h1 {
 		font-size: 22px;
 	}
+
 	.three-images {
 		width: 500%;
 		animation: innerSlider 8s linear infinite;
 	}
+
 	@keyframes innerSlider {
 		0% {
 			margin-left: 0;
@@ -492,33 +623,40 @@ width: 600px;
 		55% {
 			margin-left: -200%;
 		}
-		60%{
-			margin-left:-300%;
+
+		60% {
+			margin-left: -300%;
 		}
-		75%{
-			margin-left:-300%;
+
+		75% {
+			margin-left: -300%;
 		}
-		80%{
-			margin-left:-400%;
+
+		80% {
+			margin-left: -400%;
 		}
-		95%{
-			margin-left:-400%;
+
+		95% {
+			margin-left: -400%;
 		}
-		100%{
-			margin-left:-500%;
+
+		100% {
+			margin-left: -500%;
 		}
 	}
 }
-@media (max-width:540px){
-	.student-intro-img{
+
+@media (max-width:540px) {
+	.student-intro-img {
 		width: 60px !important;
 		height: 60px !important;
 		top: -15% !important;
 	}
 }
+
 @media (max-width:800px) {
 	.student-intro {
 		margin-top: 50px;
 	}
-	
+
 }

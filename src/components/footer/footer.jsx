@@ -18,7 +18,8 @@ import {TiSocialSkype} from "react-icons/ti"
             <li><p>get exclusive digital marketing updates
                 straight to your inbox
             </p></li>
-            <li className="p-0 m-0 footer_inplist"><input type="email" name="" placeholder="Email address" className="footer_inp" />
+            <li className="p-0 m-0 footer_inplist">
+              {/* <input type="email" name="" placeholder="Email address" className="footer_inp" /> */}
             <button className="p-0 m-0 footer_btn"><AiOutlineArrowRight/></button></li>
                </ul>
                <ul className="footer_sec_2 text-center col-md-2 col-sm-6 col-12   border border-danger ">
@@ -41,7 +42,7 @@ import {TiSocialSkype} from "react-icons/ti"
                  <li>One nell Road sinagpore</li>
                </ul>
       </div>
-      <div className=" row pt-3 px-5 border border-dark footer_line">
+      {/* <div className=" row pt-3 px-5 border border-dark footer_line">
         <div className="col border maxConth p-0"><p className="p-0 m-0">@2023FutureMarket Private Ltd.All Right Reserved</p></div>
         <div className="col border-0 maxConth text-center">
             <div className="footer_insideiconCol d-flex border border-dark ">
@@ -56,7 +57,7 @@ import {TiSocialSkype} from "react-icons/ti"
             <p className="m-0">Terms Of Services</p>
             <p className="m-0 ms-3  ">Privacy Policy</p>
         </div>
-      </div>
+      </div> */}
 </div>
        </div>
     )

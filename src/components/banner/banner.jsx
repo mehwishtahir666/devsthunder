@@ -6,15 +6,6 @@ import image3 from "./images/Rectangle 7@2x.png"
 import image4 from "./images/Kubernetes.png"
 import image5 from "./images/Rectangle 4@2x.png"
 import image6 from "./images/Rectangle 6@2x.png"
-// ------technology--------
- import { BiLogoLinkedin } from "react-icons/bi";
- import { BiLogoTwitter } from "react-icons/bi";
-
- import { FaTwitterSquare } from "react-icons/fa";
- import { BiLogoFacebookSquare } from "react-icons/bi";
- import { BiLogoLinkedinSquare } from "react-icons/bi";
-
-
 import manlaptop from "./images/Premium_Photo___Handsome_black_man_using_modern_laptop_on_yellow-removebg-preview.png"
 import angular from "./images/angular.png"
 import jQuery from "./images/jquery.png"
@@ -24,16 +15,14 @@ import html from "./images/231_Web_Development_-_Websites__Applications_and_Soft
 import css from "./images/css3.png"
 import mdb from "./images/Outsource_Mongodb_Developers__Mongodb_Development_Services__Mongodb_Development_Company__Mongodb_Developers__Mongodb_Development-removebg-preview.png"
 import nodejs from "./images/Standardizing_Node_js_Version_in_an_npm_Package-removebg-preview.png"
-import group from "./images/Glider_Offers_A_Clean_And_Elegant_Way_To_Compile_And_-_Programming_Languages_Icons_Png_Transparent_PNG_-_798x638_-_Free_Download_on_NicePNG-removebg-preview.png"
-
+import bannerPerson from "./images/bannerPerson.png"
 import { LiaFacebookF } from "react-icons/lia";
-import { LiaGithub } from "react-icons/lia";
-import { LiaWhatsapp } from "react-icons/lia";
-
+import { BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoTwitter } from "react-icons/bi";
 const Banner = () => {
   return (
     <div>
-      <div class="banner min-vh-100 mh-auto w-100 d-flex justify-content-center  align-items-center">
+      <div class="banner min-vh-100 mh-auto w-100 border-0 border-success d-flex justify-content-center  align-items-center">
         {/* ---------banner component */}
         <div id="carouselExampleIndicators" class=" carousel slide w-100" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -43,12 +32,12 @@ const Banner = () => {
           </div>
           <div class="carousel-inner w-100  d-flex align-items-center">
             {/* ============one item========== */}
-            <div class="carousel-item border-0 w-100 px-4 active">
-            <div className="banner_techno-main px-5 flex-wrap d-flex justify-content-center align-items-center border border-dark w-100">
-        <div className="banner_techno-sec1 p-5 text-center border border-danger">
+            <div class="carousel-item border-0 w-100 px-sm-4 px-0 active">
+            <div className="banner_techno-main px-sm-5 px-0  d-flex justify-content-evenly align-items-center border-0 border-dark w-100">
+        <div className="banner_techno-sec1 p-5 text-center border-0 border-danger">
           <div className="banner_circle">
-            <img src={manlaptop} alt="" />
-            <div className="banner_whiteDiv">
+            <img src={bannerPerson} alt="" />
+            <div className="banner_textwhiteDiv">
               <h6 className="fw-bold text-center p-0 m-0">Mehwish Tahir</h6>
               <p className="p-0 m-0">Director and Founder</p>
             </div>
@@ -64,25 +53,25 @@ const Banner = () => {
           </div>
           <h3 className="fw-bold mt-3">with 100% team support</h3>
         </div>
-        <div className="banner_techno-sec2 border border-danger justify-content-center d-flex align-items-center m-0 border-warning">
-          <div className="banner_mainWhite d-flex border border-warning  m-auto">
-            <div className="wCircleDiv1 d-flex w-100 justify-content-center ">
+        <div className="banner_techno-sec2 border-0 border-danger  m-0 border-warning">
+          <div className="banner_sec2-mainWhite border-0 border-warning">
+            <div className="wCircleDiv1 d-flex w-auto justify-content-center border-0 border-danger">
               <div className="wCircle wcir1"><img className="classimg" src={angular} alt="" /></div>
-              <div className="wCircle wcir2 ms-3"><img className="noclassimg" src={css} alt="" /></div>
-              <div className="wCircle wcir3 ms-3"><img className="noclassimg" src={jQuery} alt="" /></div>
-              <div className="wCircle wcir4 ms-3"><img className="noclassimg" src={bootstrap} alt="" /></div>
+              <div className="wCircle wcir2 marginleftCustom"><img className="noclassimg" src={css} alt="" /></div>
+              <div className="wCircle wcir3 marginleftCustom"><img className="noclassimg" src={jQuery} alt="" /></div>
+              <div className="wCircle wcir4 marginleftCustom"><img className="noclassimg" src={bootstrap} alt="" /></div>
             </div>
-            <div className="wCircleDiv2 d-flex w-100 justify-content-center">
+            <div className="wCircleDiv2 d-flex w-auto justify-content-center border-0 border-danger">
               <div className="wCircle wcir5"><img className="classimg" src={html} alt="" /></div>
-              <div className="wCircle wcir6 ms-3"><img className="classimg" src={redux} alt="" /></div>
-              <div className="wCircle wcir7 ms-3"><img className="noclassimg" src={mdb} alt="" /></div>
-              <div className="wCircle wcir8 ms-3"><img className="noclassimg" src={nodejs} alt="" /></div>
+              <div className="wCircle wcir6 marginleftCustom"><img className="classimg" src={redux} alt="" /></div>
+              <div className="wCircle wcir7 marginleftCustom"><img className="noclassimg" src={mdb} alt="" /></div>
+              <div className="wCircle wcir8 marginleftCustom"><img className="noclassimg" src={nodejs} alt="" /></div>
             </div>
-            <div className="wCircleDiv1 d-flex w-100 justify-content-center ">
+            <div className="wCircleDiv3 d-flex w-auto justify-content-center border-0 border-danger ">
               <div className="wCircle wcir1"><img className="classimg" src={angular} alt="" /></div>
-              <div className="wCircle wcir2 ms-3"><img className="noclassimg" src={css} alt="" /></div>
-              <div className="wCircle wcir3 ms-3"><img className="noclassimg" src={jQuery} alt="" /></div>
-              <div className="wCircle wcir4 ms-3"><img className="noclassimg" src={bootstrap} alt="" /></div>
+              <div className="wCircle wcir2 marginleftCustom"><img className="noclassimg" src={css} alt="" /></div>
+              <div className="wCircle wcir3 marginleftCustom"><img className="noclassimg" src={jQuery} alt="" /></div>
+              <div className="wCircle wcir4 marginleftCustom"><img className="noclassimg" src={bootstrap} alt="" /></div>
             </div>
           </div>
         </div>
