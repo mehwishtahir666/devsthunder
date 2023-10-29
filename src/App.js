@@ -15,7 +15,7 @@ import Portfolio from './components/portfolio/portfolio';
 function App() {
   return (
     <BrowserRouter>
-          <Home/>
+          {/* <Home/> */}
     <Routes>
       <Route path="/platforms" element={<Platforms/>}/>
       <Route path="/about" element={<About/>}/>
