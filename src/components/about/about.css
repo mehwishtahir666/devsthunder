@@ -1,6 +1,7 @@
 
 .about{
   height: 500px;
+
 }
 
 
@@ -23,15 +24,18 @@
 }
 .about_p{
   font-size: 18px;
+  color: var(--mainColor);
 }
 
 
 .about_headings2{
-  color: var(--color1) ;
+  color: var(--mainColor) ;
+  font-weight: 600;
+
 }
 .about_rows_p2{
   color: #555555;
-  font-size: var(--paragraphSize);
+  /* font-size: var(--paragraphSize); */
   margin-top: -1%;
 }
 @media screen and (max-width:848px) {

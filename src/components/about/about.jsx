@@ -9,8 +9,8 @@ import image6 from "./images/tresure-box-icon61.png"
 const about = () => {
   return (
     <div className="about container-fluid h-auto  p-0 " >
-    <h1 className="a_heading1 text-center fw-bolder mt-5"
-    >ABOUT US</h1>
+    {/* <h1 className="a_heading1 text-center fw-bolder mt-5"
+    >ABOUT US</h1> */}
     <div className="about-div h-auto  container-xl border-0 border-warning  mt-5">
         <div className="row border-0  h-100">
 
@@ -98,25 +98,25 @@ const about = () => {
 
             <div className="col h-100 border-0 border-warning mt-5 mt-sm-3 ">
 <div className="about_rows2 row border-0 border-danger rounded-top w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-<h1 className="about_headings2 fs-3 mt-2 ">About Us</h1>
+<h2 className="about_headings2 fs-3 mt-2 ">About Us</h2>
 <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
 stronger emotion and culture aiming to be Pakistan's Best
 place to work both for Talents and Clients.</p>
 </div>
 <div className="about_rows2 row border-0 border-danger rounded-top  w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-<h1 className="about_headings2 fs-3 mt-2 ">Blogs</h1>
+<h2 className="about_headings2 fs-3 mt-2 ">Blogs</h2>
 <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
 stronger emotion and culture aiming to be Pakistan's Best
 place to work both for Talents and Clients.</p>
 </div>
 <div className="about_rows2 row border-0 border-danger rounded-top  w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-<h1 className="about_headings2 fs-3 mt-2 ">Case Study</h1>
+<h2 className="about_headings2 fs-3 mt-2 ">Case Study</h2>
 <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
 stronger emotion and culture aiming to be Pakistan's Best
 place to work both for Talents and Clients.</p>
 </div>
 <div className="about_rows2 row border-0 border-danger rounded-top  w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-<h1 className="about_headings2 fs-3 mt-2 ">Life Being #IPSion</h1>
+<h2 className="about_headings2 fs-3 mt-2 ">Life Being #IPSion</h2>
 <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
 stronger emotion and culture aiming to be Pakistan's Best
 place to work both for Talents and Clients.</p>

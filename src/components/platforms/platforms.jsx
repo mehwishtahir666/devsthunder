@@ -12,7 +12,7 @@ import img7 from './images/github-removebg-preview.png'
  const Platforms = () => {
   return (
     <div className='container-lg platforms'>
-     <h1>Awards & Recognitions that Keep uUs Motivated</h1>
+     <h1>Platforms & Institutions We are working </h1>
      <p className='p-1'>dispkay of credentails bestowed on siddhi infosoft by top tech influencers acress the globe</p>
         <div className="cont">
         <div className="left">
