@@ -1,4 +1,13 @@
 import React from 'react'
+import "./platforms.css"
+import img1 from './images/fiver.png'
+import img2 from './images/freelancer-removebg-preview.png'
+import img3 from './images/mobile-1.png.webp'
+import img4 from './images/top-developer.png.webp'
+import img5 from './images/trust-pilot.png.webp'
+import img6 from './images/upwork-removebg-preview.png'
+import img7 from './images/github-removebg-preview.png'
+
 
  const Platforms = () => {
   return (
@@ -8,32 +17,32 @@ import React from 'react'
         <div className="cont">
         <div className="left">
             <div className="box1">
-                 <img src="/images/top-developer.png.webp" alt="" />
+                 <img src={img2} alt="" />
                  <p>Top Mobile App Development Company</p>
             </div>
             <div className="box1">
-                 <img src="/images/good-firms.png.webp" alt="" />
+                 <img src={img1} alt="" />
                  <p>Top Mobile App Development Company</p>
             </div>
             <div className="box1">
-                 <img src="/images/trust-pilot.png.webp" alt="" />
+                 <img src={img6} alt="" />
                  <p>Top Mobile App Development Company</p>
             </div>
         </div>
         <div className="center">
-            <img src="/images/mobile-1.png.webp" alt="" />
+            <img src={img3} alt="" />
         </div>
         <div className="right">
         <div className="box1 box2">
-                 <img src="/images/up-work.png.webp" alt="" />
+                 <img src={img7} alt="" />
                  <p>Top Mobile App Development Company</p>
             </div>
             <div className="box1 box2">
-                 <img src="/images/developer_new.png.webp" alt="" />
+                 <img src={img5} alt="" />
                  <p>Top Mobile App Development Company</p>
             </div>
             <div className="box1 box2">
-                 <img src="/images/developer_new.png" alt="" />
+                 <img src={img4} alt="" />
                  <p>Top Mobile App Development Company</p>
             </div>
         </div>

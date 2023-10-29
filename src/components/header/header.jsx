@@ -5,6 +5,7 @@ import { LiaWhatsapp } from "react-icons/lia";
 import { LiaPhoneSolid } from "react-icons/lia";
 import logo from "./image/WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png"
 import { LiaEnvelopeOpenSolid } from "react-icons/lia";
+
 function Header() {
   return (
     <div className='container-fluid p-0 m-0'>
@@ -39,7 +40,7 @@ function Header() {
         <nav class="navbar bg-light border-0 p-0 m-0 navbar-expand-lg navbar-light bg-light">
 <div class=" nav_component-main bg-light container-fluid m-0 d-flex align-items-center border-0 border-warning px-4 h-100">
    <div className='nav_logoDiv p-0 m-0 '>
-         <img src={logo} className='w-100 h-100 p-0 m-0'/>
+         {/* <img src={logo} className='w-100 h-100 p-0 m-0'/> */}
         </div>
   <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

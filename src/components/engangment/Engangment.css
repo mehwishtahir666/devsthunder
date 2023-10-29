@@ -20,92 +20,141 @@
     box-sizing: border-box;
     font-family: var(--fontFamily);
 }
-.engangment{
+.about{
     width: 100%;
-    height: auto;
+    height: max-content;
     display: flex;
     flex-wrap: wrap; 
+    align-items: center;
     padding: 40px;
     background-color: var(--background);
     color: rgb(234, 234, 234);
 }
-.engangment img{
+.about img{
     width: 100%;
 }
-.engangment .img1{
+.about .img1{
     border-radius: 5px 80px;
-    width: 70%;
+    width: 65%;
     box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
    background-color: rgb(232, 221, 221);
 }
-.engangment .left{
-    /* border: 1px solid red; */
-    height: auto;
-    width: 50%;
+.about .left{
+    height: max-content;
+    width: 55%;
     position: relative;
+    /* border: 1px solid red; */
 }
-.engangment .left .box1{
-    height: auto;
+.about .left .box-1{
+    height: 13%;
+    padding-left: 10px;
     width: 40%;
-    padding: 10px 20px;
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 18%;
     border-radius: 20px 5px;
+    display: flex;
+    align-items: center;
     box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
     background-color: rgb(249, 248, 248);
 }
-.engangment .left .box2{
+.about .left .box2{
     margin-top: 25%;
     width: 47%;
 }
-.engangment .left .box3{
+.about .left .box3{
     margin-top: 50%;
     width: 50%;
 }
-.engangment .left ul{
+.about .left ul{
     display: flex;
     align-items: center;
 }
-.engangment .left ul img{
+.about .left ul img{
     width: 35px;
 }
-.engangment .right{
-    height: auto;
-    width: 50%;
+.about .right{
+    height: 95vh;
+    width: 45%;
+    overflow-Y: scroll;
     padding: 30px;
+    /* border: 1px solid blue; */
 }
-.engangment .left p{
-    font-size: 20px;
+.about .left p{
+    font-size: 18px;
     font-weight: 600;
     color: #202252;
     margin-left: 15px;
+    line-height:  1em;
+    margin: 0;
 }
-.engangment .right h1{
+.about .right h1{
     color: #202252;
     font-size: 23px;
 }
-.engangment span{
+.about span{
     color:  rgb(245, 69, 69);
 }
-.engangment .right ul{
+.about .right ul{
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
+    padding: 0;
 }
-.engangment ul li{
+.about ul li{
     margin-right: 15px;
     color: rgb(37, 37, 37);
 }
-.engangment .p1{
+.about .p1{
     margin-top: 40px;
     color: rgb(35, 35, 35);
 }
-.engangment .p2{
+.about .p2{
     color: rgb(17, 17, 85);
     font-size: 20px;
+    margin: 0;
 }
-.engangment .logo{
+.about .logo{
     width: 30px;
     height: auto;
     margin-top: 7px;
+}
+@media screen and (max-width:1000px) {
+    .about .left .box-1{
+        right: 0;
+        width: 50%;
+    }
+    .about .left .box2{
+        width: 55%;
+    }
+    .about .left .box3{
+        width: 60%;
+    }
+    .about .right .p1 {
+       margin-top: 10px;
+    }
+}
+    
+@media screen and (max-width:850px){
+    .about .left, .about .right{
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+    .about .left p{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .about .left ul img{
+        width: 26px;
+    }
+    .about .left .img1{
+        border-radius: 5px;
+    }
+    .about{
+        padding: 20px 10px;
+    }
+    .about .left .box-1{
+        border-radius: 5px;
+        padding: 3px 8px;
+    }
 }
