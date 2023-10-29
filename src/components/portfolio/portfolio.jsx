@@ -1,8 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import { BsArrowRightShort } from "react-icons/bs";
-import img1 from "./med-age (1).png"
-
+import display from './images/ezgif.com-optimize__2___2_.gif';
+import mobile from './images/mobile2.gif'
+import laptop from "./images/displayy.gif"
 
 const Portfolio = () => {
   return (
@@ -11,7 +12,36 @@ const Portfolio = () => {
     <div className="slider">
             <div className="left">
                 <div className="cercle">
-                    <img src={img1} alt="" />
+    <div class="container">
+        <div class="screen monitor">
+            <div class="display">
+              {/* <img className='displayimg' src={display } alt="" /> */}
+              <video src="./images/1011.mp4"></video>
+            </div>
+          <div class="base">
+            <div class="grey-shadow"></div>
+            <div class="foot top"></div>
+            <div class="foot bottom"></div>
+            <div class="shadow"></div>
+   
+          </div>
+        </div>
+          <div class="laptop">
+                <div class="display">
+                  <img src={laptop} alt="" />
+                </div>
+            <div class="btm"></div>
+            <div class="shadow"></div>
+          </div>
+          <div class="phone">
+            <div class="display">
+              <img className='mobileimg' src={mobile} alt=""/>
+            </div>   
+         
+          <div class="shadow"></div>        
+          </div>
+          
+        </div>
                 </div>
             </div>
             <div className="right">
