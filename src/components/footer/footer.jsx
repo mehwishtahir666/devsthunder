@@ -8,7 +8,7 @@ import {TiSocialFacebook} from  "react-icons/ti";
 import {TiSocialTwitter} from "react-icons/ti";
 import {TiSocialLinkedin} from "react-icons/ti";
 import {TiSocialSkype} from "react-icons/ti"
- const footer =()=>{
+ const Footer =()=>{
     return(
        <div>
 <div className="footer py-4 w-100 h-auto bg-light">
@@ -61,4 +61,4 @@ import {TiSocialSkype} from "react-icons/ti"
        </div>
     )
  }
- export default footer;
+ export default Footer;

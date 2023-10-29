@@ -1,8 +1,10 @@
 import React from 'react'
 import Header from './header/header'
-import { BsAlignCenter } from 'react-icons/bs'
 import Banner from './banner/banner'
+import Footer from './footer/footer'
 import Engangment from './engangment/engangment'
+import About from './about/about'
+import Platforms from './platforms/platforms'
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       <Header/>
       <Banner/>
       <Engangment/>
+      <Platforms/>
+      <Footer/>
     </div>
   )
 }
