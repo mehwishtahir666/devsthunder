@@ -1,36 +1,44 @@
 
 .about{
   height: 500px;
+  background-color: red;
+ 
 
 }
 
 
 .a_box1{
   height: 120px;
+  border:1px solid var(--mainColor);
+  border-radius: 3px;
  
 }
 
 .about_circle{
-  height: 90px !important;
-  width: 90px;
+  height: 85px !important;
+  width: 85px;
   margin: auto;
-  margin-top: -27%;
+  margin-top: -22%;
   background-color: white;
+  border-radius: 50%;
+  border:1px solid var(--mainColor);
  
 }
 .about_h1{
-  color: #414141;
-  font-size: 30px;
+  font-size: 28px;
+  margin-top:5px;
+  color: var(--mainColor);
 }
 .about_p{
   font-size: 18px;
-  color: var(--mainColor);
+  color: #414141;
 }
 
 
 .about_headings2{
-  color: var(--mainColor) ;
+  color: #505050;
   font-weight: 600;
+  margin-bottom: 20px;
 
 }
 .about_rows_p2{
