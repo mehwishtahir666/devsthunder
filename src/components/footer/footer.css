@@ -1,0 +1,42 @@
+.footer_inp{
+    width: 350px;
+    height: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+}
+.footer{
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.footer_inplist{
+    position: relative;
+    border: 1px solid var(--subColor);
+    display: flex;
+    width: max-content;
+    align-items: center;
+}
+.footer_btn{
+    width: 50px;
+    height:100%;
+right: 0;
+    background-color: var(--subColor);
+    border: none;
+position: absolute;
+outline: none;
+}
+.footer_icon-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.footer_insideiconCol{
+    width:max-content;
+    margin: auto;
+}
+.maxConth{
+    height: max-content;
+}
