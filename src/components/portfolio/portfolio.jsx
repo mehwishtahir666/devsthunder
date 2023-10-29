@@ -15,8 +15,8 @@ const Portfolio = () => {
     <div class="container">
         <div class="screen monitor">
             <div class="display">
-              {/* <img className='displayimg' src={display } alt="" /> */}
-              <video src="./images/1011.mp4"></video>
+              <img className='displayimg' src={display } alt="" />
+              {/* <video src="./images/1011.mp4"></video> */}
             </div>
           <div class="base">
             <div class="grey-shadow"></div>
