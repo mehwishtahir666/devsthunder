@@ -30,7 +30,7 @@ import { LiaFacebookF } from "react-icons/lia";
 import { LiaGithub } from "react-icons/lia";
 import { LiaWhatsapp } from "react-icons/lia";
 
-const banner = () => {
+const Banner = () => {
   return (
     <div>
       <div class="banner min-vh-100 mh-auto w-100 d-flex justify-content-center  align-items-center">
@@ -146,4 +146,4 @@ const banner = () => {
   )
 }
 
-export default banner;
+export default Banner;
