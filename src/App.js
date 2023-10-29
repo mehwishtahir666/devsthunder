@@ -15,7 +15,7 @@ import Contact from "./components/Contact"
 function App() {
   return (
     <BrowserRouter>
-  
+        <Header/>
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
@@ -26,7 +26,6 @@ function App() {
       {/* -------------------------------- */}
       <Route path="/banner" element={<Banner/>}/>
       <Route path="/footer" element={<Footer/>}/>
-      <Route path="/header" element={<Header/>}/>
       <Route path="/projects" element={<Projects/>}/>
 
     </Routes>

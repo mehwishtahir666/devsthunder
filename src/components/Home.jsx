@@ -9,7 +9,6 @@ import Platforms from './platforms/platforms'
 const Home = () => {
   return (
     <div>
-      <Header/>
       <Banner/>
       <About/>
       <Platforms/>

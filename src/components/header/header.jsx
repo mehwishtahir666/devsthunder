@@ -5,6 +5,7 @@ import { LiaWhatsapp } from "react-icons/lia";
 import { LiaPhoneSolid } from "react-icons/lia";
 import logo from "./image/WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png"
 import { LiaEnvelopeOpenSolid } from "react-icons/lia";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -47,12 +48,12 @@ function Header() {
   </button>
   <div className="collapse navbar-collapse bg-light" id="navbarNavAltMarkup">
     <div className="navbar-nav border-0 ">
-      <a class="nav-link active bg-lg-warning" aria-current="page" href="#">Home</a>
-      <a class="nav-link" href="#">Services</a>
-      <a class="nav-link" href="#">Pricing</a>
-      <a class="nav-link" href="#">Portfolio</a>
-      <a class="nav-link" href="#">About</a>
-      <a class="nav-link" href="#">Contact</a>
+      <Link className='nav-link' to="/">Home</Link>
+      <Link className='nav-link' to="/services">Services</Link>
+      <Link className='nav-link' to="/pricing">Pricing</Link>
+      <Link className='nav-link' to="/portfolio">Portfolio</Link>
+      <Link className='nav-link' to="/about">About</Link>
+      <Link className='nav-link' to="/contact">Contact</Link>
     </div>
   </div>
 </div>
