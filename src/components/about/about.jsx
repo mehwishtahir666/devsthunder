@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import React from 'react'
 import "./about.css"
 import image1 from "./images/tresure-box-icon11.png"
@@ -91,26 +90,10 @@ const about = () => {
                     </div>
                 </div>
             
-=======
-import React from "react";
-const About = () => {
-    return (
-        <>
-            <div className="about container-fluid ">
-                <h1 className="a_heading1 text-center fw-bolder mt-5"
-                >ABOUT US</h1>
-                <div className="about-div container border border-warning h-auto m-4">
-                    <div className="row border border-success">
-                        <div className="col"></div>
-                        <div className="col"></div>
-                    </div>
-                </div>
->>>>>>> Stashed changes
             </div>
 
 
 
-<<<<<<< Updated upstream
 
 
             <div className="col h-100 border-0 border-warning mt-5 mt-sm-3 ">
@@ -150,9 +133,3 @@ place to work both for Talents and Clients.</p>
 }
 
 export default about
-=======
-        </>
-    )
-}
-export default About
->>>>>>> Stashed changes
