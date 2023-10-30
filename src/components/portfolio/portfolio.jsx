@@ -7,8 +7,9 @@ import laptop from "./images/displayy.gif"
 
 const Portfolio = () => {
   return (
-    <div className='profile'>
-    <h1>Our Portfolio</h1>
+    <>
+     <div className='profile'>
+    {/* <h1>Our Portfolio</h1> */}
     <div className="slider">
             <div className="left">
                 <div className="cercle">
@@ -37,7 +38,6 @@ const Portfolio = () => {
             <div class="display">
               <img className='mobileimg' src={mobile} alt=""/>
             </div>   
-         
           <div class="shadow"></div>        
           </div>
           
@@ -45,36 +45,47 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="right">
-                <h1>medAge</h1>
-                <p className='p-1'>Healthcare Website</p>
+                <h1>Day and Night</h1>
+                <p className='p-1'>E-commerece Website</p>
+                <ul>
+                 <li><button className='btn1'>View Projects</button></li>
+                 <li><button className='btn1'>View HTML</button></li>
+                 <li><button className='btn1'>View CSS</button></li>                
+                 <li><button className='btn1'>JAVA SCRIPT</button></li>
+                 <li><button className='btn1'>REACT</button></li>                
+                 </ul>
                 <div className="boxdiv ">
+                 
                 <div className='box-1 '>
-                 <li><p>View projects</p> <BsArrowRightShort/></li>
                  <div className="box-speed box-speed1">
-                    <h1>98<span>/ 100</span></h1>
+                    <h1>Morden <br />Design </h1>
                     <div className="line"><div className="child"></div></div>
-                    <p>Page Speed</p>
+                    <p>100%</p>
                  </div>
                 </div>
                 <div className='box-1'>
-                 <li><p>View HTML</p> <BsArrowRightShort/></li>
-                 <div className="box-speed box-speed2">
-                    <h1>Passed</h1>
-                    <p>W3C <br /> validation</p>
-                 </div>
+                  <div className="box-speed box-speed2">
+                    {/* <h1>Responsive <br /> Design</h1> */}
+                    <div className="line"><div className="child"></div></div>        
+                    <p>100%</p>
+                   </div>
                 </div>
                 <div className='box-1'>
-                 <li><p>View CS</p> <BsArrowRightShort/></li>
                  <div className="box-speed box-speed3">
                     <h1>Fair</h1>
-                    <p>Mobile <br /> friendly</p>
+                    <div className="line"><div className="child"></div></div>
+                    <p>100%</p>
                  </div>
                 </div>
                 </div>
-                <button>Visit our Profile</button>
+                <button className='btn-1'>Visit this website</button>
             </div>
         </div>
     </div>
+    {/* //////////////////// */}
+
+    </>
+   
   )
 }
 

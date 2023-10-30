@@ -28,7 +28,7 @@ function App() {
       <Route path="/services" element={<Services/>}/>
       <Route path="/trending" element={<Trending/>}/>
       <Route path="/projects" element={<Projects/>}/>
-      {/* <Route path="/portfolio" element={<Portfolio/>}/> */}
+      <Route path="/portfolio" element={<Portfolio/>}/>
 
     </Routes>
     </BrowserRouter>

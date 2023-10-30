@@ -47,27 +47,19 @@
 }
 .profile .left{
     height: auto;
-    width: 50%;
+    width: 420px;
+}
+.profile .left-1{
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center
 }
 .profile .cercle{
-    height: 350px;
-    width: 350px;
+    height: 420px;
+    width: 420px;
     border-radius: 50%;
     background-color:var(--mainColor);
-    /* background-color: #FF2601; */
-    animation-name: move;
-    /* animation-duration: 3s; */
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes move {
-    from{
-     transform: translate(0px);
-    }
-    to{
-        transform: translateY(-40px);
-    }
+    padding: 1px ;
 }
 .profile .cercle img{
     width: 100%;
@@ -76,7 +68,8 @@
     font-size: 45px;
 }
 .profile .right{
-    width: 50%;
+  width: calc(100% - 420px) ;
+   padding-left: 60px;
     height: auto;
     text-align: left;
 }
@@ -89,10 +82,17 @@
 }
 .profile .boxdiv{
     height: auto;
-    width: 90%;
+    width: 100%;
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     justify-content: space-between;
+}
+.profile ul{
+  display: flex;
+  width: 80%;
+  padding: 0;
+  margin-left: -10px;
+  flex-wrap: wrap;
 }
 .profile .right .box-1{
     height: auto;
@@ -110,13 +110,13 @@
     margin-top: 20px;
 }
 .profile .box-speed1{
-    background-color: #8F87F8;
+    background-color: #D15025;
 }
 .profile .box-speed2{
-    background-color: #FFC240;
+    background-color: #D4A132;
 }
 .profile .box-speed3{
-    background-color: #FC7FBB;
+    background-color: var(--mainColor);
 }
 .profile .box-speed span{
     font-size: 17px;
@@ -137,15 +137,22 @@
     width: 80%;
     background-color: var(--subColor);
 }
-.profile button{
+.profile .btn-1{
     padding: 10px 20px;
     background-color: var(--mainColor);
     font-size: 18px;
     color: white;
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     border: none;
     /* background-color: #FF2601; */
+}
+.profile .btn1{
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(224, 224, 224);
+  font-size: 13px;
+  margin: 0 10px;
 }
 
 /* ///////////////////////////////// */
@@ -153,46 +160,40 @@
 * {
     box-sizing: border-box;
   }
-  .container {
+  .profile .container {
     width: 470px;
-    margin: 0px auto;
+    margin-left: 0;
     position: relative;
-    /* HAVE SCALED TO FIT THE WINDOW */
-    transform: scale(0.6);
+    transform: scale(0.7);
+    margin: 25px 0 0 0;
   }
   
-  .container > .screen {
+  .profile .container > .screen {
     width: 460px;
     height: 280px;
     position: relative;
-    /* background: #ff6860; */
     border: 20px solid #474e5d;
     border-radius: 10px;
-    /* overflow: hidden; */
   }
-  .monitor{
-    /* background-color: pink; */
-    border: 2px solid  red;
+  .profile .monitor{
     overflow: hidden;
-    /* padding: 10px; */
   }
-  .monitor > div {
+  .profile .monitor > div {
     position: absolute;
   }
-  img{
+  .profile img{
     width: 100%;
     margin: 0 !important;
 }
-.display{
+.profile .display{
       padding: 0;
-    
     }
-    .displayimg{
+    .profile  .displayimg{
     border-radius: 10px;
     width: 100%;
     margin:0px !important;
 }
-  .base {
+.profile .base {
     width: 90px;
     height: 50px;
     bottom: -70px;
@@ -200,145 +201,38 @@
     margin-left: -45px;
     background: #e8ebf0;
   }
-  
-  .base:before,
-  .base:after,
-  .grey-shadow:before,
-  .grey-shadow:after {
-    content: "";
-    position: absolute;
-    top: 0;
-  }
-  
-  .base:before {
-    border-left: 13px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 50px solid #e8ebf0;
-    left: -13px;
-  }
-  
-  .base:after {
+  .profile .base:after {
     border-right: 13px solid transparent;
     border-left: 0px solid transparent;
     border-bottom: 50px solid #e8ebf0;
     right: -13px;
   }
-  
-  .base > div {
+  .profile .base > div {
     position: absolute;
   }
-  
-  .grey-shadow {
-    width: 90px;
-    height: 12px;
-    background: #d8dbe1;
-    top: 0;
-  }
-  
-  .grey-shadow:before {
-    border-left: 3px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 12px solid #d8dbe1;
-    left: -3px;
-    z-index: 2;
-  }
-  
-  .grey-shadow:after {
-    border-right: 3px solid transparent;
-    border-left: 0px solid transparent;
-    border-bottom: 12px solid #d8dbe1;
-    right: -3px;
-    z-index: 2;
-  }
-  
-  .foot {
+  .profile .foot {
     background: #e8ebf0;
     z-index: 1;
   }
   
-  .foot.top {
-    width: 116px;
-    height: 5px;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -58px;
-  }
-  
-  .foot.top:before,
-  .foot.top:after,
-  .foot.bottom:before {
-    content: "";
-    position: absolute;
-    top: 0px;
-  }
-  
-  .foot.top:before {
-    border-left: 16px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 5px solid #e8ebf0;
-    left: -16px;
-  }
-  
-  .foot.top:after {
-    border-right: 16px solid transparent;
-    border-left: 0px solid transparent;
-    border-bottom: 5px solid #e8ebf0;
-    right: -16px;
-  }
-  
-  .foot.bottom {
-    width: 150px;
-    height: 5px;
-    bottom: -10px;
-    left: 50%;
-    margin-left: -75px;
-    z-index: 999;
-  }
-  
-  .laptop {
+  .profile .laptop {
     width: 255px;
     height: 175px;
-    background: #fc9252;
     border: 12px solid #e8ebf0;
     border-radius: 10px 10px 0 0;
     position: absolute;
-    top: 180px;
-    right: -40px;
+    top: 190px;
+    right: -70px;
   }
   
-  .laptop:before {
-    top: -6px;
-  }
-  
-  .laptop > div {
+  .profile .laptop > div {
     position: absolute;
   }
-  
-  .laptop > .content {
-    width: 211px;
-    height: 131px;
-    left: 0;
-    margin-left: 0;
-  }
-  
-  .txt-laptop {
+  .profile .txt-laptop {
     width: 189px;
   }
   
-  .txt-laptop > li {
-    background: #fda566;
-  }
-  
-  .txt-laptop > li:nth-child(2) {
-    height: 41px;
-  }
-  
-  .txt-laptop > .thin {
-    height: 36px;
-    margin-right: 5px;
-  }
-  
-  .btm {
+  .profile  .btm {
     width: 296px;
     height: 7px;
     bottom: -19px;
@@ -348,19 +242,7 @@
     background: #f4f5f7;
     z-index: 1;
   }
-  
-  .btm:before {
-    content: "";
-    position: absolute;
-    width: 42px;
-    height: 3px;
-    left: 50%;
-    top: 0;
-    margin-left: -21px;
-    border-radius: 0 0 5px 5px;
-    background: #d8dbe1;
-  }
-  .phone {
+  .profile .phone {
     width: 130px;
     height: 240px;
     position: absolute;
@@ -373,97 +255,32 @@
     border-right: 5px solid white;
     overflow: hidden;
   }
-  .phone .mobileimg{
+  .profile .phone .mobileimg{
     left: 0;
     width: 70%;
     top: 0;
     position: absolute;
   }
-  
-  /* .phone:before,
-  .phone:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    background: #474e5d;
-  } */
-  
-  /* .phone:before {
-    background: #474e5d;
-    width: 20px;
-    height: 4px;
-    margin-left: -10px;
-    top: -12px;
-    border-radius: 2px;
-  } */
-  
-  /* .phone:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    bottom: -18px;
-    margin-left: -5px;
-  } */
-  
-  .phone .screen {
-    width: 60px;
-    height: 90px;
-    position: relative;
-    overflow: hidden;
-    padding: 0;
+  .profile .phone img{
+    width: 100% !important;
   }
   
-  .phone .content {
-    background: #fff;
-    width: 60px;
-    left: 0%;
-    margin-left: 0px;
+  /* ///////////////////////////////// */
+
+  @media screen and (max-width:1075px) {
+    .profile .boxdiv h1{
+      font-size: 25px;
+    }
+    .profile .cercle{
+      height: 350px;
+      width: 350px;
+    }
+    .profile .container{
+      transform: scale(0.6);
+      margin-left: -40px;
+      margin-top: -3px;
+    }
   }
-  
-  .phone .txt {
-    width: 85%;
-  }
-  
-  .phone .txt > li {
-    height: 20px;
-  }
-  
-  .shadow {
-    position: absolute;
-    width: 350px;
-    height: 15px;
-    left: 50%;
-    margin-left: -175px;
-    z-index: -1;
-    bottom: -20px;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(52, 172, 108, 1) 0%,
-      rgba(52, 172, 108, 1) 53%,
-      rgba(46, 204, 113, 1) 55%,
-      rgba(46, 204, 113, 0) 55%,
-      rgba(46, 204, 113, 0) 100%
-    );
-  }
-/*   
-  .laptop .shadow {
-    width: 450px;
-    margin-left: -225px;
-    bottom: -26px;
-  } */
-  
-  /* .keyboard .shadow {
-    bottom: -10px;
-    height: 10px;
-  }
-   */
-  .phone .shadow {
-    bottom: -30px;
-    margin-left: -50px;
-    height: 10px;
-    width: 100px;
-  }
-  
 @media screen and (max-width:1000px) {
     .profile .boxdiv{
         width: 100%;
@@ -485,10 +302,12 @@
     }
     .profile .right{
       width: 100%;
+      padding: 20px 0;
     }
     .profile h1 , .profile .right h1{
         font-size: 35px;
     }
+
 }
 
 @media screen and (max-width:500px){
@@ -502,7 +321,7 @@
     height: 280px;
     width: 280px;
 }
-  .container {
+.profile .container {
     width: 470px;
     margin: 0px auto;
     position: relative;
@@ -510,14 +329,20 @@
     left: -70px;
     top: -20px;
   }
+  .profile{
+    padding: 0 15px;
+}
+
   
 }
 @media screen and (max-width:350px){
-    .profile{
-        padding: 20px 15px;
-    }
+  
     .profile .right .box-1{
         width: 100%;
+    }
+    .profile .container {
+    transform: scale(0.4);
+      margin-left: -30px;
     }
 
 }
