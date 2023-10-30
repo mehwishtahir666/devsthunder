@@ -23,13 +23,13 @@ const Aboutus = () => {
         </div>
         {/*  */}
 
-        <div className="message-box">
+        <div className="message-box scnd-img">
             <h1>Chairman's Message</h1>
             <b>Muhammad Iqbal</b>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae repudiandae beatae cupiditate. Non, possimus facilis ut beatae inventore quod. Debitis corporis ea reiciendis pariatur ipsam blanditiis quia alias quam ad in! Harum dolores totam, rem voluptatibus praesentium quos. Impedit cum libero iste accusantium accusamus nobis nemo corporis et quasi!  consectetur adipisicing elit. Commodi vitae repudiandae beatae cupiditate. Non, possimus facilis ut beatae inventore quod. Debitis corporis ea reiciendis pariatur ipsam blanditiis quia alias quam ad in! Harum dolores totam, rem voluptatibus praesentium quos. Impedit cum libero iste accusantium accusamus nobis.</p>
             <button>Contact Him</button> 
         </div>
-        <div className="img-box">
+        <div className="img-box ">
             <img src={sirimg} alt="" />
         </div>
     </div>
