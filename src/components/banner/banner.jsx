@@ -6,7 +6,7 @@ import image3 from "./images/Rectangle 7@2x.png"
 import image4 from "./images/Kubernetes.png"
 import image5 from "./images/Rectangle 4@2x.png"
 import image6 from "./images/Rectangle 6@2x.png"
-import manlaptop from "./images/Premium_Photo___Handsome_black_man_using_modern_laptop_on_yellow-removebg-preview.png"
+// import manlaptop from "./images/Premium_Photo___Handsome_black_man_using_modern_laptop_on_yellow-removebg-preview.png"
 import angular from "./images/angular.png"
 import jQuery from "./images/jquery.png"
 import bootstrap from "./images/bootstrap.png"
@@ -16,6 +16,11 @@ import css from "./images/css3.png"
 import mdb from "./images/Outsource_Mongodb_Developers__Mongodb_Development_Services__Mongodb_Development_Company__Mongodb_Developers__Mongodb_Development-removebg-preview.png"
 import nodejs from "./images/Standardizing_Node_js_Version_in_an_npm_Package-removebg-preview.png"
 import bannerPerson from "./images/bannerPerson.png"
+import fiverr from"./images/fiverr.png"
+import linkedin from"./images/linkedIn (1).png"
+import upwork from"./images/upwork.jpeg"
+import freelancer from"./images/freelancerlogo-1.png";
+import facebook from"./images/Facebook_PNG_Ícone_Logo_Transparente_Sem_Fundo-removebg-preview.png"
 import { LiaFacebookF } from "react-icons/lia";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { BiLogoTwitter } from "react-icons/bi";
@@ -31,7 +36,9 @@ const Banner = () => {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner w-100  d-flex align-items-center">
+
             {/* ============one item========== */}
+
             <div class="carousel-item border-0 w-100 px-sm-4 px-0 active">
             <div className="banner_techno-main px-sm-5 px-0  d-flex justify-content-evenly align-items-center border-0 border-dark w-100">
         <div className="banner_techno-sec1 p-5 text-center border-0 border-danger">
@@ -83,24 +90,27 @@ const Banner = () => {
               <div class="two d-flex justify-content-around align-items-center ">
                 <div class="two-cont2 w-100 d-flex justify-content-center align-items-center">
                   <div class="img1 img">
-                    <div class="three align-content-around d-flex flex-column px-3 justify-content-around ">
-                      <h1 className='fw-bolder align-self-center'>Don't know what we <span>offer?</span></h1>
+                    <div class="two align-content-around d-flex flex-column px-3 justify-content-around ">
+                      <h1 className='fw-bolder align-self-center'><span className='banner3HadingSpan'>Platforms</span> We Serve On</h1>
                       <div className="slider-inner h-auto w-100 p-0 border-0 border-dark mt-3 overflow-hidden">
-                        <div class="three-images">
+                        <div class="two-images">
                           <div class="image1 image">
-                            <img className='w-100 h-100' src={image2} />
+                            <img className='w-100 ' src={fiverr} />
                           </div>
-                          <div class="image2 image">
-                            <img className='w-100 h-100' src={image3} />
+                          <div class="image2  image">
+                            <div className="upworkRound">
+                            <img className='w-100' src={upwork} />
+                            </div>
+                          
                           </div>
                           <div class="image3 image">
-                            <img className='w-100 h-100' src={image4} />
+                            <img className='w-75 ' src={linkedin} />
                           </div>
                           <div class="image4 image">
-                            <img className='w-100 h-100' src={image5} />
+                            <img className='facebookimg  ' src={facebook} />
                           </div>
                           <div class="image5 image">
-                            <img className='w-100 h-100' src={image6} />
+                            <img className='w-75 ' src={freelancer} />
                           </div>
                         </div>
                       </div>
@@ -109,16 +119,31 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            {/* ============ four item========== */}
+            {/* ============ three item========== */}
 
-            <div class="carousel-item border-0">
-              <div class="four h-auto d-flex flex-wrap  justify-content-between align-items-center">
-                <div class="heading w-50 d-flex justify-content-center align-items-center">
-                  <h1 className='fw-bolder'>Technologies</h1>
-                </div>
+            <div class="carousel-item border-0 px-5 border-dark">
+              <div className="banner_two-main">
+              <div className='banner_pentagon_text  w-100 border-0 border-warning'>
+            <h1 className='fw-bolder p-0 m-0'><span className='banner3HadingSpan '>Companies</span> We are Serving</h1>
+           </div>
+           <div className="banner_pentagon-main d-flex border-0 border-dark">
+           <div className='banner_pentagon banner_pen-1'>1</div>
+           <div className='banner_pentagon banner_pen-2'>2</div>
+           <div className='banner_pentagon banner_pen-3'>3</div>
+           <div className='banner_pentagon banner_pen-4'>4</div>
+           <div className='banner_pentagon banner_pen-5'>5</div>
+           <div className='banner_pentagon banner_pen-6'>6</div>
+           <div className='banner_pentagon banner_pen-7'>7</div>
+           <div className='banner_pentagon banner_pen-8'>8</div>
+           <div className='banner_pentagon banner_pen-9'>9</div>
+           </div>
+     
               </div>
+           
             </div>
           </div>
+
+          {/* ----left right arrow slider */}
           <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>

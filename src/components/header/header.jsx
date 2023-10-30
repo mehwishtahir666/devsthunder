@@ -15,15 +15,15 @@ function Header() {
     <div className='mainheader p-0 container-lg'>
       <header className='w-100 ps-4 text-light d-flex align-items-center justify-content-between' > 
 
-      <div className='header_infodiv d-flex align-items-center p-0 m-0'>
+      <div className='header_infodiv d-flex flex-wrap align-items-center p-0 m-0'>
 
           <div className='header_info1 p-0 m-0 d-flex align-items-center'>
             <LiaEnvelopeOpenSolid className='icon'/>
-            <p className='p-0 m-0 ms-2'>info@yourwebsite.com</p>
+            <p className='p-0 m-0 ms-1 ms-sm-2'>info@yourwebsite.com</p>
           </div>
-          <div className='header_info2 ms-3 d-flex align-items-center '>
+          <div className='header_info2 m-0 ms-1 ms-sm-3 d-flex align-items-center '>
             <LiaPhoneSolid className='icon'/>
-            <p  className='p-0 m-0 ms-2'>123456789</p>
+            <p  className='p-0 m-0 ms-1 ms-sm-2'>123456789</p>
           </div>
         </div>
         <div className='header_sideDiv h-100 px-sm-5  d-flex'>

@@ -75,3 +75,8 @@ right: 50px;
     background-color: white;
   }
 }
+@media (max-width:350px) {
+  header {
+    height: 50px;
+  }
+}
