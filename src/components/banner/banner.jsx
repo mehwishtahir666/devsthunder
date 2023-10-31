@@ -124,7 +124,7 @@ const Banner = () => {
             <div class="carousel-item border-0 px-5 border-dark">
               <div className="banner_two-main">
               <div className='banner_pentagon_text  w-100 border-0 border-warning'>
-            <h1 className='fw-bolder p-0 m-0'><span className='banner3HadingSpan '>Companies</span> We are Serving</h1>
+            <h1 className='fw-bolder pb-3 m-0'><span className='banner3HadingSpan'>Companies</span> We are Serving</h1>
            </div>
            <div className="banner_pentagon-main d-flex border-0 border-dark">
            <div className='banner_pentagon banner_pen-1'>1</div>

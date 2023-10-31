@@ -345,10 +345,10 @@ align-items: center;
 }
 @media (max-width:1024px) {
 	.banner_two-main{
-		/* border: 2px solid red; */
+		border: 2px solid red;
 		min-height: 80vh;
 		display: flex;
-		padding: 50px;
+		padding: 100px 50px;
 		flex-direction:column ;
 		text-align: center;
 		align-items: center;
@@ -584,7 +584,7 @@ align-items: center;
 	.banner_two-main{
 		min-height: 80vh;
 		display: flex;
-		padding: 30px;
+		padding:80px 30px;
 		flex-direction:column ;
 		text-align: center;
 		align-items: center;
