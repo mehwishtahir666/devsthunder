@@ -1,0 +1,116 @@
+:root {
+    --color1: #05716c;
+    --color2: #1fbfb8;
+    --color3: #1978a5;
+    --background: #FFFFFF;
+    --paragraphSize: 18px;
+    --fontFamily:'Catamaran', sans-serif;  
+    --box-shadow: rgb(193, 217, 217);
+    --mainColor: #127A93;
+  --color1: #0C5C97;
+  --subColor: #FAD509;
+  --paragraphSize: 18px;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+.project{
+   height: auto;
+    width: 100%;
+}
+.project .banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(44, 47, 50, 0.7), rgb(50, 48, 44, .7)),url(./images/slide-01.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 110px;
+}
+.project .banner .textbox{
+    margin-top: 150px;
+}
+.project .banner h1{
+    font-size: 40px;
+    /* font-weight: 600; */
+}
+.project .banner .p2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.project .banner button{
+    font-size: 18px;
+    padding: 8px 20px;
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+.project .banner li{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: max-content;
+}
+.project .banner .playbtn{
+    font-size: 40px;
+    margin-left: 20px;
+    color: var(--subColor);
+}
+.project .contianer{
+    height: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px ;
+}
+.project .contianer .h1{
+    font-size: 35px;
+    /* font-weight: bold; */
+    color: rgb(51, 51, 51);
+}
+.project .contianer .h2{
+    /* color: var(); */
+    border-bottom: 2px solid var(--subColor);
+    width: max-content;
+    margin: 40px  auto;
+}
+.project .website{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.project .website .left{
+    height: max-content;
+    width: calc(50% - 20px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    border-radius:10px;
+    overflow: hidden;
+}
+.project .website img{
+    width: 100%;
+    margin: 15px 0;
+}
+.project .website .right{
+    width: calc(50% - 20px);
+    height: 90vh;
+    overflow-y: scroll;
+    padding: 0 10px;
+}
+.project .right img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.project  ul{
+    margin: 40px;
+}
+.project ul button{
+    padding: 4px 15px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-size: 15px;
+    /* box-shadow: 2px 2px 3px 1px var(--mainColor); */
+    margin-top: 30px;  
+}
