@@ -1,19 +1,11 @@
-
 .about{
   height: 500px;
-  background-color: red;
- 
-
 }
-
-
 .a_box1{
   height: 120px;
   border:1px solid var(--mainColor);
   border-radius: 3px;
- 
 }
-
 .about_circle{
   height: 85px !important;
   width: 85px;
@@ -22,7 +14,6 @@
   background-color: white;
   border-radius: 50%;
   border:1px solid var(--mainColor);
- 
 }
 .about_h1{
   font-size: 28px;
@@ -33,21 +24,23 @@
   font-size: 18px;
   color: #414141;
 }
-
-
 .about_headings2{
   color: #505050;
   font-weight: 600;
-  margin-bottom: 20px;
-
 }
 .about_rows_p2{
   color: #555555;
-  /* font-size: var(--paragraphSize); */
   margin-top: -1%;
 }
+.about_headings2{
+  color:var(--mainColor);
+}
+.dot-icon{
+  margin-right:10px;
+  margin-bottom:10px;
+  color:orange;
+}
 @media screen and (max-width:848px) {
-
   .about_p{
     font-size: 16px;
     margin-top: -5%;
@@ -61,7 +54,6 @@
     margin-top: -1%;
   } 
 }
-
 @media screen and (max-width:573px){
   .about_circle{
     margin-top: -10%;
