@@ -1,18 +1,30 @@
 import React from 'react'
 import "./aboutus.css"
-import sirimg from "./images/sir.d0951afd07903169553b.jpeg"
+import one from "./images/onne.webp"
+import two from "./images/two.png"
+import three from "./images/three.jpg"
 const Aboutus = () => {
   return (
     <>
     <div className='aboutus-main'>
         <div className='text'>
-            <h1>Info About members of that institute</h1>
-            <p>A reflection of the purpose and personality of the business and its<br/> owners or top employees.</p>
+            <h1>GET MORE RESUMES</h1>
+            <h2>& QUALIFIED CANDIDATES</h2>
+            <p>The Virtual Job Fair Software Of Choice<br/> That Engages Candidate & Recruiters</p>
+            <div className='btn-box'>
+                <button>WATCH A DEMO</button>
+                <button className='get-btn'>GET A QUOTE</button>
+            </div>
+        </div>
+        <div className="video-box">
+            <div className='play-box'>
+                <img src={three} alt="" />
+                </div>
         </div>
     </div>
     <div className='chairmain-box'>
         <div className="img-box">
-            <img src={sirimg} alt="" />
+            <img src={one} alt="" />
         </div>
         <div className="message-box">
             <h1>Chairman's Message</h1>
@@ -27,10 +39,10 @@ const Aboutus = () => {
             <button>Contact Him</button> 
         </div>
         <div className="img-box ">
-            <img src={sirimg} alt="" />
+            <img src={two} alt="" />
         </div>
         <div className="img-box scnd-img">
-            <img src={sirimg} alt="" />
+            <img src={three} alt="" />
         </div>
         <div className="message-box scnd-img">
             <h1>Chairman's Message</h1>
