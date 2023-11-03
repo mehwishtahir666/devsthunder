@@ -10,7 +10,6 @@ const Home = () => {
       <Banner/>
       <About/>
       <Platforms/>
-      <Footer/>
     </div>
   )
 }
