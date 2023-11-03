@@ -16,7 +16,6 @@
 .services3-main{
     width:100%;
     height:auto;
-    /* background-color:rgb(222, 222, 222); */
     padding:50px;
     box-sizing: border-box;
     display:flex;
@@ -29,7 +28,6 @@
     background-color:#f0f0f083;
     border-radius:30px;
     padding-bottom:20px;
-    margin-top:100px;
 }
 .services3-main .radius-box .text-box{
     width:auto;
@@ -125,7 +123,59 @@
 .go{
     font-size:25px;
 }
-/* =====MEDIA SCREEN===== */
+/* ====FOR MAIN==== */
+.ForMain{
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+}
+.ForMain .background-box{
+    width:100%;
+    height:auto;
+    background-image:linear-gradient(rgba(92, 92, 92, 0.501),rgba(65, 65, 65, 0.673)),url("./images/soft.webp");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    padding:70px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.ForMain .background-box .content-box{
+    width:45%;
+    height:100%;
+    padding:20px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    color:white;
+}
+.content-box .blue-circle{
+    width:100px;
+    height:100px;
+    background-color:var(--color1);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:50%;
+    font-size:50px;
+}
+.content-box .white-circle{
+    width:50px;
+    height:50px;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size:25px;
+    color:black;
+    border-radius:50%;
+}
+/* ================ */
+/* =====services3 MEDIA SCREEN===== */
 @media screen and (max-width:1075px) {
     .circle-pairnt{
         padding:0;
@@ -162,3 +212,52 @@
         font-size:12px;
     }
 }
+/* ================ */
+/* =====fpr main MEDIA SCREEN===== */
+@media screen and (max-width:1075px) {
+    .ForMain .background-box{
+        padding:60px 10px;
+    }
+    .ForMain .background-box .content-box{
+        width:50%;
+    }
+}
+@media screen and (max-width:960px) {
+    .ForMain .background-box{
+        padding:40px 10px;
+    }
+    .ForMain .background-box .content-box{
+        width:100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .content-box .blue-circle{
+        width:70px;
+        height:70px;
+        font-size:40px;
+    }
+    .content-box .white-circle{
+        width:40px;
+        height:40px;
+        font-size:30px;
+    }
+    h3{
+        font-size:18px;
+    }
+}
+@media screen and (max-width:430px) {
+    .content-box .blue-circle{
+        width:40px;
+        height:40px;
+        font-size:20px;
+    }
+    .content-box .white-circle{
+        width:20px;
+        height:20px;
+        font-size:15px;
+    }
+    h3{
+        font-size:18px;
+    }
+}
+/* ================ */
