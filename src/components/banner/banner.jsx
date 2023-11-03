@@ -1,11 +1,6 @@
 
 import React from 'react'
 import "./banner.css"
-import image2 from "./images/mcsa.png"
-import image3 from "./images/Rectangle 7@2x.png"
-import image4 from "./images/Kubernetes.png"
-import image5 from "./images/Rectangle 4@2x.png"
-import image6 from "./images/Rectangle 6@2x.png"
 // import manlaptop from "./images/Premium_Photo___Handsome_black_man_using_modern_laptop_on_yellow-removebg-preview.png"
 import angular from "./images/angular.png"
 import jQuery from "./images/jquery.png"
@@ -24,6 +19,14 @@ import facebook from"./images/Facebook_PNG_Ícone_Logo_Transparente_Sem_Fundo-re
 import { LiaFacebookF } from "react-icons/lia";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { BiLogoTwitter } from "react-icons/bi";
+import melon from "./images/meloninteractive.jpeg"
+import cricwaves from "./images/250x90-cricwaves.png"
+import bmwlogo from "./images/BMW_logo__gray_.svg-removebg-preview.png"
+import megement from "./images/magement-removebg-preview.png"
+import megebit from "./images/megebit-removebg-preview.png"
+import puremaker from "./images/pngtree-professional-company-website-logo-png-image_3203438-removebg-preview.png"
+import similarweb from "./images/similarWeb-removebg-preview.png"
+import toyota from "./images/toyota-removebg-preview.png"
 const Banner = () => {
   return (
     <div>
@@ -101,7 +104,6 @@ const Banner = () => {
                             <div className="upworkRound">
                             <img className='w-100' src={upwork} />
                             </div>
-                          
                           </div>
                           <div class="image3 image">
                             <img className='w-75 ' src={linkedin} />
@@ -120,24 +122,40 @@ const Banner = () => {
               </div>
             </div>
             {/* ============ three item========== */}
-
             <div class="carousel-item border-0 px-5 border-dark">
               <div className="banner_two-main">
               <div className='banner_pentagon_text  w-100 border-0 border-warning'>
             <h1 className='fw-bolder pb-3 m-0'><span className='banner3HadingSpan'>Companies</span> We are Serving</h1>
            </div>
            <div className="banner_pentagon-main d-flex border-0 border-dark">
-           <div className='banner_pentagon banner_pen-1'>1</div>
-           <div className='banner_pentagon banner_pen-2'>2</div>
-           <div className='banner_pentagon banner_pen-3'>3</div>
-           <div className='banner_pentagon banner_pen-4'>4</div>
-           <div className='banner_pentagon banner_pen-5'>5</div>
-           <div className='banner_pentagon banner_pen-6'>6</div>
-           <div className='banner_pentagon banner_pen-7'>7</div>
-           <div className='banner_pentagon banner_pen-8'>8</div>
-           <div className='banner_pentagon banner_pen-9'>9</div>
+           <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-1'>
+            <img className='w-75 h-auto' src={melon} alt="image not found"/>
            </div>
-     
+           <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-2'>
+           <img className='w-75 h-auto' src={cricwaves} alt="image not found"/>
+           </div>
+           <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-3'>
+            <img className='w-75 h-auto' src={bmwlogo} alt="" />
+           </div>
+           <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-4'>
+            <img className='w-75 h-auto' src={megebit} alt="" />
+           </div>
+           <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-5'>
+            <img className='w-75 h-auto' src={megement} alt="" />
+           </div>
+           <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-6'>
+            <img className='w-75 h-auto' src={similarweb} alt="" />
+           </div>
+           <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-7'>
+            <img className='w-75 h-auto' src={puremaker} alt="" />
+           </div>
+           <div className='banner_pentagon justify-content-center align-items-center banner_pen-8'>
+            <img className='w-75 h-auto' src={toyota} alt=""/>
+           </div>
+           <div className='banner_pentagon justify-content-center align-items-center banner_pen-9'>
+            <img className='w-75 h-auto' src={melon} alt=""/>
+           </div>
+           </div>
               </div>
            
             </div>
@@ -154,6 +172,7 @@ const Banner = () => {
           </button>
         </div>
         {/* ---------banner component ends */}
+
       </div>
   
     </div>
