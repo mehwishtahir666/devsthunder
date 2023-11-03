@@ -12,7 +12,7 @@ import Services from "./components/Services";
 import Pricing from "./components/Pricing"
 import Contact from "./components/Contact"
 import Project from './components/project/project';
-import Servicess from './components/services/services';
+import Servicess from './components/Services';
 
 function App() {
   return (

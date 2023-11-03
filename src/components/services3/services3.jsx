@@ -1,9 +1,14 @@
 import React from 'react'
+import "./services3.css"
 
-const Services3 = () => {
+const  Services3= () => {
   return (
-    <div>services3</div>
+    <>
+    <div className='services3-main'>Services3
+    ooooooooooooooigfvbn
+    </div>
+    </> 
   )
 }
 
-export default Services3
+export default  Services3
