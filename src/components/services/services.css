@@ -1,4 +1,4 @@
-.realstate .banner{
+.services-1 .banner{
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(44, 47, 50, 0.7), rgb(50, 48, 44, .7)),url(./slide-02.jpg);
@@ -8,26 +8,26 @@
     align-items: center;
     justify-content: center;
 }
-.realstate .cont{
+.services-1 .cont{
     padding: 20px 110px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-.realstate .banner .textbox{
+.services-1 .banner .textbox{
     margin-top: 150px;
 }
-.realstate .banner h1{
+.services-1 .banner h1{
     font-size: 40px;
     /* font-weight: 600; */
     color: white;
 }
-.realstate .banner .p2{
+.services-1 .banner .p2{
     font-size: 18px;
     font-weight: 500;
     margin-top: 30px;
 }
-.realstate .banner button{
+.services-1 .banner button{
     font-size: 18px;
     padding: 8px 20px;
     background-color: var(--mainColor);
@@ -35,18 +35,18 @@
     border-radius: 50px;
     color: white;
 }
-.realstate .banner li{
+.services-1 .banner li{
     display: flex;
     align-items: center;
     height: auto;
     width: max-content;
 }
-.realstate .banner .playbtn{
+.services-1 .banner .playbtn{
     font-size: 40px;
     margin-left: 20px;
     color: var(--subColor);
 }
-.realstate{
+.services-1{
     height: auto;
     width: 100%;
     display: flex;
@@ -55,22 +55,22 @@
     align-items: center;
     background-color: #FFFFFF;
 }
-.realstate .left{
+.services-1 .left{
     /* border: 1px solid; */
     height: max-content;
     width: 40%;
 }
-.realstate h1{
+.services-1 h1{
     font-size: 50px;
     font-weight: bold;
     color: #495057;
 }
-.realstate  .left p{
+.services-1  .left p{
     margin-top: 30px;
     font-size: 19px;
     color: #495057;
 }
-.realstate .left button{
+.services-1 .left button{
     background-color: #EC4F28;
     color: white;
     border: none;
@@ -78,14 +78,14 @@
     padding: 10px 25px;
     font-size:18px;
 }
-.realstate .right{
+.services-1 .right{
     /* border: 1px solid; */
     height: auto;
     width: 60%;
     padding: 30px 0 30px 30px;
 }
 
-.realstate .right .box{
+.services-1 .right .box{
     /* border: 1px solid red; */
     width: 95%;
     padding: 15px;
@@ -93,44 +93,48 @@
     box-shadow: 2px 2px 4px 2px rgb(206, 206, 206);
     border-radius: 10px;
 }
-.realstate .right .padd{
+.services-1 .right .padd{
     padding: 10px 0;
 }
-.realstate img{
+.services-1 img{
     width: 100%;
 }
-.realstate .right li{
+.services-1 .right li{
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
-.realstate .right .p-1{
+.services-1 .right .p-1{
     font-size: 13px;
     background-color: rgb(235, 235, 235);
     width: max-content;
     border-radius: 5px;
     color: rgb(98, 98, 98);
 }
-.realstate .right h3{
+.services-1 .right h3{
     font-weight: bold;
     font-size: 20px;
     color: #505050;
 }
-.realstate .right p{
+.services-1 .right p{
     font-size: 18px;
     font-weight: bold;
 }
-.realstate .right span{
+.services-1 .right span{
     font-size: 14px;
     color: #565656;
 }
-.realstate .right .icon{
+.services-1 .right .icon{
     font-size: 25px;
     color: rgb(64, 64, 64);
 }
-.realstate .crousee{
+.services-1 .crousee{
     padding: 20px 0 !important;
 }
+
+
+
+
 
 
 @media screen and (max-width:1075px){

@@ -17,7 +17,7 @@ const breakPoints = [
 const Servicess = () => {
     const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7]);
     return (
-        <div className='realstate'>
+        <div className='services-1'>
             <div className="banner">
                 <div className="textbox">
                     <h1>We Build Beautiful Websites</h1>
@@ -51,6 +51,7 @@ const Servicess = () => {
                 </div>
             </div>
             </div>
+            
         </div>
     )
 }
