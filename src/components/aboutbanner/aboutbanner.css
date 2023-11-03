@@ -1,0 +1,100 @@
+
+.aboutus-main{
+    width:100%;
+    height:auto;
+    background-image:linear-gradient(#1279937a,#12799390),url("./images/photo-1592890288564-76628a30a6577.jpeg");
+    background-position:top;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:1px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+}
+.aboutus-main .text{
+    width:40%;
+    height:auto;
+    font-family:var(--fontFamily);
+    margin-top:100px;
+    padding:30px;
+}
+.aboutus-main .text h1{
+    color:white;
+    font-size:50px;
+}
+.aboutus-main .text h2{
+    color:#FAD509;
+    font-size:40px;
+}
+.aboutus-main .text p{
+    color:white;
+    font-size:var(--paragraphSize);
+    letter-spacing:1px;
+    margin-top:20px;
+}
+.aboutus-main .text .btn-box{
+    width:auto;
+    height:auto;
+    margin-top:50px;
+}
+.aboutus-main .text .btn-box button{
+    padding:10px;
+    border:none;
+    margin-left:20px;
+    border-radius:10px;
+    background-color:var(--color1);
+    color:white;
+    font-family:var(--fontFamily);
+}
+.aboutus-main .video-box{
+    width:40%;
+    height:70vh;
+    font-family:var(--fontFamily);
+    margin-top:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.aboutus-main .video-box .play-box{
+    width:80%;
+    height:70%;
+    border-right:15px solid white;
+    border-radius:35px;
+    box-shadow: -41px 20px 32px -3px rgba(225, 224, 224, 0.51);
+    overflow:hidden;
+}
+.play-box img{
+    width:100%;
+    height:100%;
+    border-radius:28px;
+}
+
+@media screen and (max-width:1075px) {
+
+    .aboutus-main .text{
+        width:50%;
+        padding:30px 20px;
+    }
+}
+
+@media screen and (max-width:1009px) {
+    .aboutus-main{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .aboutus-main .text{
+        width:100%;
+        padding:30px 30px;
+    }
+    .aboutus-main .video-box{
+        width:100%;
+        margin:0;
+    }
+    .aboutus-main .video-box .play-box{
+        width:80%;
+        height:90%;
+    }
+}
+  

@@ -7,10 +7,10 @@ const Projects = () => {
   return (
     <>
       <div className='projects'>
-        <div className='heading-box'>
+        {/* <div className='heading-box'>
           <h1>Testimonials</h1>
           <p>Our students build real-world projects to put theories into practice.</p>
-        </div>
+        </div> */}
         <div className='button-box'>
           <button>HTML</button>
           <button>CSS</button>

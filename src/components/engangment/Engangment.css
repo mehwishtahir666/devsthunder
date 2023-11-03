@@ -1,51 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
-:root {
-    --color1: #05716c;
-    --color2: #1fbfb8;
-    --color3: #1978a5;
-    --background:rgb(253, 250, 250);
-    --paragraphSize: 18px;
-    /* --mainHeadingSize: ; */
-    --fontFamily:'Catamaran', sans-serif;
-    /* --paraColor:   ; */
-    /* --headingColor:   ; */
-    /* --padding:0px 0px 0px 0px; */
-    /* --border-radius:0px; */  
-    --box-shadow: rgb(193, 217, 217);
-  }
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: var(--fontFamily);
-}
-.about{
+
+.about_engangment{
     width: 100%;
     height: max-content;
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
-    padding: 40px;
+    padding: 40px 0;
     background-color: var(--background);
     color: rgb(234, 234, 234);
 }
-.about img{
+.about_engangment img{
     width: 100%;
 }
-.about .img1{
+.about_engangment .img1{
     border-radius: 5px 80px;
-    width: 65%;
+    width: 70%;
     box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
    background-color: rgb(232, 221, 221);
 }
-.about .left{
-    height: max-content;
-    width: 55%;
+.about_engangment .left{
+    height: 95vh;
+    width: 50%;
     position: relative;
     /* border: 1px solid red; */
 }
-.about .left .box-1{
+.about_engangment .left .box-1{
     height: 13%;
     padding-left: 10px;
     width: 40%;
@@ -58,29 +37,29 @@
     box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
     background-color: rgb(249, 248, 248);
 }
-.about .left .box2{
+.about_engangment .left .box2{
     margin-top: 25%;
     width: 47%;
 }
-.about .left .box3{
+.about_engangment .left .box3{
     margin-top: 50%;
     width: 50%;
 }
-.about .left ul{
+.about_engangment .left ul{
     display: flex;
     align-items: center;
 }
-.about .left ul img{
-    width: 35px;
+.about_engangment .left ul img{
+    width: 50px;
 }
-.about .right{
+.about_engangment .right{
     height: 95vh;
     width: 45%;
     overflow-Y: scroll;
     padding: 30px;
     /* border: 1px solid blue; */
 }
-.about .left p{
+.about_engangment .left p{
     font-size: 18px;
     font-weight: 600;
     color: #202252;
@@ -88,72 +67,72 @@
     line-height:  1em;
     margin: 0;
 }
-.about .right h1{
+.about_engangment .right h1{
     color: #202252;
-    font-size: 23px;
+    font-size: 40;
 }
-.about span{
+.about_engangment span{
     color:  rgb(245, 69, 69);
 }
-.about .right ul{
+.about_engangment .right ul{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0;
 }
-.about ul li{
+.about_engangment ul li{
     margin-right: 15px;
     color: rgb(37, 37, 37);
 }
-.about .p1{
-    margin-top: 40px;
+.about_engangment .p1{
+    margin:30px 0 50px 0;
     color: rgb(35, 35, 35);
 }
-.about .p2{
+.about_engangment .p2{
     color: rgb(17, 17, 85);
     font-size: 20px;
-    margin: 0;
+
 }
-.about .logo{
+.about_engangment .logo{
     width: 30px;
     height: auto;
-    margin-top: 7px;
+
 }
 @media screen and (max-width:1000px) {
-    .about .left .box-1{
+    .about_engangment .left .box-1{
         right: 0;
         width: 50%;
     }
-    .about .left .box2{
+    .about_engangment .left .box2{
         width: 55%;
     }
-    .about .left .box3{
+    .about_engangment .left .box3{
         width: 60%;
     }
-    .about .right .p1 {
+    .about_engangment .right .p1 {
        margin-top: 10px;
     }
 }
     
 @media screen and (max-width:850px){
-    .about .left, .about .right{
+    .about_engangment .left, .about_engangment .right{
         width: 100%;
     }
 }
 @media screen and (max-width:450px) {
-    .about .left p{
+    .about_engangment .left p{
         font-weight: 500;
         font-size: 16px;
     }
-    .about .left ul img{
+    .about_engangment .left ul img{
         width: 26px;
     }
-    .about .left .img1{
+    .about_engangment .left .img1{
         border-radius: 5px;
     }
-    .about{
+    .about_engangment{
         padding: 20px 10px;
     }
-    .about .left .box-1{
+    .about_engangment .left .box-1{
         border-radius: 5px;
         padding: 3px 8px;
     }

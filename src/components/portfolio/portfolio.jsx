@@ -1,12 +1,22 @@
 import React from 'react'
 import './portfolio.css'
-import { BsArrowRightShort } from "react-icons/bs";
+import { Link } from 'react-router-dom';
+import {BiPlayCircle  } from "react-icons/bi";
 import display from './images/ezgif.com-optimize__2___2_.gif';
 import mobile from './images/mobile2.gif'
 import laptop from "./images/displayy.gif"
 const Portfolio = () => {
   return (
     <>
+    <div className="profiles">
+    <div className="banner">
+       <div className="textbox">
+        <h1>We Build Beautiful Websites</h1>
+        <p className='p2'>Bring in More Leads With a New Website</p>
+        <li><p><button className='btnn'>START YOUR PROJECT</button> </p> <p className='playbtn'><BiPlayCircle/></p> </li>
+       </div>
+      </div>
+    </div>
      <div className='profile'>
     {/* <h1>Our Portfolio</h1> */}
     <div className="slider">
@@ -78,10 +88,11 @@ const Portfolio = () => {
                 </div>
                 </div>
                 <button className='btn-1'>Visit this website</button>
+                <Link to="/project"><button className='btn-1 ms-2'>Preview this website</button></Link>
             </div>
         </div>
     </div>
-    {/* //////////////////// */}
+ 
 
     </>
    

@@ -1,69 +1,14 @@
-:root {
-    --color1: #05716c;
-    --color2: #1fbfb8;
-    --color3: #1978a5;
-    --background: #FFFFFF;
-    --paragraphSize: 18px;
-    --fontFamily:'Catamaran', sans-serif;  
-    --box-shadow: rgb(193, 217, 217);
-    --mainColor: #127A93;
-  --color1: #0C5C97;
-  --subColor: #FAD509;
-  --paragraphSize: 18px;
-  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+
 .project{
    height: auto;
     width: 100%;
-}
-.project .banner{
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(44, 47, 50, 0.7), rgb(50, 48, 44, .7)),url(./images/slide-01.jpg);
-    background-size: cover;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 110px;
-}
-.project .banner .textbox{
-    margin-top: 150px;
-}
-.project .banner h1{
-    font-size: 40px;
-    /* font-weight: 600; */
-}
-.project .banner .p2{
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 30px;
-}
-.project .banner button{
-    font-size: 18px;
-    padding: 8px 20px;
-    background-color: var(--mainColor);
-    border: none;
-    border-radius: 50px;
-    color: white;
-}
-.project .banner li{
-    display: flex;
-    align-items: center;
-    height: auto;
-    width: max-content;
-}
-.project .banner .playbtn{
-    font-size: 40px;
-    margin-left: 20px;
-    color: var(--subColor);
 }
 .project .contianer{
     height: auto;
     width: 100%;
     background-color: #FFFFFF;
     text-align: center;
-    padding: 50px ;
+    padding: 100px 50px 80px 50px ;
 }
 .project .contianer .h1{
     font-size: 35px;

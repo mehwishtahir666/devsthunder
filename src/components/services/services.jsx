@@ -7,6 +7,7 @@ import { FaUsers } from "react-icons/fa";
 import { AiOutlineAmazon } from "react-icons/ai";
 import img1 from './img7.webp'
 import './services.css'
+import Spliter from '../spliter/spliter';
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -53,6 +54,7 @@ const Servicess = () => {
                 </div>
             </div>
             </div>
+            <Spliter/>
             <div className="container-2">
                 <div className="box-1">
                   <p className='icn-2'><BiSolidSearchAlt2/></p>

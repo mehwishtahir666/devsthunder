@@ -1,6 +1,5 @@
 import React from 'react'
 import './project.css'
-import {BiPlayCircle  } from "react-icons/bi";
 import img1 from './images/web1.png'
 import img2 from './images/web2.png'
 import img3 from './images/web3.png'
@@ -13,13 +12,6 @@ import img6 from './images/web6.png'
 const Project = () => {
   return (
     <div className='project'>
-      <div className="banner">
-       <div className="textbox">
-        <h1>We Build Beautiful Websites</h1>
-        <p className='p2'>Bring in More Leads With a New Website</p>
-        <li><p><button className='btnn'>START YOUR PROJECT</button> </p> <p className='playbtn'><BiPlayCircle/></p> </li>
-       </div>
-      </div>
       <div className="contianer">
       {/* <h1 className='h1'>What if your website looked like this . . .</h1> */}
         <h1 className='h2'>SUNTOUR WEBSITE</h1>
