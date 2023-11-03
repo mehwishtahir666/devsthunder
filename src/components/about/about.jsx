@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css"
-import {GiBurningDot} from "react-icons/gi";
+import { GoDot } from "react-icons/go";
+import { GiBurningDot } from "react-icons/gi";
 import image1 from "./images/tresure-box-icon11.png"
 import image2 from "./images/tresure-box-icon21.png"
 import image3 from "./images/tresure-box-icon31.png"
@@ -79,36 +80,26 @@ const about = () => {
                     <div className="col h-100 border-0 border-warning mt-5 mt-sm-3 ">
                         <div className="about_rows2 row border-0 border-danger rounded-top w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
                             <h3 className="about_headings2 fs-3 mt-2 ">
-                        <GiBurningDot className="dot-icon"/>
+                                <GiBurningDot className="dot-icon" />
                                 About Us</h3>
-                            <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
-                                stronger emotion and culture aiming to be Pakistan's Best
-                                place to work both for Talents and Clients.</p>
+                            <p className="about_rows_p2 para">
+                                <b>Founded in 1989,</b>ScienceSoft is a provider of <span>IT consulting </span>and <span className='sp-2'>software development services</span>. ScienceSoft centers its operations in the US, and delivers services worldwide via offices in the Gulf Cooperation Council and Europe. Throughout the company’s history, we have worked with over 1,200 customers from 75+ countries.
+                            </p>
                         </div>
                         <div className="about_rows2 row rounded-top  w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
                             <h3 className="about_headings2 fs-3 mt-2 ">
-                            <GiBurningDot className="dot-icon"/>Blogs
+                                <GiBurningDot className="dot-icon" />Whom We Serve
                             </h3>
-                            <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
-                                stronger emotion and culture aiming to be Pakistan's Best
-                                place to work both for Talents and Clients.</p>
-                        </div>
-                        <div className="about_rows2 row rounded-top  w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-                            <h3 className="about_headings2 fs-3 mt-2 ">
-                            <GiBurningDot className="dot-icon"/>Case Study
-                            </h3>
-                            <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
-                                stronger emotion and culture aiming to be Pakistan's Best
-                                place to work both for Talents and Clients.</p>
-                        </div>
-                        <div className="about_rows2 row rounded-top  w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-                            <h3 className="about_headings2 fs-3 mt-1 ">
-                            <GiBurningDot className="dot-icon"/>
-                            Life Being
-                            </h3>
-                            <p className="about_rows_p2  lh-sm">We are #IPSion, which is not just a name but a growing
-                                stronger emotion and culture aiming to be Pakistan's Best
-                                place to work both for Talents and Clients.</p>
+                            <p className="about_rows_p2  lh-lg">
+                                <GoDot className='godot' />
+                                <b>Non-IT enterprises,</b>
+                                Services to improve business <p className='another-p'>performence,<span>optimize customer service</span>,and tap in digital transformation.</p>
+                            </p>
+                            <p className="about_rows_p2  lh-lg">
+                                <GoDot className='godot' />
+                                <b>Software product companies,</b>
+                                Services to help bring new <p className='another-p'> products to the market and win customers fast.</p>
+                            </p>
                         </div>
                     </div>
                 </div>

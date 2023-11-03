@@ -1,3 +1,11 @@
+:root {
+  --mainColor: #127A93;
+  --color1: #0C5C97;
+  --subColor: #FAD509;
+  --paragraphSize: 18px;
+  --fontFamily: 'Poppins', sans-serif;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 .about{
   height: 500px;
 }
@@ -31,6 +39,8 @@
 .about_rows_p2{
   color: #555555;
   margin-top: -1%;
+  margin-left:20px;
+  font-size:17px;
 }
 .about_headings2{
   color:var(--mainColor);
@@ -38,7 +48,22 @@
 .dot-icon{
   margin-right:10px;
   margin-bottom:10px;
-  color:orange;
+  color:var(--subColor);
+}
+.para{
+  line-height:28px;
+}
+.godot{
+  color:var(--mainColor);
+  margin-left:15px;
+  font-size:18px;
+}
+.about_rows_p2 span{
+  color:var(--mainColor);
+  font-weight:bolder;
+}
+.another-p{
+  margin-left:30px;
 }
 @media screen and (max-width:848px) {
   .about_p{
