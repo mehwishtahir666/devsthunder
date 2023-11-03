@@ -1,61 +1,80 @@
-
+*{
+    line-height: 21px;
+}
 .footer{
     font-size: 15px;
     line-height: 30px;
-    background-color: var(--mainColor);
+    padding: 30px 10px 10px 20px;
+    box-sizing: border-box;
     color: white;
-    padding: 50px 0px 0px 0px;
-    font-size: 16px;
 }
-.footer_inplist{
-    position: relative;
-    /* border: 1px solid red; */
-    display: flex;
-    width: 100% !important;
-    width: max-content;
-    align-items: center;
-
+.footer_row1{
+    padding:0px 100px;
 }
-.footer_inp{
+.footer_card{
+    width: 100%;
+    padding: 20px 10px;
+/* border: 1px solid red; */
+border-radius: 20px;
+box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.299);
+}
+.parasizesmall{
+    font-size: 10px;
+}
+.footer_logo{
+    width: 200px;
+}
+.footer_logo img{
     width: 100%;
     height: 100%;
-    padding: 10px;
+}
+.coloryellow{
+    letter-spacing: 2px;
+    color: var(--subColor);
+}
+.colorblue{
+    background-color:rgb(2, 59, 82);
+}
+.parasize{
     font-size: 13px;
-    border: none;
-    outline: none;
 }
-
-.footer_btn{
-    width: 50px;
-    height:100%;
-right: 0;
-    background-color: var(--subColor);
-    border: none;
-position: absolute;
-outline: none;
+.footer_lineCol1{
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: 20px;
 }
-.footer_icon-circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid var(--subColor);
-}
-.footer_insideiconCol{
-    width:max-content;
-    margin: auto;
-}
-.maxConth{
+.footer_icons-div{
+    /* border: 2px solid red; */
+    width: 180px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
     height: max-content;
 }
-.footer_line{
-    width: 90%;
-    padding: 10px;
-    border-top: 1px solid white;
+.footer_icon{
+    width: 35px;
+    height: 35px;
+    background-color: var(--subColor);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--mainColor);
 }
-.footer_row2-col1{
-    font-size: 14px;
+.footer_sec_2 , .footer_sec_3 , .footer_sec_4{
+    padding:0px;
 }
-.footer_row2-col2{
-    /* border: 1px solid red; */
-    font-size: 14px;
+@media (max-width:700px) {
+    .footer{
+    padding: 30px 0px;
+    }
+    .footer_sec_2 , .footer_sec_3 , .footer_sec_4{
+        padding: 0px;
+    } 
+}
+@media (max-width:450px){
+    .footer_row1{
+        padding:0px 30px;
+    }
 }

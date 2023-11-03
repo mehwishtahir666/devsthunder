@@ -15,14 +15,24 @@ header {
   background-color: var(--mainColor);
 }
 .header_icondiv {
-  width: 110px;
+  width: 140px;
+  /* border: 1px solid red; */
   font-size: 25px;
 }
 .header_sideDiv {
   background-color: var(--subColor);
   color: var(--mainColor);
 }
-
+.header_icon-outline{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border:2px solid var(--mainColor);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* --------navbar element------------- */
 nav {
   height: 65px;
@@ -42,6 +52,7 @@ nav {
   color: var(--mainColor);
 }
 .nav_main{
+
   width: max-content;
 }
 .navbar-nav {

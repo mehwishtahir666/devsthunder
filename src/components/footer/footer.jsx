@@ -1,56 +1,67 @@
 import React from "react";
 import "./footer.css"
-import {AiOutlineArrowRight} from "react-icons/ai"
-import { LiaFacebook, LiaPhoneSolid } from "react-icons/lia";
-import { LiaEnvelopeOpenSolid } from "react-icons/lia";
-import {BiBeenHere} from "react-icons/bi";
-import {TiSocialFacebook} from  "react-icons/ti";
-import {TiSocialTwitter} from "react-icons/ti";
-import {TiSocialLinkedin} from "react-icons/ti";
-import {TiSocialSkype} from "react-icons/ti"
- const Footer =()=>{
-    return(
-       <div>
-<div className="footer w-100 h-auto ">
-      <div className="row footer_row w-100  px-5 ">
-               <ul className="col-md-4 col-sm-6 col-12  footer_sec1">
-            <li><h3 className="fw-bold">Be Future Ready</h3></li>
-            <li><p>get exclusive digital marketing updates
-                straight to your inbox
-            </p></li>
-            <li className="p-0 m-0 footer_inplist">
-              <input type="email" name="" placeholder="Email address" className="footer_inp" />
-            <button className="p-0 m-0 footer_btn"><AiOutlineArrowRight/></button>
-            </li>
-               </ul>
-               <ul className="footer_sec_2 col-md-2 col-sm-6 col-12  ">
-                 <li><h5 className="fw-bold">About</h5></li>    
-                 <li>Our Team</li>
-                 <li> Clients</li>
-                 <li> Press</li>
-                 <li> Clients</li>
-                     <li>Blog</li>
-               </ul>
-               <ul className="footer_sec_3 col-md-3 col-sm-6 col-12 ">
-                 <li><h5 className="fw-bold">Corporate Training</h5></li>    
-                 <li>Leaders</li>
-                 <li> pracitioner</li>
-               </ul>
-               <ul className="footer_sec_4 col-md-3 col-sm-6 col-12  border-0 border-danger">
-                 <li><h5 className="fw-bold">Contact Us</h5></li>    
-                 <li>+(00)88779 0098</li>
-                 <li>hello@futuremarket.com</li>
-                 <li>One nell Road sinagpore</li>
-               </ul>
-      </div>
+import logo from "../header/image/WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png"
+import { LiaFacebookF } from "react-icons/lia";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoTwitter } from "react-icons/bi";
+import { TiSocialSkype } from "react-icons/ti"
+const Footer = () => {
+  return (
+    <div>
+      <div className="footer  w-100 h-auto colorblue ">
+        <div className="row border-0 footer_row1 border-success w-100 m-0 ">
+          {/* ----------- col1 -------------- */}
+          <div className="footer_col1 col-12 col-md-6  col-xl-3 text-center border-0 border-warning m-0 p-0">
+            <div className="footer_card ">
+              <div className="footer_logo m-auto">
+                <img className=" m-0 p-0" src={logo} alt="" />
+              </div>
+              <h6 className="fw-bold coloryellow m-0 mt-3 p-0">TOLL-FREE</h6>
+              <p className="parasize  m-0 p-0">(855) 5-GrowMe</p>
+              <div className="footer_icons-div m-auto mt-2">
+                <div className="footer_icon"><LiaFacebookF /></div>
+                <div className="footer_icon"><BiLogoLinkedin/></div>
+                <div className="footer_icon"><BiLogoTwitter /></div>
+                <div className="footer_icon"><TiSocialSkype /></div>
+              </div>
+              <div className="footer_lineCol1"></div>
+              <p className=" p-0 m-0 mt-3">GrowMe copyright 2023</p>
+              <p className="m-0 p-0">All Rights Reserved | Terms</p>
+              <p className="m-0 p-0 parasizesmall mt-2">All other registered trademarks are property of their respective owners.</p>
+            </div>
+          </div>
+          {/* ---------------col2---------------- */}
+          <div className="col footer_col2 col-12  col-md-6 col-xl-3 border-0 mt-5 mt-lg-3 border-warning d-flex justify-content-center align-items-center">
+            <ul className="footer_sec_2 minheight border-0 border-danger m-0 text-center">
+            <li><h6 className="fw-bold coloryellow">Our Services</h6></li>
+              <li className="parasize mt-3">AptEase Company Ledger</li>
+              <li className="parasize  mt-2">AptEase : Ledger Download</li>
+            </ul>
+          </div>
+          {/* ---------------col3---------------- */}
 
+          <div className="col footer_col3 col-12 col-md-6 col-xl-3 border-0 mt-5 mt-lg-3 border-warning d-flex justify-content-center align-items-center">
+            <ul className="footer_sec_3 minheight m-0 border-0 border-light m-0 text-center">
+              <li className="parasize"><h6 className="fw-bold coloryellow">Our Social Networks</h6></li>
+              <li className="parasize mt-3">Follow us on Social media and stay up-to-date with all our news and events</li>
+              <li className="parasize  mt-2">(604)210-1553</li>
+            </ul>
+          </div>
+          {/* ---------------col4---------------- */}
+          <div className="col footer_col4 col-12 col-md-6 col-xl-3 border-0 border-warning   mt-5 mt-lg-3 d-flex justify-content-center align-items-center">
+            <ul className="footer_sec_4 minheight border-0 border-light text-center">
+              <li className="parasize"><h6 className="fw-bold coloryellow">Contact Us</h6></li>
+              <li className="parasize mt-3">+(00)887766 0098</li>
+              <li className="parasize  mt-2">hello@futuremarket.com</li>
+              <li className="parasize  mt-2">One Nell Road Singapore</li>
 
-      <div className=" row m-auto footer_line ">
-        <div className="col d-flex justify-content-center text-center  border-0 maxConth p-0 footer_row2-col1"><p className="p-0 m-0">@2023FutureMarket Private Ltd.All Right Reserved</p></div>
-   
+            </ul>
+          </div>
+          {/* -------------------------------------- */}
+        </div>
+
       </div>
-</div>
-       </div>
-    )
- }
- export default Footer;
+    </div>
+  )
+}
+export default Footer;

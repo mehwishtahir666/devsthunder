@@ -1,7 +1,6 @@
 
 import React from 'react'
 import "./banner.css"
-// import manlaptop from "./images/Premium_Photo___Handsome_black_man_using_modern_laptop_on_yellow-removebg-preview.png"
 import angular from "./images/angular.png"
 import jQuery from "./images/jquery.png"
 import bootstrap from "./images/bootstrap.png"
@@ -90,7 +89,7 @@ const Banner = () => {
             {/* ============ two item========== */}
 
             <div class="carousel-item border-0 text-center">
-              <div class="two d-flex justify-content-around align-items-center ">
+              <div class="two d-flex justify-content-around align-items -center ">
                 <div class="two-cont2 w-100 d-flex justify-content-center align-items-center">
                   <div class="img1 img">
                     <div class="two align-content-around d-flex flex-column px-3 justify-content-around ">
@@ -109,7 +108,7 @@ const Banner = () => {
                             <img className='w-75 ' src={linkedin} />
                           </div>
                           <div class="image4 image">
-                            <img className='facebookimg  ' src={facebook} />
+                            <img className='facebookimg' src={facebook} />
                           </div>
                           <div class="image5 image">
                             <img className='w-75 ' src={freelancer} />
@@ -122,7 +121,7 @@ const Banner = () => {
               </div>
             </div>
             {/* ============ three item========== */}
-            <div class="carousel-item border-0 px-5 border-dark">
+            <div class="carousel-item border-0 border-dark">
               <div className="banner_two-main">
               <div className='banner_pentagon_text  w-100 border-0 border-warning'>
             <h1 className='fw-bolder pb-3 m-0'><span className='banner3HadingSpan'>Companies</span> We are Serving</h1>
@@ -157,10 +156,8 @@ const Banner = () => {
            </div>
            </div>
               </div>
-           
             </div>
           </div>
-
           {/* ----left right arrow slider */}
           <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

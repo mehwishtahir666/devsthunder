@@ -1,9 +1,11 @@
 import './header.css';
 import { LiaPhoneSolid } from "react-icons/lia";
 import { FaTwitterSquare } from "react-icons/fa";
-import { BiLogoFacebookSquare } from "react-icons/bi";
-import { BiLogoLinkedinSquare } from "react-icons/bi";
 import { LiaEnvelopeOpenSolid } from "react-icons/lia";
+import { LiaFacebookF } from "react-icons/lia";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoTwitter } from "react-icons/bi";
+
 import { Link } from 'react-router-dom';
 
 import logo from "./image/WhatsApp_Image_2023-10-25_at_12.09.10_8e72b0d7-removebg-preview.png"
@@ -28,9 +30,15 @@ function Header() {
         </div>
         <div className='header_sideDiv h-100 px-sm-5  d-flex'>
           <div className='header_icondiv fw-bolder d-flex align-items-center justify-content-around px-sm-0 px-4'>
-            <BiLogoFacebookSquare className='fs-sm-1 fs-lg-3' />
-            <BiLogoLinkedinSquare />
-            <FaTwitterSquare />
+            <div className="header_icon-outline">
+            <LiaFacebookF />
+            </div>
+            <div className="header_icon-outline">
+            <BiLogoLinkedin />
+            </div>
+             <div className="header_icon-outline">
+             <BiLogoTwitter />
+            </div>
           </div>
         </div>
 
@@ -51,7 +59,11 @@ function Header() {
     <div className="navbar-nav border-0 ">
       <Link className='nav-link' to="/">Home</Link>
       <Link className='nav-link' to="/services">Services</Link>
+<<<<<<< Updated upstream
       <Link className='nav-link' to="/testimonials">Testimonials</Link>
+=======
+      {/* <Link className='nav-link' to="/pricing">Pricing</Link> */}
+>>>>>>> Stashed changes
       <Link className='nav-link' to="/portfolio">Portfolio</Link>
       <Link className='nav-link' to="/about">About</Link>
       <Link className='nav-link' to="/contact">Contact</Link>
