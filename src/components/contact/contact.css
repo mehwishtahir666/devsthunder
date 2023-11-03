@@ -19,6 +19,11 @@
     height: auto;
     width: 100%;
 }
+.contactus .banr .playbtn{
+    font-size: 40px;
+    margin-left: 20px;
+    color: var(--subColor);
+}
 .contactus .banr{
     height: 60vh;
     width: 100%;

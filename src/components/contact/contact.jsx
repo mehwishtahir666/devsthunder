@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-
+import {BiPlayCircle  } from "react-icons/bi";
 import { IoMailSharp} from "react-icons/io5";
 import { BiSolidUser,BiSolidBook } from "react-icons/bi";
 import {FaBox,FaPencil } from "react-icons/fa6";
@@ -14,6 +14,7 @@ const Contactus = () => {
       <div className="banr">
       <h1>Get in touch</h1>
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, a!</p>
+      <BiPlayCircle className='playbtn'/>
       </div>
       <div className="cont">
         <h1 className='h1'>Contact Us</h1>

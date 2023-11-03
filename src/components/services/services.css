@@ -1,0 +1,132 @@
+.realstate{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px ;
+    background-color: #FFFFFF;
+}
+.realstate .left{
+    /* border: 1px solid; */
+    height: max-content;
+    width: 40%;
+}
+.realstate h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #495057;
+}
+.realstate  .left p{
+    margin-top: 30px;
+    font-size: 19px;
+    color: #495057;
+}
+.realstate .left button{
+    background-color: #EC4F28;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size:18px;
+}
+.realstate .right{
+    /* border: 1px solid; */
+    height: auto;
+    width: 60%;
+    padding: 30px 0 30px 30px;
+}
+
+.realstate .right .box{
+    /* border: 1px solid red; */
+    width: 95%;
+    padding: 15px;
+    height: 100%;
+    box-shadow: 2px 2px 4px 2px rgb(206, 206, 206);
+    border-radius: 10px;
+}
+.realstate .right .padd{
+    padding: 10px 0;
+}
+.realstate img{
+    width: 100%;
+}
+.realstate .right li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.realstate .right .p-1{
+    font-size: 13px;
+    background-color: rgb(235, 235, 235);
+    width: max-content;
+    border-radius: 5px;
+    color: rgb(98, 98, 98);
+}
+.realstate .right h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #505050;
+}
+.realstate .right p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.realstate .right span{
+    font-size: 14px;
+    color: #565656;
+}
+.realstate .right .icon{
+    font-size: 25px;
+    color: rgb(64, 64, 64);
+}
+.realstate .crousee{
+    padding: 20px 0 !important;
+}
+
+
+@media screen and (max-width:1075px){
+    .realstate .left{
+        width: 50%;
+    }
+    .realstate .right .box{
+        width: 95%;
+    }
+    .realstate .left h1{
+        font-size: 40px
+    }
+    .realstate .right{
+        width: 50%;
+        padding-left: 10px 5px;
+    }
+  }  
+  @media screen and (max-width:1000px) {
+    .realstate .left{
+        width: 100%;
+    }
+    .realstate .right{
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+    }
+    
+}
+@media screen and (max-width:850px){
+    .realstate .crousee{
+        padding: 0 !important;
+        /* background-color: red; */
+    }
+    .realstate .rec-arrow-right{
+        display: none;
+    }
+    .realstate .rec-arrow-left{
+        display: none;
+    }
+   
+}
+@media screen and (max-width:750px) {
+    .realstate{
+        padding: 30px 15px;
+    }
+}

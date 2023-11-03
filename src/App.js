@@ -12,16 +12,18 @@ import Services from "./components/Services";
 import Pricing from "./components/Pricing"
 import Contact from "./components/Contact"
 import Project from './components/project/project';
+import Servicess from './components/services/services';
 
 function App() {
   return (
     <BrowserRouter>
         <Header/>
+        
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/portfolio" element={<Portfolio/>}/>
-    <Route path="/services" element={<Services/>}/>
+    <Route path="/services" element={<Servicess/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/pricing" element={<Pricing/>}/>
       {/* -------------------------------- */}
@@ -31,7 +33,6 @@ function App() {
       <Route path='/project' element={<Project/>} />
     </Routes>
     </BrowserRouter>
-    
   );
 }
 
