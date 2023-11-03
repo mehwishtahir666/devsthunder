@@ -58,7 +58,7 @@ const Portfolio = () => {
                  
                 <div className='box-1 '>
                  <div className="box-speed box-speed1">
-                    <h1>Morden <br />Design </h1>
+                    <h1>Modern <br />Design </h1>
                     <div className="line"><div className="child"></div></div>
                     <p>100%</p>
                  </div>

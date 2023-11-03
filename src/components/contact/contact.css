@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --mainColor: #127A93;
+  --color1: #0C5C97;
+  --subColor: #FAD509;
+  --paragraphSize: 18px;
+  --fontFamily: 'Poppins', sans-serif;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: var(--fontFamily);
+}
+.contactus{
+    height: auto;
+    width: 100%;
+}
+.contactus .banr{
+    height: 60vh;
+    width: 100%;
+    background-image: url('./contact-background.png');
+    background-position: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.contactus .banr h1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.contactus .cont{
+    height: auto;
+    width: 100%;
+    padding: 100px 110px;
+    background-color: #F1F2F4;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contactus .cont .h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color1);
+    margin: auto;
+}
+
+.contactus .form{
+    height: auto;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    border-bottom: dotted 2px rgb(208, 207, 207) ;
+}
+.contactus ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 0;
+}
+.contactus .form li{
+    width: calc(50% - 20px);
+    display: flex;
+    margin-top: 15px;
+}
+.contactus .form .li-wi{
+    width: 100%;
+    margin-top: 10px;
+}
+.contactus  .form  p{
+    background-color: #dfe2e9;
+    padding: 10px 15px   ;
+    font-size: 20px;
+    color: var(--color1);
+}
+.contactus input{
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #adb8c0;
+    background-color: #FFFFFF;
+    outline: none;
+    color:  #727d84;
+}
+.contactus input::placeholder{
+    color:  #727d84;
+}
+.contactus .form textarea{
+    width: 100%;
+    height: 40vh;
+    margin-left: 0;
+    border: 1px solid #adb8c0;
+    outline: none;
+    padding: 15px;
+}
+.contactus .li-text p{
+    height: 100%;
+    border-left:  1px solid #b0b0b0;
+    border-top:  1px solid #b0b0b0;
+    border-bottom:  1px solid #b0b0b0;
+}
+.contactus .div-t{
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+}
+.contactus .div-t p{
+    padding: 0;
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(38, 38, 38);
+}
+.contactus .div-t .p2{
+    font-size: 17px;
+    color:  #5c6469;
+    font-weight: bold;
+}
+.contactus .div-t button{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: var(--mainColor);
+    color: white;
+    /* border-radius: 50px; */
+}
+.contactus .box-a{
+    height: auto;
+    width: calc(33.33% - 10px);
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    padding: 10px;
+    border-radius:  10px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+.contactus .icn-1{
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: #FFA76C;
+    height: max-content;
+    padding: 17px 23px;
+    color: white;
+}
+.contactus .icn-2{
+    background-color: var(--mainColor);
+}
+.contactus .icn-3{
+    background-color: #4D306E;
+}
+.contactus .box-a h1{
+    font-size: 27px;
+    color:#746981;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contactus .box-a ul{
+    margin-left: 15px;
+    flex-direction: column;
+}
+.contactus .box-a .p-a{
+    font-size: 19px;
+    color:#746981;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.contactus .box-a .p-b{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color:#746981;
+}
+@media screen and (max-width:1075px) {
+    .contactus .cont{
+        padding: 50px 30px;
+    }
+}
+@media screen and (max-width:930px){
+   .contactus .box-a{
+    width: calc(50% - 10px) ;
+   }
+   .contactus .box-a .icn-1{
+    font-size: 20px;
+    padding: 10px 15px;
+}
+}
+@media screen and (max-width:600px){
+    .contactus .cont ul li{
+        width: 100%;
+    }
+    .contactus .form .li-text{
+        width: 100%;
+    }
+    .contactus .div-t{
+        width: 100%;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .contactus .box-a{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:550px){
+   
+    .contactus .cont .form{
+        margin-top: 20px;
+    }
+    .contactus .cont .h1, .contactus .banr h1 , .contactus .box-a h1{
+        font-size: 25px;
+    }
+    .contactus .banr p{
+        font-size: 13px;
+    }
+    .contactus .cont{
+        padding: 30px 15px;
+    }
+    .contactus .div-t button{
+        margin-top: 20px;
+    }
+}

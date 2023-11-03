@@ -19,7 +19,7 @@ function Header() {
 
           <div className='header_info1 p-0 m-0 d-flex align-items-center'>
             <LiaEnvelopeOpenSolid className='icon'/>
-            <p className='p-0 m-0 ms-1 ms-sm-2'>info@yourwebsite.com</p>
+            <p className='p-0 m-0 ms-1 ms-sm-2'>Chairman@gmail.com</p>
           </div>
           <div className='header_info2 m-0 ms-1 ms-sm-3 d-flex align-items-center '>
             <LiaPhoneSolid className='icon'/>
