@@ -8,11 +8,11 @@ import Projects from './components/projects/projects';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
-import Services from "./components/Services";
 import Pricing from "./components/Pricing"
 import Contact from "./components/Contact"
 import Project from './components/project/project';
 import Servicess from './components/Services';
+import Testimonial from './components/Testimonials';
 
 function App() {
   return (
@@ -26,11 +26,14 @@ function App() {
     <Route path="/services" element={<Servicess/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/pricing" element={<Pricing/>}/>
+      <Route path="/testimonials" element={<Testimonial/>}/>
+
       {/* -------------------------------- */}
       <Route path="/banner" element={<Banner/>}/>
       <Route path="/footer" element={<Footer/>}/>
       <Route path="/projects" element={<Projects/>}/>
       <Route path='/project' element={<Project/>} />
+
     </Routes>
     </BrowserRouter>
   );

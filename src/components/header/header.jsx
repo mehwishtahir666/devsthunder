@@ -51,7 +51,7 @@ function Header() {
     <div className="navbar-nav border-0 ">
       <Link className='nav-link' to="/">Home</Link>
       <Link className='nav-link' to="/services">Services</Link>
-      <Link className='nav-link' to="/pricing">Pricing</Link>
+      <Link className='nav-link' to="/testimonials">Testimonials</Link>
       <Link className='nav-link' to="/portfolio">Portfolio</Link>
       <Link className='nav-link' to="/about">About</Link>
       <Link className='nav-link' to="/contact">Contact</Link>
