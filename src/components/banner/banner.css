@@ -629,6 +629,13 @@ text-align: center;
 	display: none;
 	}
 }
+@media (max-width:540px) {
+	.student-intro-img {
+		width: 60px !important;
+		height: 60px !important;
+		top: -15% !important;
+	}
+}
 
 @media screen and (max-width:520px) {
 	.banner_one h2 {
@@ -809,7 +816,7 @@ text-align: center;
 		left: 30%;
 	}
 	.banner_pen-7{
-		top: 125%;
+		top: 115%;
 		left: 30%;
 	}
 
@@ -881,18 +888,8 @@ text-align: center;
 		}
 	}
 }
-
-@media (max-width:540px) {
-	.student-intro-img {
-		width: 60px !important;
-		height: 60px !important;
-		top: -15% !important;
-	}
-}
-
 @media (max-width:800px) {
 	.student-intro {
 		margin-top: 50px;
 	}
-
 }

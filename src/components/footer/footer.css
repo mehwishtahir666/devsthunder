@@ -4,7 +4,7 @@
 .footer{
     font-size: 15px;
     line-height: 30px;
-    padding: 30px 10px 10px 20px;
+    padding: 30px 10px 20px 20px;
     box-sizing: border-box;
     color: white;
 }
@@ -13,7 +13,7 @@
 }
 .footer_card{
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 14px;
 /* border: 1px solid red; */
 border-radius: 20px;
 box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.299);
@@ -47,7 +47,7 @@ box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.299);
     /* border: 2px solid red; */
     width: 180px;
     display:flex ;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: max-content;
 }

@@ -9,6 +9,10 @@
 transform: translate(-50% ,0%);
   box-shadow: var(--box-shadow);
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: var(--mainColor);
+}
 /* ---------header element---------- */
 header {
   height: 40px;
@@ -22,6 +26,7 @@ header {
 .header_sideDiv {
   background-color: var(--subColor);
   color: var(--mainColor);
+  height: 100%;
 }
 .header_icon-outline{
   width: 30px;
@@ -32,6 +37,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header_infodiv{
+  font-size: 13px;
 }
 /* --------navbar element------------- */
 nav {
@@ -52,7 +60,6 @@ nav {
   color: var(--mainColor);
 }
 .nav_main{
-
   width: max-content;
 }
 .navbar-nav {
@@ -72,10 +79,15 @@ right: 50px;
     font-size: 14px;
   }
   .header_icondiv{
-    font-size: 15px;
-  }
-  .header_infodiv{
     font-size: 13px;
+  }
+  .header_icon-outline{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:2px solid var(--mainColor);
+    font-size: 14px;
+
   }
 }
 @media (max-width:990px){
@@ -86,8 +98,31 @@ right: 50px;
     background-color: white;
   }
 }
-@media (max-width:350px) {
+/* @media (max-width:350px) {
   header {
     height: 50px;
+  }
+
+} */
+@media (max-width:575px){
+  header{
+    height: 40px;
+    padding-left:10px;
+  }
+}
+@media (max-width:342px){
+  header{
+    height: 60px;
+    padding-left:10px;
+  }
+  .header_sideDiv{
+    width: 100%;
+height: max-content;
+padding:20;
+    background-color: transparent;
+    margin: auto;
+  }
+  .header_icondiv{
+    background-color: var(--subColor);
   }
 }
