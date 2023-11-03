@@ -5,9 +5,12 @@
   top: 0%;
   z-index: 6;
   left: 50%;
-    /* border: 1px solid red; */
 transform: translate(-50% ,0%);
   box-shadow: var(--box-shadow);
+}
+.header_cont{
+  border: 3px solid black;
+
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none;
@@ -44,8 +47,8 @@ header {
 /* --------navbar element------------- */
 nav {
   height: 65px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 .nav_component-main{
   border-bottom-left-radius: 50px;
@@ -112,15 +115,14 @@ right: 50px;
 }
 @media (max-width:342px){
   header{
-    height: 60px;
+    height: 70px;
     padding-left:10px;
   }
   .header_sideDiv{
     width: 100%;
-height: max-content;
-padding:20;
+height: 35px;
     background-color: transparent;
-    margin: auto;
+    margin: auto !important;
   }
   .header_icondiv{
     background-color: var(--subColor);

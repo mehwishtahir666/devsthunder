@@ -65,6 +65,16 @@ box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.299);
 .footer_sec_2 , .footer_sec_3 , .footer_sec_4{
     padding:0px;
 }
+.footer_lastRow{
+    width: 90% !important;
+    margin: auto !important;
+    margin-top: 30px !important;
+    flex-direction: row !important;
+    border-top: 1px solid white;
+}
+.footer_lastRow p{
+    width: max-content;
+}
 @media (max-width:700px) {
     .footer{
     padding: 30px 0px;
@@ -76,5 +86,8 @@ box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.299);
 @media (max-width:450px){
     .footer_row1{
         padding:0px 30px;
+    }
+    .footer_lastRow p{
+        width: 80%;
     }
 }
