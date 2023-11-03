@@ -19,12 +19,12 @@ const Footer = () => {
               <div className="footer_logo m-auto">
                 <img className=" m-0 p-0" src={logo} alt="" />
               </div>
-              <h6 className="fw-bold coloryellow m-0 mt-3 p-0">Web Development</h6>
               <p className="p-0 m-0 mt-3 parasize">DevsThunder is a forward-thinking web development company and software house. We specialize in creating cutting-edge digital solutions that empower businesses and individuals.</p>
             
               <div className="footer_lineCol1"></div>
-              <p className=" p-0 m-0 mt-3 parasize">DevsThunder copyright 2023</p>
-              <p className="m-0 p-0 parasize">All Rights Reserved | Terms</p>
+              <h6 className="fw-bold coloryellow m-0 mt-3 p-0">Web Development</h6>
+              {/* <p className=" p-0 m-0 mt-3 parasize">DevsThunder copyright 2023</p>
+              <p className="m-0 p-0 parasize">All Rights Reserved | Terms</p> */}
             </div>
           </div>
           {/* ---------------col2---------------- */}
@@ -63,7 +63,11 @@ const Footer = () => {
           </div>
           {/* -------------------------------------- */}
         </div>
-
+<div className="footer_lastRow row d-flex justify-content-center">
+<p className="  p-0 m-0 mt-3 parasize text-center">DevsThunder copyright 2023</p>
+          <p className="  m-0 mt-3 ms-2 p-0 parasize text-center">All Rights Reserved | Terms</p>
+         
+</div>
       </div>
     </div>
   )
