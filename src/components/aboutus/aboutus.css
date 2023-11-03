@@ -51,7 +51,8 @@
     border:none;
     margin-left:20px;
     border-radius:10px;
-    background-color:white;
+    background-color:var(--color1);
+    color:white;
     font-family:var(--fontFamily);
 }
 .aboutus-main .video-box{

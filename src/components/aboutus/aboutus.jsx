@@ -8,12 +8,12 @@ const Aboutus = () => {
     <>
     <div className='aboutus-main'>
         <div className='text'>
-            <h1>GET MORE RESUMES</h1>
-            <h2>& QUALIFIED CANDIDATES</h2>
+            <h1>Get More Resumes</h1>
+            <h2>& Qualified Candidates</h2>
             <p>The Virtual Job Fair Software Of Choice<br/> That Engages Candidate & Recruiters</p>
             <div className='btn-box'>
-                <button>WATCH A DEMO</button>
-                <button className='get-btn'>GET A QUOTE</button>
+                <button>Watch a Demo</button>
+                <button className='get-btn'>Get a Quote</button>
             </div>
         </div>
         <div className="video-box">
