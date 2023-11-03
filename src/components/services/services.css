@@ -1,3 +1,52 @@
+.realstate .banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(44, 47, 50, 0.7), rgb(50, 48, 44, .7)),url(./slide-02.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.realstate .cont{
+    padding: 20px 110px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.realstate .banner .textbox{
+    margin-top: 150px;
+}
+.realstate .banner h1{
+    font-size: 40px;
+    /* font-weight: 600; */
+    color: white;
+}
+.realstate .banner .p2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.realstate .banner button{
+    font-size: 18px;
+    padding: 8px 20px;
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+.realstate .banner li{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: max-content;
+}
+.realstate .banner .playbtn{
+    font-size: 40px;
+    margin-left: 20px;
+    color: var(--subColor);
+}
 .realstate{
     height: auto;
     width: 100%;
@@ -5,7 +54,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 60px ;
     background-color: #FFFFFF;
 }
 .realstate .left{

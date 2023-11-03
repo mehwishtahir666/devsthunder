@@ -1,6 +1,7 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import { BsBagCheck } from "react-icons/bs";
 import Carousel from "react-elastic-carousel";
+import {BiPlayCircle  } from "react-icons/bi";
 import img1 from './img7.webp'
 import './services.css'
 
@@ -14,9 +15,17 @@ const breakPoints = [
 ];
 
 const Servicess = () => {
-    const [items, setItems] = useState([1, 2, 3, 4, 5, 6,7]);
+    const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7]);
     return (
         <div className='realstate'>
+            <div className="banner">
+                <div className="textbox">
+                    <h1>We Build Beautiful Websites</h1>
+                    <p className='p2'>Bring in More Leads With a New Website</p>
+                    <li><p><button className='btnn'>START YOUR PROJECT</button> </p> <p className='playbtn'><BiPlayCircle/></p> </li>
+                </div>
+            </div>
+            <div className="cont">
             <div className="left">
                 <h1>Our <span>Real Estate</span></h1>
                 <h1>Digital Marketing</h1>
@@ -29,17 +38,18 @@ const Servicess = () => {
                     <Carousel id='crouseee' className='crousee' breakPoints={breakPoints} >
                         {items.map((item) => (
                             <div className='padd'>
-                              <div  className="box">
-                              <h3>Website Design &</h3>
-                              <h3>Development</h3>
-                              <p className='p-1'>Website Design & Development</p>
-                              <img src={img1} alt="" />
-                              <li><p> <span>from</span> $480 month</p> <BsBagCheck className='icon'/>  </li>
-                          </div>
-                          </div>
+                                <div className="box">
+                                    <h3>Website Design &</h3>
+                                    <h3>Development</h3>
+                                    <p className='p-1'>Website Design & Development</p>
+                                    <img src={img1} alt="" />
+                                    <li><p> <span>from</span> $480 month</p> <BsBagCheck className='icon' />  </li>
+                                </div>
+                            </div>
                         ))}
                     </Carousel>
-                    </div>
+                </div>
+            </div>
             </div>
         </div>
     )

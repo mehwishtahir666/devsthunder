@@ -16,8 +16,6 @@ const Project = () => {
       <div className="banner">
        <div className="textbox">
         <h1>We Build Beautiful Websites</h1>
-        <h1></h1>
-        <h1></h1>
         <p className='p2'>Bring in More Leads With a New Website</p>
         <li><p><button className='btnn'>START YOUR PROJECT</button> </p> <p className='playbtn'><BiPlayCircle/></p> </li>
        </div>
