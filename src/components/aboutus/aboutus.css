@@ -1,3 +1,11 @@
+:root {
+    --mainColor: #127A93;
+    --color1: #0C5C97;
+    --subColor: #FAD509;
+    --paragraphSize: 18px;
+    --fontFamily: 'Poppins', sans-serif;
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} 
 .aboutus-main{
     width:100%;
     height:auto;
@@ -29,7 +37,7 @@
 }
 .aboutus-main .text p{
     color:white;
-    font-size:20px;
+    font-size:var(--paragraphSize);
     letter-spacing:1px;
     margin-top:20px;
 }
