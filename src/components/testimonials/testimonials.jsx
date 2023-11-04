@@ -2,7 +2,13 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <div className="testimonial">
+    <div className="testimon">
+        <div className="left"></div>
+        <div className="right">  
+        </div>
+    </div>
+   </div>
   )
 }
 
