@@ -158,10 +158,13 @@
 .services-1 .container-2 .icn-2{
     font-size: 25px;
     color: white;
-    padding: 6px 12px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
     border-radius: 50%;
     background-color:#FAA176;
-    width: max-content;
 }
 .services-1 .container-2 .icn-3{
     background-color: #F774AA;
