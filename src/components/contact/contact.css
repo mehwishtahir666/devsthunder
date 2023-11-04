@@ -154,10 +154,10 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
 .contactus .icn-1{
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #FFA76C;
     height: max-content;
-    padding: 17px 23px;
+    padding: 15px 20px;
     color: white;
 }
 .contactus .icn-2{
@@ -167,8 +167,8 @@
     background-color: #4D306E;
 }
 .contactus .box-a h1{
-    font-size: 27px;
-    color:#746981;
+    font-size: 25px;
+    color:#424045;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -177,16 +177,16 @@
     flex-direction: column;
 }
 .contactus .box-a .p-a{
-    font-size: 19px;
-    color:#746981;
+    font-size: 17px;
+    color:#424045;
     font-weight: bold;
     margin-top: 15px;
 }
 .contactus .box-a .p-b{
-    margin-top: 15px;
-    font-size: 17px;
+    margin-top: 10px;
+    font-size: 16px;
     font-weight: bold;
-    color:#746981;
+    color:#424045;
 }
 @media screen and (max-width:1075px) {
     .contactus .cont{

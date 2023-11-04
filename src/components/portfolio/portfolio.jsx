@@ -4,7 +4,6 @@ import { BsArrowRightShort } from "react-icons/bs";
 import display from './images/ezgif.com-optimize__2___2_.gif';
 import mobile from './images/mobile2.gif'
 import laptop from "./images/displayy.gif"
-
 const Portfolio = () => {
   return (
     <>
