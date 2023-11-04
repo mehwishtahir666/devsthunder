@@ -1,5 +1,67 @@
 .testimonial{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: auto;
     width: 100%;
+}
+.testimonial .banner{
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    background-image: linear-gradient(rgba(44, 47, 50, 0.8), rgb(50, 48, 44, .8)), url('./images/image-asset.jpeg');
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.testimonial .textdiv{
+    height: auto;
+    width: max-content;
+}
+.testimonial .banner h1{
+    font-size: 45px;
+}
+.testimonial .testimon{
+    width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid ; */
+}
+.testimonial img{
+    width: 100%;
+}
+.testimonial .left{
+    width: 30%;
+    height: auto;
+    border: 1px solid;
+}
+.testimonial .right{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding:0 20px;
+}
+.testimonial .testimon .name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:25px;
+}
+.testimonial ul{
+    padding: 0;
+    display: flex;
+}
+.testimonial ul li{
+    margin: 0 3px;
+    color:#FAD509;
+}
+.testimonial .right button{
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    padding-bottom: 3px;
+    font-size: 17px;
+    margin-top: 15px;
 }
