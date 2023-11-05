@@ -5,6 +5,10 @@ import Results from './results/results'
 import Services2 from "./services2/services2"
 import Engangment from "./engangment/Engangment"
 import Spliter from './spliter/spliter'
+import Form from "./form/form"
+import Faqs from './faqs/faqs'
+import Newsletter from './newsletter/newsletter'
+import Industries from './industries/industries'
 
 
 const Home = () => {
@@ -12,10 +16,12 @@ const Home = () => {
     <div>
       <Banner/>
       <Engangment/>
-      <Spliter/>
+      <Industries/>
       <Services2/>
-      <Results/>
+      <Newsletter/>
       <Platforms/>
+      <Faqs/>
+      <Form/>
     </div>
   )
 }
