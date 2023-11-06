@@ -97,6 +97,10 @@
     height: auto;
 
 }
+.about_engangment .box-1 ul{
+    padding: 0 !important;
+    margin: auto;
+}
 @media screen and (max-width:1000px) {
     .about_engangment .left .box-1{
         right: 0;
@@ -134,6 +138,8 @@
     }
     .about_engangment .left .box-1{
         border-radius: 5px;
-        padding: 3px 8px;
+        padding: 5px 8px;
+        height: auto !important;
     }
+  
 }

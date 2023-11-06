@@ -1,10 +1,10 @@
 .domain{
     height: auto;
     width: 100%;
-    padding: 60px ;
+    padding: 30px 60px ;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     justify-content: space-between;
     align-items: center ;
     background-color:var(--background);
@@ -21,7 +21,7 @@
     height: auto;
     width: 35%;
     padding: 30px 20px;
-    background:linear-gradient(#f5f5f5,#fcf8f8);
+    /* background:linear-gradient(#f5f5f5,#fcf8f8); */
     border-radius: 10px ;
     box-shadow: 2px 5px 10px 3px var(--box-shadow);
 
@@ -89,4 +89,33 @@
 }
 .domain .box12{
     background-color: #FFEEC5;
+}
+@media screen and (max-width:1020px ) {
+    .domain {
+        padding: 30px;
+    }
+    
+}
+@media screen and (max-width:980px){
+    .domain .center{
+        width: 100%;
+    }
+    .domain .right{
+        width: 100%;
+    }
+}
+@media screen and (max-width:620px){
+  .domain .right .box{
+    width: calc(33.33% - 10px);
+    padding: 12px 5px;
+  }
+}
+@media screen and (max-width:420px){
+    .domain{
+        padding: 20px 10px;
+    }
+    .domain .right .box{
+        width: calc(50% - 10px);
+        padding: 8px 5px;
+      }
 }

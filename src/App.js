@@ -16,7 +16,6 @@ function App() {
   return (
     <BrowserRouter>
         <Header/>
-        
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
@@ -26,8 +25,6 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/pricing" element={<Pricing/>}/>
       <Route path="/testimonials" element={<Testimonial/>}/>
-   
-
     </Routes>
     <Footer/>
     </BrowserRouter>
