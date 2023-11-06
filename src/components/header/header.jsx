@@ -42,7 +42,6 @@ function Header() {
           </div>
         </div>
       </header>
-
       {/* --------navbar-------- */}
       <nav className='w-100  bg-light p-0 m-0'>
         {/* ====nav component===== */}
