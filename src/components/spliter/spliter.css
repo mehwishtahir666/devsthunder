@@ -49,7 +49,6 @@
     color:black;
     border-radius:50%;
 }
-
 @media screen and (max-width:1075px) {
     .ForMain .background-box{
         padding:60px 10px;

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --mainColor: #127A93;
+  --color1: #0C5C97;
+  --subColor: #FAD509;
+  --paragraphSize: 18px;
+  --fontFamily: 'Poppins', sans-serif;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: var(--fontFamily);
+}
+.newsletter{
+    width:100%;
+    height:50vh;
+    margin-top:20px;
+    background-color:rgb(240, 240, 240);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.newsletter .text-box{
+    width:90%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align: center;
+}
+.newsletter .text-box h3{
+    color:var(--color1);
+    font-weight:600;
+}
+.newsletter .text-box p{
+    color:black;
+}
+.newsletter .inp-box{
+    width:90%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+}
+.inp-box .inp-btn{
+    width:60%;
+    height:60px;
+    background-color:#ffff;
+    border-radius:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+    overflow:hidden;
+}
+.inp-box .inp-btn .news-input{
+    width:80%;
+    height:100%;
+    border:none;
+    outline:none;
+    padding:10px;
+}
+.inp-box .inp-btn button{
+    width:140px;
+    height:100%;
+    border:none;
+    border-radius:30px;
+    background-color:var(--color1);
+    color:white;
+}
+@media screen and (max-width:525px) {
+    .inp-box .inp-btn{
+        width:100%;
+        height:50px;
+    }
+}
