@@ -17,7 +17,8 @@
     justify-content: center;
 }
 .services-1 .cont{
-    padding: 20px 110px;
+    width:100%;
+    height:auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -64,9 +65,9 @@
     background-color: #FFFFFF;
 }
 .services-1 .left{
-    /* border: 1px solid; */
     height: max-content;
     width: 40%;
+    padding:15px;
 }
 .services-1 h1{
     font-size: 40px;
@@ -78,6 +79,9 @@
     font-size: 17px;
     color: #495057;
 }
+.services-1  .left h1{
+    font-size:40px !important;
+}
 .services-1 .left button{
     background-color: var(--mainColor);
     color: white;
@@ -87,14 +91,12 @@
     font-size:18px;
 }
 .services-1 .right{
-    /* border: 1px solid; */
     height: auto;
     width: 60%;
     padding: 30px 0 30px 30px;
 }
 
 .services-1 .right .box{
-    /* border: 1px solid red; */
     width: 95%;
     padding: 15px;
     height: 100%;
@@ -300,7 +302,6 @@
 @media screen and (max-width:850px){
     .services-1 .crousee{
         padding: 0 !important;
-        /* background-color: red; */
     }
     .services-1 .rec-arrow-right{
         display: none;
@@ -321,4 +322,10 @@
     .services-1 .container-2 .box-1{
         width: 100%;
     }
+}
+@media screen and (max-width:360px) {
+    .services-1  .left h1{
+        font-size:30px !important;
+    }
+    
 }
