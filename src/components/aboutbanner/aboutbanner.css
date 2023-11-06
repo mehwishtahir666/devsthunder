@@ -1,4 +1,3 @@
-
 .aboutus-main{
     width:100%;
     height:auto;
@@ -39,15 +38,6 @@
     height:auto;
     margin-top:50px;
 }
-.aboutus-main .text .btn-box button{
-    padding:10px;
-    border:none;
-    margin-left:20px;
-    border-radius:10px;
-    background-color:var(--color1);
-    color:white;
-    font-family:var(--fontFamily);
-}
 .aboutus-main .video-box{
     width:40%;
     height:70vh;
@@ -60,7 +50,6 @@
 .aboutus-main .video-box .play-box{
     width:80%;
     height:70%;
-    border-right:15px solid white;
     border-radius:35px;
     box-shadow: -41px 20px 32px -3px rgba(225, 224, 224, 0.51);
     overflow:hidden;
@@ -70,7 +59,6 @@
     height:100%;
     border-radius:28px;
 }
-
 @media screen and (max-width:1075px) {
 
     .aboutus-main .text{
@@ -78,7 +66,6 @@
         padding:30px 20px;
     }
 }
-
 @media screen and (max-width:1009px) {
     .aboutus-main{
         display:flex;
