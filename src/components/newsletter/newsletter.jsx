@@ -5,12 +5,12 @@ const Newsletter = () => {
   return (
     <div className='newsletter'>
       <div className='text-box'>
-        <h3>Join Our Newsletter</h3>
+        <h2>Join Our Newsletter</h2>
         <p>Get fresh news and updates delivered straight to your inbox by subscribing to<br/> our newsletter!</p>
       </div>
       <div className="inp-box">
         <div className="inp-btn">
-          <input type="text" className='news-input' /> 
+          <input type="text" placeholder='JOIN US NOW !' className='news-input' /> 
           <button>Subscribe</button>
         </div> 
       </div>
