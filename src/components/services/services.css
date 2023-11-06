@@ -22,6 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding:0 20px !important;
 }
 .services-1 .banner .textbox{
     margin-top: 150px;
@@ -104,7 +105,7 @@
     border-radius: 10px;
 }
 .services-1 .right .padd{
-    padding: 10px 0;
+    padding: 10px;
 }
 .services-1 img{
     width: 100%;
