@@ -5,7 +5,7 @@ import img2 from './images/70x70-3.png'
 
  const Engangment = () => {
   return (
-    <div className='container-lg about_engangment'>
+    <div className='about_engangment'>
        
     <div className="left">
         <img className='img1' src={img1} alt="" />

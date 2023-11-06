@@ -19,10 +19,9 @@
    background-color: rgb(232, 221, 221);
 }
 .about_engangment .left{
-    height: 95vh;
+    height: auto;
     width: 50%;
     position: relative;
-    /* border: 1px solid red; */
 }
 .about_engangment .left .box-1{
     height: 13%;
@@ -57,7 +56,6 @@
     width: 45%;
     overflow-Y: scroll;
     padding: 30px;
-    /* border: 1px solid blue; */
 }
 .about_engangment .left p{
     font-size: 18px;
@@ -141,5 +139,4 @@
         padding: 5px 8px;
         height: auto !important;
     }
-  
 }
