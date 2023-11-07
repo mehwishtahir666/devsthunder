@@ -48,16 +48,24 @@
     align-items:center;
 }
 .aboutus-main .video-box .play-box{
-    width:80%;
-    height:70%;
+    width:90%;
+    height:auto;
+    padding-bottom:70px;
     border-radius:35px;
-    box-shadow: -41px 20px 32px -3px rgba(225, 224, 224, 0.51);
     overflow:hidden;
+    position: relative;
 }
 .play-box img{
     width:100%;
-    height:100%;
+    /* height:100%; */
     border-radius:28px;
+}
+.play-box .playbtn{
+    font-size:60px;
+    position: absolute;
+    top:32%;
+    left:46%;
+    color: var(--subColor);
 }
 @media screen and (max-width:1075px) {
 

@@ -34,7 +34,7 @@ const Form = () => {
           <p className='icn-2 icn-3'><FaMapMarkerAlt/></p>
           <li>
             <p>ADDRESS</p>
-             <p>National hiway lahore</p>
+             <p>National highway lahore</p>
           </li>
         </div><div className="box-2">
           <p className='icn-2 icn-4'><MdOutgoingMail/></p>

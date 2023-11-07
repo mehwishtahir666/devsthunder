@@ -18,7 +18,7 @@ const breakPoints = [
   { width: 1750, itemsToShow: 6 },
 ];
 const Servicess = () => {
-  const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7]);
+  const [items, setItems] = useState(["/images/mango.png", "/images/banana.png", "/images/mango.png", "/images/banana.png","/images/mango.png", "/images/banana.png", "/images/mango.png"]);
   return (
     <div className='services-1'>
       <div className="banner">
@@ -45,7 +45,7 @@ const Servicess = () => {
                     <h3>Website Design &</h3>
                     <h3>Development</h3>
                     <p className='p-1'>Website Design & Development</p>
-                    <img src={img1} alt="" />
+                    <img src={item} alt="" />
                     <li><p> <span>from</span> $480 month</p> <BsBagCheck className='icon' />  </li>
                   </div>
                 </div>

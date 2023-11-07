@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 110px;
+  padding: 20px ;
 }
 .profiles .banner .textbox{
   margin-top: 150px;
@@ -331,9 +331,7 @@
     .profile h1 , .profile .right h1{
         font-size: 35px;
     }
-
 }
-
 @media screen and (max-width:500px){
   .profile .left{
     width: 100%;
@@ -356,8 +354,19 @@
   .profile{
     padding: 0 15px;
 }
-
-  
+.profiles .banner{
+  height: 90vh;
+}
+.profiles .banner h1{
+  font-size: 28px;
+  /* margin-top: 10%; */
+}
+.profiles .banner .p2{
+  font-size: 15px;
+} 
+.profiles .banner .btnn{
+  font-size: 15px;
+}
 }
 @media screen and (max-width:350px){
   
