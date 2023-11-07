@@ -20,18 +20,18 @@ const Contactus = () => {
         <h1 className='h1'>Contact Us</h1>
         <form className='form' action="">
           <ul>
-            <li><p><BiSolidUser/></p> <input type="text" placeholder='YOUR NAME' /></li>
-            <li><p><IoMailSharp/></p> <input type="text" placeholder='YOUR EMAIL ADDRESS' /></li>
-            <li><p><FaBox/></p> <input type="text" placeholder='YOUR BUSSINESS NAME' /></li>
-            <li><p><FaPhone/></p> <input type="text" placeholder='YOUR PHONE' /></li>
-            <li className='li-wi'><p><BiSolidBook/></p> <input type="text" placeholder='SELECT SERVICE' /></li>
+            <li className='li-inp'><p><BiSolidUser/></p> <input type="text" placeholder='YOUR NAME' /></li>
+            <li className='li-inp'><p><IoMailSharp/></p> <input type="text" placeholder='YOUR EMAIL ADDRESS' /></li>
+            <li className='li-inp'><p><FaBox/></p> <input type="text" placeholder='YOUR BUSSINESS NAME' /></li>
+            <li className='li-inp'><p><FaPhone/></p> <input type="text" placeholder='YOUR PHONE' /></li>
+            <li className='li-wi li-inp'><p><BiSolidBook/></p> <input type="text" placeholder='SELECT SERVICE' /></li>
           </ul>
         <li className='li-text'><p><FaPencil/></p>   <textarea name="" placeholder='YOUR MESSAGE' ></textarea></li>
         <div className="div-t">
-          <p>Please provide your initial requirements details here to get an instant quote</p>
-        <p className='p2'>We will reply as soon as possible. Thank you!</p>
-        <button>GET QOUTE</button>
-        </div>
+           <p>Please provide your initial requirements details here to get an instant quote</p>
+           <button className='button'>GET QOUTE</button>
+           <p className='p2'>We will reply as soon as possible. Thank you!</p>
+        </  div>
         </form>
 
         <div className="box-a">
