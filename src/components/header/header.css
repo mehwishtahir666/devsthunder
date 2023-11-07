@@ -14,7 +14,7 @@ transform: translate(-50% ,0%);
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none;
-  color: var(--mainColor);
+  color: var(--mainColor) !important;
 }
 /* ---------header element---------- */
 header {

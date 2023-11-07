@@ -33,7 +33,7 @@
     border-radius: 20px 5px;
     display: flex;
     align-items: center;
-    box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: rgb(249, 248, 248);
 }
 .about_engangment .left .box2{

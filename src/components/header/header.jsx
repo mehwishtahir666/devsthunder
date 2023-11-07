@@ -13,7 +13,6 @@ function Header() {
     {/*=============== header element =============*/}
     <div className='mainheader p-0 container-lg'>
       <header className='w-100 ps-sm-4 text-light d-flex flex-wrap align-items-center justify-content-between m-0' > 
-
       <div className='header_infodiv d-flex flex-wrap align-items-center p-0 m-0'>
 
           <div className='header_info1 p-0 m-0 d-flex align-items-center'>
