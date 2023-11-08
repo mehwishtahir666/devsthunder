@@ -314,6 +314,32 @@ text-align: center;
 
 
 }
+.banner_circlefixed{
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	background-color: var(--subColor);
+	z-index: 3;
+}
+.banner_fixed-icon{
+	font-size: 30px;
+	color: var(--mainColor);
+}
+.banner_chat{
+	width: 100px;
+	border: 1px solid red;
+	position: absolute;
+	top: -20px;
+	background-color: white;
+
+}
 /*  ===========================*/
 @media screen and (max-width:1150px) {
 	.banner_circle {

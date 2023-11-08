@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import "./banner.css"
 import angular from "./images/angular.png"
 import jQuery from "./images/jquery.png"
@@ -18,6 +18,7 @@ import facebook from"./images/Facebook_PNG_Ícone_Logo_Transparente_Sem_Fundo-re
 import { LiaFacebookF } from "react-icons/lia";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { BiLogoTwitter } from "react-icons/bi";
+import { AiOutlineMessage } from "react-icons/ai";
 import melon from "./images/meloninteractive.jpeg"
 import cricwaves from "./images/250x90-cricwaves.png"
 import bmwlogo from "./images/BMW_logo__gray_.svg-removebg-preview.png"
@@ -27,6 +28,7 @@ import puremaker from "./images/pngtree-professional-company-website-logo-png-im
 import similarweb from "./images/similarWeb-removebg-preview.png"
 import toyota from "./images/toyota-removebg-preview.png"
 const Banner = () => {
+  const [toggle,setToggle] = useState(true);
   return (
     <div>
       <div class="banner min-vh-100 mh-auto w-100 border-0 border-success d-flex justify-content-center  align-items-center">
@@ -169,9 +171,14 @@ const Banner = () => {
           </button>
         </div>
         {/* ---------banner component ends */}
+<div className="banner_circlefixed"  onClick={() => setToggle(!toggle)}>
+  <AiOutlineMessage className='banner_fixed-icon'/>
+  {toggle && (
+      <div className='banner_chat'>...chat div</div>
+      )}
+</div>
 
       </div>
-  
     </div>
   )
 }
