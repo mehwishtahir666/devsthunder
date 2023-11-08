@@ -311,8 +311,6 @@ text-align: center;
 	top: -10%;
 	left:90%;
 	display: flex;
-
-
 }
 .banner_circlefixed{
 	width: 70px;
@@ -325,20 +323,46 @@ text-align: center;
 	align-items: center;
 	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-	background-color: var(--subColor);
+	background-color: var(--mainColor);
 	z-index: 3;
 }
 .banner_fixed-icon{
 	font-size: 30px;
-	color: var(--mainColor);
+	color: var(--subColor);
 }
-.banner_chat{
-	width: 100px;
-	border: 1px solid red;
+.banner_chatDiv{
+	min-width: 350px;
+	min-height: 230px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 	position: absolute;
-	top: -20px;
+	top: -320%;
+	right: 100%;
+	border-radius: 40px;
+	overflow: hidden;
 	background-color: white;
-
+}
+.banner_chatDiv-bar{
+	background-color: var(--subColor);
+}
+.banner_chatDiv-whatsappIcon{
+	font-size: 26px;
+}
+.banner_chatDiv-textDiv{
+	width: 80%;
+	min-height:50px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	/* border: 1px solid black; */
+	border-radius: 30px;
+	background-color: white;
+}
+.banner_chatDiv-btn {
+	width: 130px;
+	height: 50px;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: var(--mainColor);
+	border-radius: 40px;
 }
 /*  ===========================*/
 @media screen and (max-width:1150px) {
