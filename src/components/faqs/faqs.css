@@ -1,0 +1,17 @@
+.fqs_heading{
+    font-size: 20px !important;
+    /* font-weight:bold !important; */
+
+}
+@media (max-width:535px) {
+    .fqs_heading{
+        font-size: 16px !important;
+        font-weight:light !important;
+    }
+    
+    
+}
+.accordion-button::after:focus ,.accordion-button::after:active{
+   color: white !important;
+   background-color: aqua;
+}
