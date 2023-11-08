@@ -8,6 +8,7 @@ import Faqs from './faqs/faqs'
 import Newsletter from './newsletter/newsletter'
 import Industries from './industries/industries'
 import Nextstory from './nextstory/nextstory'
+import Reviews from './reviews/reviews'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Services2/>
       <Newsletter/>
       <Platforms/>
+      <Reviews/>
       <Faqs/>
       <Nextstory/>
       <Form/>
