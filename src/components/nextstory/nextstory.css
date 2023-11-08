@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --mainColor: #127A93;
+  --color1: #0C5C97;
+  --subColor: #FAD509;
+  --paragraphSize: 18px;
+  --fontFamily: 'Poppins', sans-serif;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: var(--fontFamily);
+}
+.nextstory-main{
+    width:100%;
+    height:auto;
+    background-color:lightslategray;
+    padding:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.nextstory-main .story-box{
+    width:100%;
+    height:auto;
+    background-color:#ffff;
+    box-shadow: -15px 9px 19px -6px rgba(0,0,0,0.46);
+    border-radius:20px;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+}
+.nextstory-main .story-box .img-box{
+    width:42%;
+    height:100%;
+    padding:20px;
+}
+.nextstory-main .story-box .img-box img{
+    width:100%;
+}
+.nextstory-main .story-box .text-box{
+    width:46%;
+    height:100%;
+    padding:20px;
+}
+.nextstory-main .story-box .text-box h2{
+    color:var(--color1);
+    font-size:25px;
+    font-weight:bold;
+}
+.nextstory-main .story-box .text-box p{
+    font-family:var(--fontFamily);
+    font-size:var(--paragraphSize);
+    color:black;
+    line-height:25px;
+}
+.nextstory-main .story-box .text-box button{
+    border:none;
+    border-radius:20px;
+    padding:10px 20px;
+    background-color:orange;
+    color:white;
+}
+@media screen and (max-width:1050px) {
+    .nextstory-main .story-box{
+        flex-wrap:wrap;
+    }
+    .nextstory-main .story-box .img-box{
+        width:100%
+    }
+    .nextstory-main .story-box .text-box{
+        width:100%;
+    }
+}
+@media screen and (max-width:560px) {
+    .nextstory-main{
+        padding:20px;
+    }
+    .nextstory-main .story-box{
+        padding:20px;
+    }
+    .nextstory-main .story-box .text-box h2{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:323px){
+    .nextstory-main .story-box .text-box{
+        padding:0;
+    }
+}

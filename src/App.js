@@ -1,4 +1,3 @@
-
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import Footer from "./components/footer/footer"
@@ -12,7 +11,7 @@ import Project from './components/project/project';
 import Servicess from './components/Services';
 import Testimonial from './components/Testimonials';
 
-function App() {
+function App() { 
   return (
     <BrowserRouter>
         <Header/>
