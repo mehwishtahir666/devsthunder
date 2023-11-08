@@ -174,13 +174,13 @@ const Banner = () => {
         {/* ---------banner component ends */}
 <div className="banner_circlefixed">
   <AiOutlineMessage className='banner_fixed-icon'/>
-      <div className='banner_chatDiv'>
+      {/* <div className='banner_chatDiv'>
 <div className="banner_chatDiv-bar w-100 d-flex py-3 px-4 align-items-center"><AiOutlineWhatsApp className='banner_chatDiv-whatsappIcon'/><h5 className='p-0 m-0 ms-2'>Whatsapp</h5></div>
 <div className='banner_chatDiv-textDiv mt-3 ms-3 d-flex justify-content-center align-items-center'>
   <p className='p-0 m-0'>hello! how can we help you?</p>
 </div>
 <button className='banner_chatDiv-btn ms-3 mt-4'>Open Chat</button>
-      </div>
+      </div> */}
 
 </div>
 
