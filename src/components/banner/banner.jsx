@@ -29,7 +29,7 @@ import similarweb from "./images/similarWeb-removebg-preview.png"
 import toyota from "./images/toyota-removebg-preview.png"
 import {AiOutlineWhatsApp} from "react-icons/ai";
 const Banner = () => {
-
+const [toggle,setToggle] = useState(false);
   return (
     <div>
       <div class="banner min-vh-100 mh-auto w-100 border-0 border-success d-flex justify-content-center  align-items-center">
@@ -172,18 +172,17 @@ const Banner = () => {
           </button>
         </div>
         {/* ---------banner component ends */}
-<div className="banner_circlefixed">
+<div className="banner_circlefixed" onClick={()=>{setToggle(toggle==false?true:false)}}>
   <AiOutlineMessage className='banner_fixed-icon'/>
-      {/* <div className='banner_chatDiv'>
+</div>
+{toggle &&  <div className='banner_chatDiv'>
 <div className="banner_chatDiv-bar w-100 d-flex py-3 px-4 align-items-center"><AiOutlineWhatsApp className='banner_chatDiv-whatsappIcon'/><h5 className='p-0 m-0 ms-2'>Whatsapp</h5></div>
 <div className='banner_chatDiv-textDiv mt-3 ms-3 d-flex justify-content-center align-items-center'>
   <p className='p-0 m-0'>hello! how can we help you?</p>
 </div>
 <button className='banner_chatDiv-btn ms-3 mt-4'>Open Chat</button>
-      </div> */}
-
-</div>
-
+      </div>
+      }
       </div>
     </div>
   )
