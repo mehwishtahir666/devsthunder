@@ -3,7 +3,7 @@ import "./aboutbanner.css"
 import three from "./images/three.jpg"
 import { BiPlayCircle } from "react-icons/bi";
 const Aboutbanner = () => {
-  return (
+  return ( 
     <div className='aboutus-main'>
       <div className='text'>
         <h1>Get More Resumes</h1>
@@ -15,9 +15,9 @@ const Aboutbanner = () => {
           <img src={three} alt="" />
           <BiPlayCircle className='playbtn' />
         </div>
-      </div>
+      </div> 
     </div>
   )
-}
+} 
 
 export default Aboutbanner
