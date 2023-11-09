@@ -11,20 +11,16 @@ import img8 from './images/icon-4.png'
 import img9 from './images/icon-5.png'
 import img10 from './images/icon-6.png'
 import img11 from './images/icon-7.png'
-import img12 from './images/icon-9.png'
-import img13 from './images/icon-8.png'
-
-
 
 const Industries = () => {
   return (
     <div className='domain'>
         <div className="center">
             <img src={img11} alt="" />
-        <p className='p1'>INDUSTRIES WE WORK FOR</p>
+        <p className='p1'>Industries We Work For</p>
             <h1>Helping</h1>
-            <h1>Businesses in All</h1>
-            <h1>Domains</h1>
+            <h1>Businesses in <span className='indsH'>all</span> </h1>
+            <h1 className='indsH'>Domains</h1>
       
            <p className='p2'>We build better businesses. We help our clients identify and deliver bottom-line improvements.</p>
         </div>
@@ -34,47 +30,47 @@ const Industries = () => {
                 <p>Construction</p>
             </div>
             
-            <div className="box box4">
+            <div className="box box2">
                 <img src={img2} alt="" />
                 <p>D'Cluttering</p>
             </div>
-            <div className="box box6">
+            <div className="box box">
                 <img src={img3} alt="" />
                 <p>Textile</p>
             </div>
-            <div className="box box5">
+            <div className="box box2">
                 <img src={img4} alt="" />
                 <p>Corporate Business</p>
             </div>
-            <div className="box box7">
+            <div className="box box2">
                 <img src={img5} alt="" />
                 <p>Education</p>
             </div>
-            <div className="box box2">
+            <div className="box box">
                 <img src={img6} alt="" />
                 <p>Digital Marketing</p>
             </div>
-            <div className="box box8">
+            <div className="box box2">
                 <img src={img7} alt="" />
                 <p>Restaurant</p>
             </div>
-            <div className="box box9">
+            <div className="box box">
                 <img src={img9} alt="" />
                 <p>Retail</p>
             </div>
-            <div className="box box10">
+            <div className="box box">
                 <img src={img7} alt="" />
                 <p>Chemical</p>
             </div>
-            <div className="box box11">
+            <div className="box box2">
                 <img src={img8} alt="" />
                 <p>Clothing</p>
             </div>
-            <div className="box box12">
+            <div className="box box">
                 <img src={img9} alt="" />
                 <p>Trading</p>
             </div>
-            <div className="box box3">
+            <div className="box box2">
                 <img src={img10} alt="" />
                 <p>Ecommerce Development</p>
             </div>

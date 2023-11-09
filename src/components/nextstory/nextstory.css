@@ -19,7 +19,7 @@
     width:100%;
     height:auto;
     background-color:lightslategray;
-    padding:50px;
+    padding:50px 40px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -51,12 +51,12 @@
 }
 .nextstory-main .story-box .text-box h2{
     color:var(--color1);
-    font-size:25px;
+    font-size:var(--subH1);
     font-weight:bold;
 }
 .nextstory-main .story-box .text-box p{
     font-family:var(--fontFamily);
-    font-size:var(--paragraphSize);
+    font-size:var(--normalT);
     color:black;
     line-height:25px;
 }

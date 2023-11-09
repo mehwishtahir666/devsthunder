@@ -79,7 +79,7 @@ const about = () => {
                     </div>
                     <div className="col h-100 border-0 border-warning mt-5 mt-sm-3 over">
                         <div className="about_rows2 row border-0 border-danger rounded-top w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-                            <h3 className="about_headings2 fs-3 mt-2 ">
+                            <h3 className="about_headings2 mt-2 ">
                                 <GiBurningDot className="dot-icon" />
                                 About Us</h3>
                             <p className="about_rows_p2 para">
@@ -87,7 +87,7 @@ const about = () => {
                             </p>
                         </div>
                         <div className="about_rows2 row rounded-top  w-sm-80 mx-sm-3 min-h-23 py-2 w-100 mx-0">
-                            <h3 className="about_headings2 fs-3 mt-2 ">
+                            <h3 className="about_headings2 mt-2 ">
                                 <GiBurningDot className="dot-icon" />Whom We Serve
                             </h3>
                             <p className="about_rows_p2  lh-lg">

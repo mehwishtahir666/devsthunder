@@ -25,16 +25,17 @@
   margin-top: 150px;
 }
 .profiles .banner h1{
-  font-size: 40px;
+  font-size: var(--h1);
+  font-weight:bolder;
   /* font-weight: 600; */
 }
 .profiles .banner .p2{
-  font-size: 18px;
+  font-size: var(--simpleT);
   font-weight: 500;
   margin-top: 30px;
 }
 .profiles .banner button{
-  font-size: 18px;
+  font-size: var(--smallT);
   padding: 8px 20px;
   background-color: var(--mainColor);
   border: none;
@@ -89,7 +90,7 @@
     width: 100%;
 }
 .profile .right h1{
-    font-size: 45px;
+    font-size: var(--h1);
 }
 .profile .right{
   width: calc(100% - 420px) ;
@@ -100,9 +101,7 @@
 .profile .right li{
     display: flex;
     align-items: center;
-     font-size: 18px;
      color: #181818;
-     font-weight: 550;
 }
 .profile .boxdiv{
     height: auto;
@@ -147,7 +146,7 @@
 }
 .profile .box-speed h1{
     color: rgb(243, 241, 241);
-    font-size: 35px;
+    font-size:var(--miniH1);
 }
 .profile .line{
     background-color: var(--mainColor);
@@ -164,7 +163,7 @@
 .profile .btn-1{
     padding: 10px 20px;
     background-color: var(--mainColor);
-    font-size: 18px;
+    font-size: var(--smallT);
     color: white;
     border-radius: 50px;
     margin-top: 30px;
@@ -175,7 +174,7 @@
   padding: 5px 15px;
   border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
-  font-size: 13px;
+  font-size: var(--xsmallT);
   margin: 0 10px;
 }
 

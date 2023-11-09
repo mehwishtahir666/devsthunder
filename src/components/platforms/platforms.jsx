@@ -11,9 +11,9 @@ import img7 from './images/github-removebg-preview.png'
 
  const Platforms = () => {
   return (
-    <div className='container-lg platforms py-5'>
+    <div className='container-fluid platforms py-5'>
      <h1>Platforms & Institutions We are working </h1>
-     <p className='p-1'>dispkay of credentails bestowed on siddhi infosoft by top tech influencers acress the globe</p>
+     <p className='p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molestiae.</p>
         <div className="cont">
         <div className="left">
             <div className="box1">

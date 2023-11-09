@@ -60,6 +60,7 @@
 }
 .circle-main .circle .small-circle h1{
     font-weight:bold;
+    font-size:var(--miniH1);
 }
 .radius-box .circle-main .round-box{
     width:40%;
@@ -79,6 +80,7 @@
 } 
 .circle-cube p{
     margin-top:10px;
+    font-size:var(--smallT);
     color:var(--mainColor);
 }
 .circle-main .round-box .inner-box{
@@ -94,16 +96,19 @@
 .inner-box h1{
     color: var(--mainColor);
     font-weight:bold;
+    font-size:var(--h1);
 }
 .inner-box p{
     color:white;
     letter-spacing:1px;
+    font-size:var(--simpleT);
 }
 .inner-box button{
     color:white;
     background-color:var(--color1);
-    padding:8px 10px;
+    padding:8px 14px;
     border:none;
+    font-size:var(--smallT);
     border-radius:10px;
 }
 .go{

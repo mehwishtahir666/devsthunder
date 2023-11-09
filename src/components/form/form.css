@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 50px 100px;
+    padding: 50px 40px;
 }
 .form-main .form{
     height: auto;
@@ -113,7 +113,7 @@
     background-color: #F3B100;
 }
 .form-main h1{
-    font-size: 30px;
+    font-size:var(--miniH1);
 }
 
 @media screen and  (max-width:1000px) {

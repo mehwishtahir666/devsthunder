@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root {
-  --mainColor: #127A93;
-  --color1: #0C5C97;
-  --subColor: #FAD509;
-  --paragraphSize: 18px;
-  --fontFamily: 'Poppins', sans-serif;
-  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --mainColor: #127A93;
+    --color1: #0C5C97;
+    --subColor: #FAD509;
+    --paragraphSize: 18px;
+    --fontFamily: 'Poppins', sans-serif;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
     font-family: var(--fontFamily);
 }
-.services2-banner{
+
+.services2-banner {
     height: max-content;
 }
-.services2-col1{
+
+.services2-col1 {
     height: 335px;
     background-color: #FAFAFA;
     border-radius: 30px;
@@ -41,16 +44,15 @@
 .benefits-of-services2__block {
     position: relative;
     z-index: 2;
-    /* border: 1px solid black; */
-width: 93%;
-height: 200px;
-margin: auto;
-margin-top: 25%;
-
+    width: 93%;
+    height: 200px;
+    margin: auto;
+    margin-top: 25%;
 }
+
 .benefits-of-services2__title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: var(--paragraphSize);
     line-height: 27px;
     color: #0c0a14;
     padding-bottom: 28px;
@@ -59,47 +61,54 @@ margin-top: 25%;
 .benefits-of-services2__text {
     padding-bottom: 0;
     font-weight: 300;
-    font-size: 14px;
+    font-size: var(--smallT);
     line-height: 23px;
     color: #4b4b4b;
 }
+
 @media screen and (max-width:572px) {
-    .benefits-of-services2__block{
+    .benefits-of-services2__block {
         margin-top: 19%;
     }
 }
+
 @media screen and (max-width:360px) {
-    .benefits-of-services2__block{
+    .benefits-of-services2__block {
         margin-top: 27%;
     }
 }
+
 @media screen and (max-width:347px) {
-    .benefits-of-services2__block{
+    .benefits-of-services2__block {
         margin-top: 27%;
-      
+
     }
+
     .services2-col1 {
         height: max-content;
         padding-bottom: 70px;
         box-sizing: border-box;
     }
 }
+
 @media screen and (max-width:347px) {
- 
+
     .services2-col1 {
         height: max-content;
         padding-bottom: 90px;
         box-sizing: border-box;
     }
 }
+
 @media screen and (max-width:347px) {
- 
+
     .services2-col1 {
         height: max-content;
         padding-bottom: 120px;
         box-sizing: border-box;
     }
 }
+
 @media screen and (max-width:271px) {
     .services2-col1 {
         height: max-content;

@@ -1,7 +1,7 @@
 .domain{
     height: auto;
     width: 100%;
-    padding: 30px 60px ;
+    padding: 30px 40px;
     display: flex;
     flex-wrap: wrap;
     /* margin-top: 60px; */
@@ -12,7 +12,6 @@
 .domain .right{
     width: 60%;
     height: auto;
-    /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -27,19 +26,23 @@
 
 }
 .domain .center h1{
-    font-size: 45px;
-    color: #383a3e;
-    margin: 0
+    font-size: var(--h1);
+    color: #030303c2;
+    margin: 0;
+}
+.indsH{
+    color:var(--mainColor) !important;
 }
 .domain ul{
     margin-top: 20px;
 }
 .domain .center .p1{
-    color: rgb(36, 35, 35);
+    color: rgb(92, 26, 26);
+    font-size:var(--simpleT);
 }
 .domain .center .p2{
     color: rgb(22, 21, 21);
-    font-size: 18px;
+    font-size: var(--simpleT);
     font-weight: lighter;
     margin-top: 20px;
     word-spacing: 7px;
@@ -48,47 +51,18 @@
 .domain img{
     width: 70px;
 }
+
 .domain  .box{
     height: auto;
     width: calc(25% - 10px);
     padding: 20px 25px;
     border-radius: 8px 30px ;
-    background-color: #F5DDDD;
+    background-color: #ffe98580;
     text-align: center;
     margin-top: 20px;
 } 
 .domain .box2{
-    background-color: #FFEEC5;
-}
-.domain .box3{
-    background-color: #C5FDF3;
-}
-.domain .box4{
-    background-color: #D3EBFF;
-}
-.domain .box5{
-    background-color: #EADAFF;
-}
-.domain .box6{
-    background-color: #DDFFD6;
-}
-.domain .box7{
-    background-color: #FFD4E2;
-}
-.domain .box8{
-    background-color: #FFEEC5;
-}
-.domain .box9{
-    background-color: #C5FDF3;
-}
-.domain .box10{
-    background-color: #D3EBFF;
-}
-.domain .box11{
-    background-color: #EADAFF;
-}
-.domain .box12{
-    background-color: #FFEEC5;
+    background-color: #87e5fa88;
 }
 @media screen and (max-width:1020px ) {
     .domain {

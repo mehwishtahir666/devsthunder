@@ -7,11 +7,9 @@ import img2 from './images/bg-image-24.jpg'
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
-    { width: 850, itemsToShow: 3 },
-    { width: 1150, itemsToShow: 4, itemsToScroll: 2 },
-    { width: 1450, itemsToShow: 5 },
-    { width: 1750, itemsToShow: 6 },
+    { width: 850, itemsToShow: 2},
+    // { width: 1450, itemsToShow: 4, itemsToScroll: 2 },
+    { width: 1750, itemsToShow: 3 },
 ];
 
 const Reviews = () => {
@@ -19,11 +17,8 @@ const Reviews = () => {
 
     return (
         <div className='reviews'>
-            {/* <div className="left">
-            <img src={img2} alt="" />
-            </div> */}
-            <div className="right">
-                <div >
+            <div className="right"> 
+                <div>
                     <Carousel id='crouseee' className='crousee' breakPoints={breakPoints} >
                         {items.map((item) => (
                             <div className='padd'>
@@ -42,7 +37,7 @@ const Reviews = () => {
                                    <div className='img'> <img src={img1} alt="" /></div>
                                    <ul>
                                    <h3>chairman</h3>
-                                   <p>ECO</p>
+                                   <p>CEO</p>
                                    <li><BsStarFill className='star'/><BsStarFill className='star'/><BsStarFill className='star'/><BsStarFill className='star'/><BsStarFill className='star'/></li>
                                    </ul>
                                    </div>

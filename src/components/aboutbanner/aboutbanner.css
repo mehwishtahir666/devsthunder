@@ -21,17 +21,18 @@
 }
 .aboutus-main .text h1{
     color:white;
-    font-size:50px;
+    font-size:var(--h1);
 }
 .aboutus-main .text h2{
     color:#FAD509;
-    font-size:40px;
+    font-size:30px;
 }
 .aboutus-main .text p{
     color:white;
     font-size:var(--paragraphSize);
     letter-spacing:1px;
     margin-top:20px;
+    font-size:var(--simpleT);
 }
 .aboutus-main .text .btn-box{
     width:auto;

@@ -28,17 +28,16 @@
     margin-top: 150px;
 }
 .services-1 .banner h1{
-    font-size: 40px;
-    /* font-weight: 600; */
+    font-size: var(--h1);
     color: white;
-}
+} 
 .services-1 .banner .p2{
-    font-size: 18px;
+    font-size: var(--simpleT);
     font-weight: 500;
     margin-top: 30px;
 }
 .services-1 .banner button{
-    font-size: 18px;
+    font-size:var(--smallT);
     padding: 8px 20px;
     background-color: var(--mainColor);
     border: none;
@@ -71,17 +70,17 @@
     padding:15px;
 }
 .services-1 h1{
-    font-size: 40px;
+    font-size:var(--h1);
     font-weight: bold;
     color: #495057;
 }
 .services-1  .left p{
     margin-top: 30px;
-    font-size: 17px;
+    font-size: var(--simpleT);
     color: #495057;
 }
 .services-1  .left h1{
-    font-size:40px !important;
+    font-size:var(--h1);
 }
 .services-1 .left button{
     background-color: var(--mainColor);
@@ -89,7 +88,7 @@
     border: none;
     border-radius: 50px;
     padding: 10px 25px;
-    font-size:18px;
+    font-size:var(--smallT);
 }
 .services-1 .right{
     height: auto;
@@ -224,21 +223,21 @@
     background-color: #004E74;
 }
 .services-1 .container-2 .box-1 h1{
-    font-size: 20px;
+    font-size: var(--subheading);
     margin-top: 10px;
     color: rgb(58, 58, 78);
 }
 .services-1 .container-2 ul{
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size:var(--xsmallT);
 }
 .services-1 .container-2 li{
     margin-top: 10px;
 }
 .services-1  .lern{
     margin: 20px 10px;
-    font-size: 15px;
+    font-size: var(--smallT);
     width: max-content;
     padding-bottom: 3px ;   
     border: none;

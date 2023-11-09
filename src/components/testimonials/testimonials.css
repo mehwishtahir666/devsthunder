@@ -20,8 +20,12 @@
     width: max-content;
 }
 .testimonial .banner h1{
-    font-size: 45px;
+    font-size: var(--h1);
+    font-weight: bolder;
     margin-top: 50px;
+}
+.testimonial .banner p{
+    font-size: var(--simpleT);
 }
 .testimonial .testimon{
     width: 90%;
@@ -50,7 +54,7 @@
     padding: 0 20px;
 }
 .testimonial .testimon .name{
-    font-size: 20px;
+    font-size: var(--subheading);
     font-weight: bold;
     margin: 15px 0;
 }

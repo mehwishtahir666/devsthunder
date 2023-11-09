@@ -1,9 +1,8 @@
-
 .platforms{
     height: auto;
     width: 100%;
     background-color: var(--background);
-    padding: 30px 0;
+    padding: 30px 40px !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,11 +20,13 @@
  }
  .platforms .p-1{
     margin-top: 20px;
-    font-size: 18px;
+    font-size:var(--simpleT);
     color: rgb(24, 24, 24); 
- }
- .platforms h1{
+}
+.platforms h1{
+     font-size: var(--h1);
      color: rgb(48, 47, 47);
+     /* font-weight:bolder; */
  }
  .platforms .left, .platforms .right{
     height: auto;
@@ -51,7 +52,7 @@
      text-align: left;
  }
  .platforms .box1 p{
-     font-size: 18px;
+     font-size: var(--simpleT);
      margin-top: 5px;
  }
  .platforms .center{
@@ -104,6 +105,6 @@
         padding: 20px 10px;
     }
     .platforms{
-        padding: 20px 0px;
+        padding: 20px 0px !important;
     }
 }

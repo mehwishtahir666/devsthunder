@@ -1,10 +1,9 @@
-
 .about_engangment{
     width: 100%;
-    height: max-content;
+    height:max-content;
     display: flex;
     flex-wrap: wrap; 
-    align-items: center;
+    /* align-items: center; */
     padding: 40px;
     background-color: var(--background);
     color: rgb(234, 234, 234);
@@ -16,13 +15,19 @@
     border-radius: 5px 80px;
     width: 70%;
     box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
-   background-color: rgb(232, 221, 221);
+    background-color: rgb(232, 221, 221);
 }
 .about_engangment .left{
-    height: auto;
+    height: max-content;
     width: 50%;
-    position: relative;
+    position: sticky;
+    top:20px;
 }
+
+.li1{
+    font-size:var(--subheading);
+}
+
 .about_engangment .left .box-1{
     height: 13%;
     padding-left: 10px;
@@ -52,14 +57,11 @@
     width: 50px;
 }
 .about_engangment .right{
-    height: 95vh;
+    height: max-content;
     width: 45%;
-    overflow-Y: scroll;
     padding: 30px;
 }
 .about_engangment .left p{
-    font-size: 18px;
-    font-weight: 600;
     color: #202252;
     margin-left: 15px;
     line-height:  1em;
@@ -67,10 +69,12 @@
 }
 .about_engangment .right h1{
     color: #202252;
-    font-size: 40;
+    /* border:1px solid red; */
+    font-size:var(--h1);
 }
 .about_engangment span{
-    color:  rgb(245, 69, 69);
+    /* color:  rgb(245, 69, 69); */
+    color:var(--mainColor);
 }
 .about_engangment .right ul{
     display: flex;
@@ -83,12 +87,17 @@
 }
 .about_engangment .p1{
     margin:30px 0 50px 0;
+    font-size:var(--simpleT);
     color: rgb(35, 35, 35);
 }
 .about_engangment .p2{
-    color: rgb(17, 17, 85);
-    font-size: 20px;
-
+    color:var(--mainColor);
+    /* color: rgba(17, 17, 85, 0.897); */
+    font-size: var(--subheading);
+    font-weight:bolder;
+}
+.about_engangment .p3{
+    font-size:var(--simpleT)
 }
 .about_engangment .logo{
     width: 30px;

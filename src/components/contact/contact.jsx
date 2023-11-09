@@ -5,11 +5,10 @@ import { IoMailSharp} from "react-icons/io5";
 import { BiSolidUser,BiSolidBook } from "react-icons/bi";
 import {FaBox,FaPencil } from "react-icons/fa6";
 import { FaPhone,FaMapMarkerAlt } from "react-icons/fa";
-
 import { HiMapPin } from "react-icons/hi2";
 
-const Contactus = () => {
-  return (
+const Contactus = () => { 
+  return ( 
     <div className='contactus'>
       <div className="banr">
       <h1>Get in touch</h1>
@@ -29,7 +28,7 @@ const Contactus = () => {
         <li className='li-text'><p><FaPencil/></p>   <textarea name="" placeholder='YOUR MESSAGE' ></textarea></li>
         <div className="div-t">
            <p>Please provide your initial requirements details here to get an instant quote</p>
-           <button className='button'>GET QOUTE</button>
+           <button className='button'>GET QUOTE</button>
            <p className='p2'>We will reply as soon as possible. Thank you!</p>
         </  div>
         </form>

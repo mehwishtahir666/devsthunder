@@ -3,8 +3,8 @@ import "./services2.css"
 const Services2 = () => {
     return (
         <>
-            <div className="container-fluid container-lg p-lg-5  services2-banner border-0 border-danger ">
-                <div className="row services2-row1  h-auto border-0 border-success ">
+            <div className="container-fluid p-lg-5 w-100 services2-banner">
+                <div className="row services2-row1 h-auto">
                     <div className=" services2-col12 col-10 col-sm-6 col-lg-4 m-auto mt-5 ">
                         <div className="services2-col1  ">
                             <span className="services2-col1-number " style={{ color: "#C9AEF8" }}>01</span>

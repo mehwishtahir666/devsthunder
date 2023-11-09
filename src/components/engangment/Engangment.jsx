@@ -34,21 +34,35 @@ import img2 from './images/70x70-3.png'
         <ul>
            <li> <img className='logo' src={img2} alt="" /></li>
            <li>
-                <p className='p2'>Dedicated Development Team</p>
+                <h2 className='p2'>Dedicated Development Team</h2>
                 <p className='p3'>Our team of developers is highly qualified and dedicated to delivering quality development services to clients.</p>
             </li>
         </ul>
         <ul>
            <li> <img className='logo' src={img2} alt="" /></li>
             <li>
-                <p className='p2'>Non-fixed Price</p>
+                <h2 className='p2'>Non-fixed Price</h2>
                 <p className='p3'>Dedicated Development Center offers a way to cut down the costs by hiring offshore personnel and at the same time provides an unparalleled degree of control.</p>
             </li>
         </ul>
         <ul>
            <li> <img className='logo' src={img2} alt="" /></li>
            <li>
-                <p className='p2'>Product Development</p>
+                <h2 className='p2'>Product Development</h2>
+                <p className='p3'>The project-based model is designed to help you get your product built from ideation to deployment by a team of expert software engineering consultants.</p>
+            </li>
+        </ul>
+        <ul>
+           <li> <img className='logo' src={img2} alt="" /></li>
+           <li>
+                <h2 className='p2'>Product Development</h2>
+                <p className='p3'>The project-based model is designed to help you get your product built from ideation to deployment by a team of expert software engineering consultants.</p>
+            </li>
+        </ul>
+        <ul>
+           <li> <img className='logo' src={img2} alt="" /></li>
+           <li>
+                <h2 className='p2'>Product Development</h2>
                 <p className='p3'>The project-based model is designed to help you get your product built from ideation to deployment by a team of expert software engineering consultants.</p>
             </li>
         </ul>

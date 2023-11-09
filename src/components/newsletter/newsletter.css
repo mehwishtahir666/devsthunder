@@ -41,15 +41,16 @@
 .newsletter .text-box h2{
     color:white;
     font-family:var(--fontFamily);
+    font-size:var(--miniH1);
     font-weight:bold;
 }
 .newsletter .text-box p{
-    color:white;
     color:gainsboro;
     font-family:var(--fontFamily);
     line-height:25px;
+    font-size:var(--simpleT);
     /* letter-spacing:2px; */
-    font-weight:600;
+    /* font-weight: bold; */
 }
 .newsletter .inp-box{
     width:80%;
@@ -57,6 +58,7 @@
     margin-top:20px;
     display:flex;
     justify-content:center;
+    font-size:var(--smallT);
 }
 .inp-box .inp-btn{
     width:60%;
@@ -64,6 +66,7 @@
     background-color:#ffff;
     border-radius:30px;
     display:flex;
+    font-size:var(--smallT);
     justify-content:center;
     align-items:center;
     justify-content:space-between;

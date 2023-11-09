@@ -14,7 +14,7 @@ const Project = () => {
     <div className='project'>
       <div className="contianer">
       {/* <h1 className='h1'>What if your website looked like this . . .</h1> */}
-        <h1 className='h2'>SUNTOUR WEBSITE</h1>
+        <h1 className='h2'>Suntour Website</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis corporis nobis quam minus sequi dolorum amet architecto <br /> omnis deleniti quos?</p>
         <ul>
           <button>HTML</button>

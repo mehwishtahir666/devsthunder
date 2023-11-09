@@ -11,10 +11,10 @@ const Testimonials = () => {
       <div className="banner">
      <div className="text">
      <h1>Testimonials</h1>
-      <p>What Are  They Saying About Us</p>
+      <p>What are they saying about Us</p>
      </div>
       </div>
-    <div className="testimon xxl-ms-auto">
+    <div className="testimon ms-auto">
         <div className="left">
           <img src={img2} alt="" />
         </div>
@@ -53,7 +53,7 @@ const Testimonials = () => {
           <img src={img2} alt="" />
         </div>
         <div className="right">
-          <p>AptEase exceeded my expectations with their exceptional service. The team understood my requirements perfectly and created a seamless user experience on my e-commerce platform. They were proactive, responsive, and provided regular updates throughout the development process. I am extremely satisfied with the end result and would definitely choose AptEase again for future projects.</p>  
+          <p>jjAptEase exceeded my expectations with their exceptional service. The team understood my requirements perfectly and created a seamless user experience on my e-commerce platform. They were proactive, responsive, and provided regular updates throughout the development process. I am extremely satisfied with the end result and would definitely choose AptEase again for future projects.</p>  
            <p className='name'>Savannah Gray</p>
            <ul>
             <li> <BsStarFill/></li>

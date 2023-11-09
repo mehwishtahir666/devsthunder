@@ -1,7 +1,6 @@
 .fqs_heading{
-    font-size: 20px !important;
-    /* font-weight:bold !important; */
-
+    font-size: var(--paragraphSize) !important;
+    font-weight:bold !important;
 }
 @media (max-width:535px) {
     .fqs_heading{

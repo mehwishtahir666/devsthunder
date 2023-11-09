@@ -21,8 +21,8 @@ const Servicess = () => {
   const [items, setItems] = useState(["/images/mango.png", "/images/banana.png", "/images/mango.png", "/images/banana.png","/images/mango.png", "/images/banana.png", "/images/mango.png"]);
   return (
     <div className='services-1'>
-      <div className="banner">
-        <div className="textbox">
+      <div className="banner"> 
+        <div className="textbox"> 
           <h1>We Build Beautiful Websites</h1>
           <p className='p2'>Bring in More Leads With a New Website</p>
           <li><p><button className='btnn'>START YOUR PROJECT</button> </p> <p className='playbtn'><BiPlayCircle /></p> </li>

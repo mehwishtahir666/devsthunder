@@ -24,15 +24,24 @@
 }
 .chairmain-box .message-box h1{
     font-family:var(--fontFamily);
+    font-size:var(--h1);
 }
 .chairmain-box .message-box b{
     color:var(--mainColor);
-    letter-spacing:2px;
+    /* letter-spacing:2px; */
+    font-size:var(--subheading);
 }
+
+.chairmain-box .message-box p{
+    font-size:var(--smallT);
+    margin-top:10px;
+}
+
 .chairmain-box .message-box button{
     padding:10px;
     border:none;
     border-radius:10px;
+    font-size:var(--smallT);
     background:linear-gradient(to left ,#0C5C97,#3996d8);
     transition: all 1s;
     color:white;
