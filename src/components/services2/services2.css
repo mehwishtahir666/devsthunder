@@ -19,6 +19,7 @@
 
 .services2-banner {
     height: max-content;
+    padding: 0 60px !important;
 }
 
 .services2-col1 {
@@ -65,7 +66,11 @@
     line-height: 23px;
     color: #4b4b4b;
 }
-
+ @media screen and (max-width:1075px) {
+    .services2-banner {
+        padding: 15px !important;
+    }
+ }
 @media screen and (max-width:572px) {
     .benefits-of-services2__block {
         margin-top: 19%;
