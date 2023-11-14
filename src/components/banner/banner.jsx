@@ -40,11 +40,11 @@ const [toggle,setToggle] = useState(false);
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner w-100  d-flex align-items-center">
+          <div class="carousel-inner w-100 d-flex align-items-center">
 
             {/* ============one item========== */}
 
-            <div class="carousel-item border-0 w-100 px-sm-4 px-0 active">
+            <div class="carousel-item w-100 px-sm-4 px-0 active">
             <div className="banner_techno-main px-sm-5 px-0  d-flex justify-content-evenly align-items-center border-0 border-dark w-100">
         <div className="banner_techno-sec1 p-5 text-center border-0 border-danger">
           <div className="banner_circle">
@@ -91,7 +91,7 @@ const [toggle,setToggle] = useState(false);
             </div>
             {/* ============ two item========== */}
 
-            <div class="carousel-item border-0 text-center">
+            <div class="carousel-item border-0 border-warning text-center">
               <div class="two d-flex justify-content-around align-items -center ">
                 <div class="two-cont2 w-100 d-flex justify-content-center align-items-center">
                   <div class="img1 img">
@@ -125,11 +125,11 @@ const [toggle,setToggle] = useState(false);
             </div>
             {/* ============ three item========== */}
             <div class="carousel-item border-0 border-dark">
-              <div className="banner_two-main">
-              <div className='banner_pentagon_text  w-100 border-0 border-warning'>
+              <div className="banner_two-main p-0 m-0">
+              <div className='banner_pentagon_text w-100 '>
             <h1 className='fw-bolder pb-3 m-0'><span className='banner3HadingSpan'>Companies</span> We are Serving</h1>
            </div>
-           <div className="banner_pentagon-main d-flex border-0 border-dark">
+           <div className="banner_pentagon-main d-flex">
            <div className='banner_pentagon d-flex justify-content-center align-items-center banner_pen-1'>
             <img className='w-75 h-auto' src={melon} alt="image not found"/>
            </div>
@@ -184,6 +184,11 @@ const [toggle,setToggle] = useState(false);
       </div>
       }
       </div>
+      {/* ---------------testing--------------------- */}
+      {/* ---------------testing--------------------- */}
+
+      {/* ---------------testing--------------------- */}
+
     </div>
   )
 }

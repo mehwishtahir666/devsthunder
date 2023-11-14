@@ -21,8 +21,8 @@ const Home = () => {
       <Newsletter/>
       <Platforms/>
       <Reviews/>
-      <Faqs/>
       <Nextstory/>
+      <Faqs/>
       <Form/>
     </div>
   )

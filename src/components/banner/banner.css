@@ -12,7 +12,6 @@
 .carousel-inner {
 	min-height: 80vh;
 }
-
 .banner_texttogether {
 	margin: 50px 0px;
 }
@@ -255,10 +254,11 @@
 /* ================banner_two */
 .banner_two-main{
 box-sizing: border-box;
-min-height: 80vh;
+min-height: 60vh;
 padding: 30px;
 text-align: center;
 }
+
 .banner_pentagon-main{
 	position: relative;
 	width: 700px;
@@ -394,7 +394,7 @@ text-align: center;
 }
 @media (max-width:1024px) {
 	.banner_two-main{
-		min-height: 80vh;
+		min-height: 60vh;
 		display: flex;
 		padding:  50px;
 		flex-direction:column ;
@@ -622,7 +622,7 @@ text-align: center;
 		margin-top: 50px;
 	}
 	.banner_two-main{
-		min-height: 80vh;
+		min-height: 70vh;
 		display: flex;
 		padding: 30px;
 		flex-direction:column;
@@ -678,6 +678,12 @@ text-align: center;
 	.banner_pen-9{
 	display: none;
 	}
+}
+@media (max-width:576px){
+	.carousel-inner {
+		height: 500px;
+	}
+
 }
 @media (max-width:540px) {
 	.student-intro-img {
@@ -821,7 +827,7 @@ text-align: center;
 
 	.banner_two-main{
 		/* border: 2px solid red; */
-		min-height: 80vh;
+		min-height: 50vh;
 		display: flex;
 		padding: 30px;
 		flex-direction:column ;
@@ -833,7 +839,7 @@ text-align: center;
 		position: relative;
 		width: 200px;
 		height: 65px;
-		margin-top:120px;
+		margin-top:100px;
 
 	}
 

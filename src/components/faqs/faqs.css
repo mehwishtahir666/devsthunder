@@ -1,3 +1,10 @@
+.cont{
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+}
+.fqs_acc{
+    background-color: #F9F9F9!important;
+}
 .fqs_heading{
     font-size: var(--paragraphSize) !important;
     font-weight:bold !important;
@@ -7,8 +14,4 @@
         font-size: 16px !important;
         font-weight:light !important;
     }
-}
-.accordion-button::after:focus ,.accordion-button::after:active{
-   color: white !important;
-   background-color: aqua;
 }
