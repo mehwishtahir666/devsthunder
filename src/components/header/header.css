@@ -76,7 +76,7 @@ position: absolute;
 right: 50px;
 }
 .nav-link{
- color: var(--mainColor) !important;
+ color:white !important;
  font-weight: 500; 
   margin-left:22px ;
 }
