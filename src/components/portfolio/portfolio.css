@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px ;
+  border: 2px solid red;
 }
 .profiles .banner .textbox{
   margin-top: 150px;
@@ -175,7 +176,7 @@
   border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
   font-size: var(--xsmallT);
-  margin: 0 10px;
+  margin: 10px;
 }
 
 /* ///////////////////////////////// */
@@ -371,6 +372,10 @@
   
     .profile .right .box-1{
         width: 100%;
+    }
+    .profile .btn1{
+      padding: 4px;
+      margin: 5px;
     }
     .profile .container {
     transform: scale(0.4);

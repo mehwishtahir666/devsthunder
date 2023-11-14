@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .services-1 .cont{
     width:100%;
@@ -34,7 +35,7 @@
 .services-1 .banner .p2{
     font-size: var(--simpleT);
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .services-1 .banner button{
     font-size:var(--smallT);
@@ -312,7 +313,7 @@
 }
 @media screen and (max-width:750px) {
     .services-1{
-        padding: 30px 15px;
+        padding: 30px 0;
     }
     .services-1 .container-2 .box-1{
         width: calc(50% - 10px);
@@ -321,6 +322,24 @@
 @media screen and (max-width:500px){
     .services-1 .container-2 .box-1{
         width: 100%;
+    }
+    .services-1 .banner{
+        height: 70vh;
+        text-align: center;
+        padding: 10px;
+    }
+    .services-1 .banner h1{ 
+        font-size: 30px;
+    }
+    .services-1 .banner li{
+        margin:auto;
+    }
+    .services-1 .banner .p2{
+        margin-top: 10px;
+    }
+
+    .services-1 .cont {
+        padding: 20px 0px !important;
     }
 }
 @media screen and (max-width:360px) {

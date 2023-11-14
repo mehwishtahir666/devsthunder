@@ -40,11 +40,11 @@ const Footer = () => {
           </div>
           {/* ---------------col3---------------- */}
 
-          <div className="col footer_col3 col-12 col-md-6 col-xl-3 border-0 mt-5 mt-lg-3 border-warning d-flex justify-content-center align-items-center">
+          <div className="col footer_col3 col-12 col-md-6 col-xl-3 border-0 mt-5 mt-lg-3 border-warning d-flex justify-content-left align-items-center">
           <ul className="footer_sec_3 minheight m-0 border-0 border-light m-0 text-center">
               <li className="parasize"><h6 className="fw-bold coloryellow">Our Social Networks</h6></li>
               <li className="parasize mt-3">Follow us on Social media and stay up-to-date with all our news and events</li>
-              <li className="mt-3"><div className="footer_icons-div m-auto mt-2">
+              <li className="mt-3"><div className="footer_icons-div m-auto  mt-2">
                <a href="https://www.facebook.com/profile.php?id=61553260912453" target="_blank"> <div className="footer_icon"><LiaFacebookF /></div></a>
                <a href="https://www.linkedin.com/in/mehwish-tahir-43a378299/" target="_blank">  <div className="footer_icon"><BiLogoLinkedin/></div></a>
                <a href="https://twitter.com/devs_thunder " target="_blank">  <div className="footer_icon"><BiLogoTwitter /></div></a>
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
           {/* ---------------col4---------------- */}
           <div className="col footer_col4 col-12 col-md-6 col-xl-3 border-0 border-warning   mt-5 mt-lg-3 d-flex justify-content-center align-items-center">
-            <ul className="footer_sec_4 minheight border-0 border-light text-center">
+            <ul className="footer_sec_4 minheight border-0 border-light text-left">
               <li className="parasize"><h6 className="fw-bold coloryellow">Contact Us</h6></li>
               <li className="p-0 m-0 mt-3 parasize"><LiaPhoneSolid className="fs-5"/>&nbsp;&nbsp;923013639966</li>
               <li className="p-0 m-0 mt-2 parasize"><LiaEnvelopeOpenSolid className="fs-5"/>&nbsp;&nbsp;devsthunder@gmail.com</li>
