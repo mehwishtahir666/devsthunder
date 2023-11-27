@@ -7,7 +7,7 @@ import img2 from './images/70x70-3.png'
   return (
     <div className='about_engangment'>
        
-    <div className="left">
+    <div className="left">  
         <img className='img1' src={img1} alt="" />
         <div className="box-1">
             <ul>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './testimonials.css'
 import img1 from './images/jhsdj.jpg'
+import { BiPlayCircle } from "react-icons/bi";
 import img2 from './images/gettyimages-1345121223-612x612.jpg'
 import img3 from './images/Clint_Work_select-scaled-e1582565571972.jpg'
 import {BsStarFill,BsArrowRightShort} from "react-icons/bs";
@@ -12,6 +13,7 @@ const Testimonials = () => {
      <div className="text">
      <h1>Testimonials</h1>
       <p>What are they saying about Us</p>
+      <BiPlayCircle className='playbtn' />
      </div>
       </div>
     <div className="testimon ms-auto">

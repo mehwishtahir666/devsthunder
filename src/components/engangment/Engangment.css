@@ -14,7 +14,7 @@
 .about_engangment .img1{
     border-radius: 5px 80px;
     width: 70%;
-    box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
+    box-shadow: rgba(0, 0, 0, 0.356) 0px 3px 8px;
     background-color: rgb(232, 221, 221);
 }
 .about_engangment .left{
@@ -22,7 +22,7 @@
     width: 50%;
     position: sticky;
     top:20px;
-    /* background-color:#FFFFFF; */
+    /* background-color:#f40808; */
 }
 
 .li1{
@@ -103,7 +103,6 @@
 .about_engangment .logo{
     width: 30px;
     height: auto;
-
 }
 .about_engangment .box-1 ul{
     padding: 0 !important;
@@ -129,23 +128,28 @@
     .about_engangment .left, .about_engangment .right{
         width: 100%;
     }
+    .about_engangment .left{
+    position: relative;
+    }
 }
 @media screen and (max-width:450px) {
     .about_engangment .left p{
         font-weight: 500;
         font-size: 16px;
+        margin: 10px 0 10px 0;
     }
     .about_engangment .left ul img{
         width: 26px;
+        
     }
     .about_engangment .left .img1{
-        border-radius: 5px;
+        border-radius: 5px 50px;
     }
     .about_engangment{
         padding: 20px 10px;
     }
     .about_engangment .left .box-1{
-        border-radius: 5px;
+        /* border-radius: 5px; */
         padding: 5px 8px;
         height: auto !important;
     }

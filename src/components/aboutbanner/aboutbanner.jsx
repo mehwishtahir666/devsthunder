@@ -8,7 +8,8 @@ const Aboutbanner = () => {
       <div className='text'>
         <h1>Get More Resumes</h1>
         <h2>& Qualified Candidates</h2>
-        <p>The Virtual Job Fair Software Of Choice<br /> That Engages Candidate & Recruiters </p>
+        <p>The Virtual Job Fair Software Of Choice<br /> That Engages Candidate</p>
+        <button className='btnn'>START YOUR PROJECT</button> 
       </div>
       <div className="video-box">
         <div className='play-box'>

@@ -27,6 +27,11 @@
 .testimonial .banner p{
     font-size: var(--simpleT);
 }
+.testimonial .playbtn{
+    font-size: var(--h1);
+    margin-left: 20px;
+    color: var(--subColor);
+}
 .testimonial .testimon{
     width: 90%;
     height: auto;
