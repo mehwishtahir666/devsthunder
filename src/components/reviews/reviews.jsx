@@ -32,7 +32,7 @@ const Reviews = () => {
                                         do. Great job and it's worth the time and money. I would
                                         recommend Suffescom to anyone looking for a great and
                                         experienced team for their development project.</p>
-                                    {/* <img src={item} alt="" /> */}
+                                    <img src={item} alt="" />
                                    <div className='img-div'>
                                    <div className='img'> <img src={img1} alt="" /></div>
                                    <ul>
