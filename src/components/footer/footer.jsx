@@ -46,7 +46,7 @@ const Footer = () => {
               <li className="parasize mt-3">Follow us on Social media and stay up-to-date with all our news and events</li>
               <li className="mt-3"><div className="footer_icons-div m-auto  mt-2">
                <a href="https://www.facebook.com/profile.php?id=61553260912453" target="_blank"> <div className="footer_icon"><LiaFacebookF /></div></a>
-               <a href="https://www.linkedin.com/in/mehwish-tahir-43a378299/" target="_blank">  <div className="footer_icon"><BiLogoLinkedin/></div></a>
+               <a href="https://www.linkedin.com/in/devs-thunder-43a378299/" target="_blank">  <div className="footer_icon"><BiLogoLinkedin/></div></a>
                <a href="https://twitter.com/devs_thunder " target="_blank">  <div className="footer_icon"><BiLogoTwitter /></div></a>
               </div></li>
             </ul>

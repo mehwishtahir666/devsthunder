@@ -30,7 +30,7 @@ function Header() {
             <LiaFacebookF />
             </div>
             </a>
-            <a href="https://www.linkedin.com/in/mehwish-tahir-43a378299/" target="_blank">
+            <a href="https://www.linkedin.com/in/devs-thunder-43a378299/" target="_blank">
             <div className="header_icon-outline">
             <BiLogoLinkedin />
             </div></a>
@@ -54,12 +54,12 @@ function Header() {
   </button>
   <div className="collapse p-0 m-0 navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav">
-      <Link className='nav-link' to="/">Home</Link>
-      <Link className='nav-link' to="/services">Services</Link>
-      <Link className='nav-link' to="/testimonials">Testimonials</Link>
-      <Link className='nav-link' to="/portfolio">Portfolio</Link>
-      <Link className='nav-link' to="/about">About</Link>
-      <Link className='nav-link' to="/contact">Contact</Link>
+      <Link  to="/" ><span className='nav-link' data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-expanded="false">Home</span></Link>
+      <Link  to="/services"  ><span className='nav-link' data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-expanded="false">Services</span></Link>
+      <Link  to="/testimonials"><span className='nav-link' data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-expanded="false">Testimonials</span></Link>
+      <Link  to="/portfolio"><span className='nav-link' data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-expanded="false">Portfolio</span></Link>
+      <Link  to="/about"><span className='nav-link' data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-expanded="false">About</span></Link>
+      <Link  to="/contact"><span className='nav-link' data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-expanded="false">Contact</span></Link>
     </div>
   </div>
 </div>

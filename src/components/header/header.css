@@ -89,6 +89,9 @@ right: 50px;
  font-weight: 500; 
   margin-left:22px ;
 }
+.nav-link a{
+  color: yellow !important;
+}
 @media (max-width:576px) {
   .nav_logoDiv{
     width: 140px;
