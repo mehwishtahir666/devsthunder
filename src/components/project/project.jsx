@@ -16,13 +16,13 @@ const Project = () => {
       {/* <h1 className='h1'>What if your website looked like this . . .</h1> */}
         <h1 className='h2'>Suntour Website</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis corporis nobis quam minus sequi dolorum amet architecto <br /> omnis deleniti quos?</p>
-        <ul>
+        <div className='btn-div'>
           <button>HTML</button>
           <button>CSS</button>
-          <button>JAVASCRIPT</button>
           <button>REACT</button>
+          <button>JAVASCRIPT</button>
           <button>BOOSTRAP</button>
-        </ul>
+        </div>
         <div className="website">      
         <div className="left">
           <img src={img1} alt="" />

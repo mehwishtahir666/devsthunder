@@ -27,27 +27,27 @@ const Form = () => {
           <p className='icn-2'><IoLogoWhatsapp/></p>
           <li>
             <p>WHATSAPP</p>
-             <p>+3207576483</p>
+             <p>+923013639966</p>
           </li>
         </div>
         <div className="box-2">
           <p className='icn-2 icn-3'><FaMapMarkerAlt/></p>
           <li>
             <p>ADDRESS</p>
-             <p>National highway lahore</p>
+             <p>239-2-C1 township, lahore</p>
           </li>
         </div><div className="box-2">
           <p className='icn-2 icn-4'><MdOutgoingMail/></p>
           <li>
             <p>EMAIL ADDRESS</p>
-             <p>Chairmen@gmail.com</p>
+             <p>devsthunder@gmail.com</p>
           </li>
         </div>
         <div className="box-2">
           <p className='icn-2 icn-1'><FaPhoneAlt/></p>
           <li>
             <p>PHONE</p>
-             <p>+3207576483</p>
+             <p>+923013639966</p>
           </li>
         </div>
        </div>

@@ -20,11 +20,12 @@
     color:rgba(0, 0, 0, 0.697);
     border-bottom: 2px solid var(--subColor);
     width: max-content;
-    margin: 40px  auto;
+    margin: 40px  auto 0 ;
 }
 
 .project .contianer p{
     font-size:var(--simpleT);
+    margin-top: 15px;
 }
 
 .project .website{
@@ -33,12 +34,15 @@
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
+    flex-wrap: wrap;
 }
 .project .website .left{
     height: max-content;
     width: calc(50% - 20px);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    border-radius:10px;
     overflow: hidden;
+    position: sticky;
+    top: 150px;
 }
 .project .website img{
     width: 100%;
@@ -46,22 +50,46 @@
 }
 .project .website .right{
     width: calc(50% - 20px);
-    height: 90vh;
-    overflow-y: scroll;
+    height: auto;
     padding: 0 10px;
 }
 .project .right img{
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
-.project  ul{
-    margin: 40px;
+.project  .btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.project ul button{
+.project .btn-div button{
     padding: 4px 15px;
     border: 1px solid grey;
     border-radius: 50px;
     margin: 0 10px;
     font-size: var(--smallT);
     /* box-shadow: 2px 2px 3px 1px var(--mainColor); */
-    margin-top: 30px;  
+    margin-top: 10px;  
 }
+ @media screen and (max-width:800px) {
+    .project .contianer{
+        padding:100px 15px 15px ;
+        }
+    .project .website .left, .project .website .right{
+        width: 100%;
+    }
+    .project .website .left{
+        position: relative;
+        top: 0;
+    }
+    .project .contianer .h2{
+        font-size: 30px;
+    }
+    .project .website .right{
+        height: 65vh;
+        overflow-y: scroll;
+    }
+    .project .website{
+        margin-top: 20px;
+    }
+ }
