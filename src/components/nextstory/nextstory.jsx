@@ -3,7 +3,7 @@ import "./nextstory.css"
 import laptop from "./images/lp3.png"
 
 const Nextstory = () => {
-  return (
+  return ( 
     <>
       <div className='nextstory-main'>
         <div className='story-box'>
