@@ -17,7 +17,8 @@
 }
 .newsletter{
     width:100%;
-    height:50vh;
+    height:auto;
+    padding:50px;
     margin-top:20px;
     background-image:url("./images/letr.jpg");
     letter-spacing:2px;
@@ -49,8 +50,6 @@
     font-family:var(--fontFamily);
     line-height:25px;
     font-size:var(--simpleT);
-    /* letter-spacing:2px; */
-    /* font-weight: bold; */
 }
 .newsletter .inp-box{
     width:80%;
@@ -89,9 +88,19 @@
     font-weight:bold;
     letter-spacing:1px;
 }
+@media screen and (max-width:650px) {
+    .newsletter{
+        padding:50px 20px;
+    }
+}
 @media screen and (max-width:525px) {
     .inp-box .inp-btn{
         width:100%;
         height:50px;
+    }
+}
+@media screen and (max-width:370px) {
+    .newsletter{
+        padding:20px 0px;
     }
 }
