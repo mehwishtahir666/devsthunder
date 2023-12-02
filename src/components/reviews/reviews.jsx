@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Carousel from "react-elastic-carousel";
 import './reviews.css'
 import { BsBagCheck, BsStarFill } from "react-icons/bs";
-import img1 from './images/gettyimages-1345121223-612x612.jpg'
+import img1 from './images/adil shafiq.png'
 import img2 from './images/bg-image-24.jpg'
 
 const breakPoints = [
@@ -23,21 +23,15 @@ const Reviews = () => {
                         {items.map((item) => (
                             <div className='padd'>
                                 <div className="box">
-                                    <h2>Clientspeak</h2>
-                                    <p className='p-2'>What Happy Clients Say AboutSuffescom.</p>
-                                    <p className='p-1'>I have worked with Suffescom on multiple projects, and
-                                        Doctor Weight Loss is one of them. The team has lived up to
-                                        my expectations with every project. I trust their work and
-                                        skills, and I'm convinced that they are experts at what they
-                                        do. Great job and it's worth the time and money. I would
-                                        recommend Suffescom to anyone looking for a great and
-                                        experienced team for their development project.</p>
-                                    <img src={item} alt="" />
+                                    <h2>Adil Shafiq</h2>
+                                    <p className='p-2 m-auto p-0 '>Mobile Phones & Tablets Diagnostics, Data Erasure (ADISA Approved) & Validation Software Company. </p>
+                                    <p className='p-1'>I was simply amazed by the Devs Thunder team's work and how quickly they completed the given project. Not only that but also the level of understanding they showed pertinent to the project is truly commendable. I highly recommend this company!</p>
+                                    {/* <img src={item} alt="" /> */}
                                    <div className='img-div'>
-                                   <div className='img'> <img src={img1} alt="" /></div>
+                                   <div className='img'><img src={img1} alt="" /></div>
                                    <ul>
-                                   <h3>chairman</h3>
-                                   <p>CEO</p>
+                                   <h3>Adil Shafiq</h3>
+                                   <p>Devs client</p>
                                    <li><BsStarFill className='star'/><BsStarFill className='star'/><BsStarFill className='star'/><BsStarFill className='star'/><BsStarFill className='star'/></li>
                                    </ul>
                                    </div>

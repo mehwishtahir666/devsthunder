@@ -39,7 +39,6 @@ const Footer = () => {
            
           </div>
           {/* ---------------col3---------------- */}
-
           <div className="col footer_col3 col-12 col-md-6 col-xl-3 border-0 mt-5 mt-lg-3 border-warning d-flex justify-content-left align-items-center">
           <ul className="footer_sec_3 minheight m-0 border-0 border-light m-0 text-center">
               <li className="parasize"><h6 className="fw-bold coloryellow">Our Social Networks</h6></li>

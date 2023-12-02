@@ -3,7 +3,6 @@
     height:max-content;
     display: flex;
     flex-wrap: wrap; 
-    /* align-items: center; */
     padding: 40px;
     background-color: var(--background);
     color: rgb(234, 234, 234);
@@ -131,6 +130,17 @@
     .about_engangment .left{
     position: relative;
     }
+    .about_engangment{
+        padding: 40px 40px 10px 40px;
+    }
+    .about_engangment .right{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:600px) {
+    .about_engangment .right h1{
+        font-size: 30px;
+    }
 }
 @media screen and (max-width:450px) {
     .about_engangment .left p{
@@ -146,7 +156,7 @@
         border-radius: 5px 50px;
     }
     .about_engangment{
-        padding: 20px 10px;
+        padding: 20px 10px 0px 10px;
     }
     .about_engangment .left .box-1{
         /* border-radius: 5px; */
@@ -154,3 +164,5 @@
         height: auto !important;
     }
 }
+
+

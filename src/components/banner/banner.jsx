@@ -8,7 +8,12 @@ import redux from "./images/redux.png"
 import html from "./images/231_Web_Development_-_Websites__Applications_and_Software-removebg-preview.png"
 import css from "./images/css3.png"
 import mdb from "./images/Outsource_Mongodb_Developers__Mongodb_Development_Services__Mongodb_Development_Company__Mongodb_Developers__Mongodb_Development-removebg-preview.png"
-import nodejs from "./images/Standardizing_Node_js_Version_in_an_npm_Package-removebg-preview.png"
+import nodejs from "./images/nodejs.png"
+import js from "./images/javascript-logo-transparent-logo-javascript-images-3.png"
+import react from "./images/react.png"
+import nextjs from "./images/nextjs-icon-2048x2048-ex16l2k4.png"
+import material from "./images/material-ui-icon-2048x1626-on580ia9.png"
+import mysql from "./images/MySQL-Logo.png"
 import bannerPerson from "./images/bannerPerson.png"
 import fiverr from"./images/fiverr.png"
 import linkedin from"./images/linkedIn (1).png"
@@ -16,7 +21,7 @@ import upwork from"./images/upwork.jpeg"
 import freelancer from"./images/freelancerlogo-1.png";
 import facebook from"./images/Facebook_PNG_Ícone_Logo_Transparente_Sem_Fundo-removebg-preview.png"
 import { LiaFacebookF } from "react-icons/lia";
-import { BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoLinkedin, BiLogoTailwindCss } from "react-icons/bi";
 import { BiLogoTwitter } from "react-icons/bi";
 import { AiOutlineMessage } from "react-icons/ai";
 import melon from "./images/meloninteractive.jpeg"
@@ -68,22 +73,22 @@ const [toggle,setToggle] = useState(false);
         <div className="banner_techno-sec2 border-0 border-danger  m-0 border-warning">
           <div className="banner_sec2-mainWhite border-0 border-warning">
             <div className="wCircleDiv1 d-flex w-auto justify-content-center border-0 border-danger">
-              <div className="wCircle wcir1"><img className="classimg" src={angular} alt="" /></div>
+              <div className="wCircle wcir1"><img className="classimg" src={html} alt="" /></div>
               <div className="wCircle wcir2 marginleftCustom"><img className="noclassimg" src={css} alt="" /></div>
-              <div className="wCircle wcir3 marginleftCustom"><img className="noclassimg" src={jQuery} alt="" /></div>
+              <div className="wCircle wcir3 marginleftCustom"><img className="noclassimg" src={js} alt="" /></div>
               <div className="wCircle wcir4 marginleftCustom"><img className="noclassimg" src={bootstrap} alt="" /></div>
             </div>
             <div className="wCircleDiv2 d-flex w-auto justify-content-center border-0 border-danger">
-              <div className="wCircle wcir5"><img className="classimg" src={html} alt="" /></div>
+              <div className="wCircle wcir5"><img className="noclassimg" src={angular} alt="" /></div>
               <div className="wCircle wcir6 marginleftCustom"><img className="classimg" src={redux} alt="" /></div>
-              <div className="wCircle wcir7 marginleftCustom"><img className="noclassimg" src={mdb} alt="" /></div>
+              <div className="wCircle wcir7 marginleftCustom"><img className="classimg" src={react} alt="" /></div>
               <div className="wCircle wcir8 marginleftCustom"><img className="noclassimg" src={nodejs} alt="" /></div>
             </div>
             <div className="wCircleDiv3 d-flex w-auto justify-content-center border-0 border-danger ">
-              <div className="wCircle wcir1"><img className="classimg" src={angular} alt="" /></div>
-              <div className="wCircle wcir2 marginleftCustom"><img className="noclassimg" src={css} alt="" /></div>
+              <div className="wCircle wcir1"><img className="noclassimg" src={mysql} alt="" /></div>
+              <div className="wCircle wcir2 marginleftCustom"><img className="classimg" src={nextjs} alt="" /></div>
               <div className="wCircle wcir3 marginleftCustom"><img className="noclassimg" src={jQuery} alt="" /></div>
-              <div className="wCircle wcir4 marginleftCustom"><img className="noclassimg" src={bootstrap} alt="" /></div>
+              <div className="wCircle wcir4 marginleftCustom"><img className="newclassimg" src={mdb} alt="" /></div>
             </div>
           </div>
         </div>

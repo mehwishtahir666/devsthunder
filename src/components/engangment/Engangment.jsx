@@ -5,7 +5,7 @@ import img2 from './images/70x70-3.png'
 
  const Engangment = () => {
   return (
-    <div className='about_engangment'>
+    <div className='about_engangment border-0 border-dark'>
        
     <div className="left">  
         <img className='img1' src={img1} alt="" />
@@ -28,44 +28,31 @@ import img2 from './images/70x70-3.png'
             </ul>
         </div>
     </div>
-    <div className="right">
+    <div className="right py-0 px-3  border-0 border-dark">
         <h1>Engagement Models <br/><span> We offer</span></h1>
         <p className='p1'>Your success journey starts with the right engagement model you choose for your business. We offer cost-efficient engagement and result oriented models that help businesses to reduce cost and control expenses. Let’s work together!</p>
         <ul>
            <li> <img className='logo' src={img2} alt="" /></li>
            <li>
                 <h2 className='p2'>Dedicated Development Team</h2>
-                <p className='p3'>Our team of developers is highly qualified and dedicated to delivering quality development services to clients.</p>
+                <p className='p3'>we understand the importance of bringing your digital visions to life. That's why we've assembled a Dedicated Development Team committed to transforming your ideas into reality. Our team consists of seasoned professionals, each handpicked for their expertise and dedication to delivering exceptional results.We adapt to the evolving needs of your project. Whether it's scaling the team or accommodating changes, our flexibility ensures that we meet your expectations at every stage.</p>
             </li>
         </ul>
         <ul>
            <li> <img className='logo' src={img2} alt="" /></li>
             <li>
                 <h2 className='p2'>Non-fixed Price</h2>
-                <p className='p3'>Dedicated Development Center offers a way to cut down the costs by hiring offshore personnel and at the same time provides an unparalleled degree of control.</p>
+                <p className='p3'>we understand that every project is unique, and one size doesn't fit all. That's why we've embraced a non-fixed pricing model, giving you the flexibility to tailor your investment based on the specific needs and aspirations of your project.We believe in transparency. With a non-fixed pricing model, you get a clear breakdown of costs, empowering you to make informed decisions throughout the development process.</p>
             </li>
         </ul>
         <ul>
            <li> <img className='logo' src={img2} alt="" /></li>
            <li>
                 <h2 className='p2'>Product Development</h2>
-                <p className='p3'>The project-based model is designed to help you get your product built from ideation to deployment by a team of expert software engineering consultants.</p>
+                <p className='p3'>we specialize in turning your digital dreams into tangible, user-centric products. Our product development in web development goes beyond just code — it's about crafting immersive experiences that captivate your audience and drive success.Your product's success is our priority. That's why we develop with scalability in mind, ensuring your product can grow seamlessly as your user base expands.</p>
             </li>
         </ul>
-        <ul>
-           <li> <img className='logo' src={img2} alt="" /></li>
-           <li>
-                <h2 className='p2'>Product Development</h2>
-                <p className='p3'>The project-based model is designed to help you get your product built from ideation to deployment by a team of expert software engineering consultants.</p>
-            </li>
-        </ul>
-        <ul>
-           <li> <img className='logo' src={img2} alt="" /></li>
-           <li>
-                <h2 className='p2'>Product Development</h2>
-                <p className='p3'>The project-based model is designed to help you get your product built from ideation to deployment by a team of expert software engineering consultants.</p>
-            </li>
-        </ul>
+  
     </div>
 </div>
   )

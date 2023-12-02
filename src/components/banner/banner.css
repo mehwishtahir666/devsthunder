@@ -33,21 +33,21 @@
 }
 
 /* ==== two item===== */
-.two h1 {
+.banner .two h1 {
 	color: var(--primary-white);
 }
 
-.two p {
+.banner .two p {
 	color: var(--primary-white);
 }
 
 /* ----- two--------- */
 
-.two h1 {
+.banner .two h1 {
 	color: var(--primary-white);
 }
 
-.two-images {
+.banner .two-images {
 	height: auto !important;
 	width: 100%;
 	display: flex;
@@ -57,27 +57,27 @@
 .banner3HadingSpan{
 	color: var(--mainColor);
 }
-.image {
+.banner .image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 120px;
 }
-.facebookimg{
+.banner .facebookimg{
 	width: 90%;
 }
-.upworkRound{
+.banner .upworkRound{
 	border-radius: 50%;
 	width: 90px;
 	height: 90px;
 	overflow: hidden;
 }
 /* ------ four --------- */
-.four .heading h1 {
+.banner .four .heading h1 {
 	color: var(--primary-white);
 }
 
-.four .student-intro img {
+.banner .four .student-intro img {
 	width: 5em;
 	height: 5em;
 	top: -34%;
@@ -86,12 +86,12 @@
 	border: 5px solid var(--subColor);
 }
 
-.four .student-intro h4 {
+.banner .four .student-intro h4 {
 	color: var(--primary-white);
 	font-size: var(--h2);
 }
 
-.four .student-intro p {
+.banner .four .student-intro p {
 	color: var(--primary-white);
 	font-size: var(--normal--para);
 }
@@ -161,17 +161,17 @@
 	color: #26a7de;
 }
 
-.ban_c-1 {
+.banner .ban_c-1 {
 	bottom: 10%;
 	left: 3%;
 }
 
-.ban_c-2 {
+.banner .ban_c-2 {
 	bottom: 28%;
 	left: -8%;
 }
 
-.ban_c-3 {
+.banner .ban_c-3 {
 	bottom: 50%;
 	left: -10%;
 }
@@ -186,10 +186,10 @@
 	border-radius: 20px;
 
 }
-.wCircleDiv2,.wCircleDiv3{
+.banner .wCircleDiv2,.wCircleDiv3{
 	margin-top: 30px;
 }
-.wCircle {
+.banner .wCircle {
 	width: 95px;
 	height: 95px;
 	display: flex;
@@ -199,55 +199,58 @@
 	box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.267);
 	background-color: white;
 }
-.marginleftCustom{
+.banner .marginleftCustom{
 	margin-left: 18px;
 }
-.wCircle .noclassimg {
+.banner .wCircle .noclassimg {
+	width: 90%;
+	height: auto;
+}
+.banner .wCircle .newclassimg {
 	width: 100%;
 	height: auto;
 }
-
-.wCircle .classimg {
+.banner .wCircle .classimg {
 	width: 50%;
 	height: auto;
 }
 
-.wcir1 {
+.banner .wcir1 {
 	top: 0;
 	left: 0;
 }
 
-.wcir1 {
+.banner .wcir1 {
 	top: -15%;
 	left: 40%;
 }
 
-.wcir3 {
+.banner .wcir3 {
 	top: -10%;
 	left: 80%;
 }
 
-.wcir4 {
+.banner .wcir4 {
 	top: 40%;
 	left: -5%;
 }
 
-.wcir5 {
+.banner .wcir5 {
 	top: 30%;
 	left: 35%;
 }
 
-.wcir6 {
+.banner .wcir6 {
 	top: 75%;
 	left: 20%;
 }
 
-.wcir7 {
+.banner .wcir7 {
 	top: 40%;
 	right: 10%;
 }
 
-.wcir8 {
+.banner .wcir8 {
 	right: 30%;
 	bottom: 0;
 }

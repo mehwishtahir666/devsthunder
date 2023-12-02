@@ -66,10 +66,22 @@
     line-height: 23px;
     color: #4b4b4b;
 }
+.services2-banner .mainHeading{
+    text-align: center;
+    font-size:var(--h1);
+}
+.services2-banner .indsH{
+    color:var(--mainColor) !important;
+}
  @media screen and (max-width:1075px) {
     .services2-banner {
         padding: 15px !important;
     }
+ }
+ @media screen and (max-width:600px){
+    .services2-banner .mainHeading{
+        font-size: 30px;
+    } 
  }
 @media screen and (max-width:572px) {
     .benefits-of-services2__block {

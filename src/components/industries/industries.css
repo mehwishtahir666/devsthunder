@@ -30,7 +30,7 @@
     color: #030303c2;
     margin: 0;
 }
-.indsH{
+.domain .indsH{
     color:var(--mainColor) !important;
 }
 .domain ul{
@@ -93,7 +93,9 @@
         width: calc(50% - 10px);
         padding: 8px 5px;
       }
-      .domain .center h1{
+}
+@media screen and (max-width:600px){
+    .domain .center h1{
         font-size: 30px;
       }
 }

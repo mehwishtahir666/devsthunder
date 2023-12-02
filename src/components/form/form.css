@@ -115,7 +115,9 @@
 .form-main h1{
     font-size:var(--miniH1);
 }
-
+.form-main .indsH{
+    color:var(--mainColor) !important;
+}
 @media screen and  (max-width:1000px) {
      .form-main {
         padding: 30px 15px;
@@ -126,4 +128,9 @@
       padding: 0;
       margin: 0;
    }
+}
+@media screen and (max-width:600px) {
+    .form-main .left h1{
+        font-size: 30px;
+    }
 }

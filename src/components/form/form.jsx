@@ -11,7 +11,7 @@ const Form = () => {
   return (
     <div className='form-main'>
        <div className="left">
-        <h1>Get a Free Question! Contact Us Now</h1>
+        <h1>Get a Free Question!  <span className='indsH'>Contact Us Now</span></h1>
         <form className='form' action="">
         <ul>
         <li><p className='user'><BiSolidUser/></p> <input type="text" placeholder='Full Name' /></li>

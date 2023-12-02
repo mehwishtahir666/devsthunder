@@ -18,6 +18,8 @@
 .newsletter{
     width:100%;
     height:50vh;
+    /* padding: 60px 10px; */
+    box-sizing: border-box;
     margin-top:20px;
     background-image:url("./images/letr.jpg");
     letter-spacing:2px;
@@ -43,6 +45,9 @@
     font-family:var(--fontFamily);
     font-size:var(--miniH1);
     font-weight:bold;
+}
+.newsletter .spanText{
+    color: var(--subColor);
 }
 .newsletter .text-box p{
     color:gainsboro;
@@ -88,6 +93,11 @@
     color:var(--color1);
     font-weight:bold;
     letter-spacing:1px;
+}
+@media screen and (max-width:600px){
+    .newsletter .text-box h2{
+        font-size: 30px;
+    }
 }
 @media screen and (max-width:525px) {
     .inp-box .inp-btn{

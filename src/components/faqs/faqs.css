@@ -1,4 +1,4 @@
-.cont{
+.faqcont{
     padding: 40px 20px 40px 20px;
     box-sizing: border-box;
 }
@@ -8,6 +8,19 @@
 .fqs_heading{
     font-size: var(--paragraphSize) !important;
     font-weight:bold !important;
+}
+.faqcont .colorspan{
+    color:var(--mainColor) !important;
+
+}
+.faqcont h1{
+    font-size: var(--h1);
+    text-align: center;
+}
+@media screen and (max-width:700px){
+    .faqcont h1{
+        font-size:30px;
+    }
 }
 @media (max-width:535px) {
     .fqs_heading{

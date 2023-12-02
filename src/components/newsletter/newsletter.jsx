@@ -5,7 +5,7 @@ const Newsletter = () => {
   return (
     <div className='newsletter'>
       <div className='text-box'>
-        <h2>Join Our Newsletter</h2>
+        <h2>Join Our <span className='spanText'>Newsletter</span></h2>
         <p>Get fresh news and updates delivered straight to your inbox by subscribing to<br/> our newsletter!</p>
       </div>
       <div className="inp-box">

@@ -3,9 +3,10 @@ import "./services2.css"
 const Services2 = () => {
     return (
         <>
-            <div className="container-fluid  p-lg-4 w-100 services2-banner">
-                <div className="row services2-row1 h-auto">
-                    <div className=" services2-col12 col-12 col-sm-6 col-lg-4 m-auto mt-5 ">
+            <div className="container-fluid  p-lg-4 w-100 services2-banner ">
+                <div className="row services2-row1 h-auto ">
+                    <h1 className='mainHeading'>Why <span className='indsH'>Choose Us?</span></h1>
+                    <div className=" services2-col12 col-12 col-sm-6 col-lg-4 m-auto mt-4 border-0 border-danger">
                         <div className="services2-col1  ">
                             <span className="services2-col1-number " style={{ color: "#C9AEF8" }}>01</span>
                             <div className="benefits-of-services2__block ">
@@ -16,7 +17,7 @@ const Services2 = () => {
                     </div>
 
 
-                    <div className="services2-col12 col-12 col-sm-6 col-lg-4 m-auto mt-5">
+                    <div className="services2-col12 col-12 col-sm-6 col-lg-4 m-auto mt-4 ">
                     <div className="col services2-col1   ">
                         <span className="services2-col1-number " style={{ color: "#EEAACB" }}>02</span>
                         <div className="benefits-of-services2__block ">
@@ -26,7 +27,7 @@ const Services2 = () => {
                     </div>
                     </div>
 
-                    <div className="services2-col12 col-12 col-sm-6 col-lg-4   m-auto mt-5 ">
+                    <div className="services2-col12 col-12 col-sm-6 col-lg-4   m-auto mt-4 ">
                     <div className="col services2-col1  ">
                         <span className="services2-col1-number " style={{ color: "#F9C3B1" }}>03</span>
                         <div className="benefits-of-services2__block ">
@@ -36,7 +37,7 @@ const Services2 = () => {
                     </div>
                     </div>
 
-                    <div className="services2-col12 col-12 col-sm-6 m-auto mt-5 col-lg-4">
+                    <div className="services2-col12 col-12 col-sm-6 m-auto mt-4 col-lg-4">
                     <div className="col services2-col1   ">
                         <span className="services2-col1-number " style={{ color: "#B6D4B0" }}>04</span>
                         <div className="benefits-of-services2__block ">
@@ -47,7 +48,7 @@ const Services2 = () => {
                     </div>
 
 
-                    <div className="services2-col12 col-12 col-sm-6 m-auto col-lg-4 mt-5">
+                    <div className="services2-col12 col-12 col-sm-6 m-auto col-lg-4 mt-4">
                     <div className="col services2-col1  ">
                         <span className="services2-col1-number " style={{ color: "#A9EEEC" }}>05</span>
                         <div className="benefits-of-services2__block ">
@@ -57,7 +58,7 @@ const Services2 = () => {
                     </div>
                     </div>
 
-                    <div className="services2-col12 col-12 col-sm-6 m-auto mt-5  col-lg-4">
+                    <div className="services2-col12 col-12 col-sm-6 m-auto mt-4  col-lg-4">
                     <div className="col services2-col1   ">
                         <span className="services2-col1-number " style={{ color: "#AACFEA" }}>06</span>
                         <div className="benefits-of-services2__block ">

@@ -1,7 +1,7 @@
 import React from 'react'
 import './industries.css'
 import img1 from './images/icon-1 (1).png'
-import img2 from './images/icon-1.png'
+import img2 from './images/icon-8.png'
 import img3 from './images/icon-10.png'
 import img4 from './images/icon-11.png'
 import img5 from './images/icon-12.png'
@@ -11,7 +11,7 @@ import img8 from './images/icon-4.png'
 import img9 from './images/icon-5.png'
 import img10 from './images/icon-6.png'
 import img11 from './images/icon-7.png'
-
+import img12 from './images/icon-9.png'
 const Industries = () => {
   return (
     <div className='domain'>
@@ -22,7 +22,7 @@ const Industries = () => {
             <h1>Businesses in <span className='indsH'>all</span> </h1>
             <h1 className='indsH'>Domains</h1>
       
-           <p className='p2'>We build better businesses. We help our clients identify and deliver bottom-line improvements.</p>
+           <p className='p2'>web development services play a crucial role in helping businesses establish a strong online presence, streamline operations, and leverage digital technologies for growth across diverse industry domains.</p>
         </div>
         <div className="right">
         <div className="box">
@@ -55,11 +55,11 @@ const Industries = () => {
                 <p>Restaurant</p>
             </div>
             <div className="box box">
-                <img src={img9} alt="" />
+                <img src={img11} alt="" />
                 <p>Retail</p>
             </div>
             <div className="box box">
-                <img src={img7} alt="" />
+                <img src={img12} alt="" />
                 <p>Chemical</p>
             </div>
             <div className="box box2">

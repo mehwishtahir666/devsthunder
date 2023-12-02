@@ -2,12 +2,13 @@
     height: auto;
     width: 100%;
     background-color: var(--background);
-    padding: 30px 40px !important;
+    padding: 30px 100px !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
+    
  }
  .platforms .cont{
      height: auto;
@@ -28,6 +29,9 @@
      color: rgb(48, 47, 47);
      /* font-weight:bolder; */
  }
+ .indsH{
+    color:var(--mainColor) !important;
+}
  .platforms .left, .platforms .right{
     height: auto;
     width: calc(35% - 20px);
@@ -108,3 +112,9 @@
         padding: 20px 0px !important;
     }
 }
+@media screen and (max-width:600px) {
+    .platforms h1{
+        font-size: 30px;
+    }
+}
+
