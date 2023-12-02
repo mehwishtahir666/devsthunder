@@ -54,8 +54,6 @@
     font-family:var(--fontFamily);
     line-height:25px;
     font-size:var(--simpleT);
-    /* letter-spacing:2px; */
-    /* font-weight: bold; */
 }
 .newsletter .inp-box{
     width:80%;
@@ -103,5 +101,10 @@
     .inp-box .inp-btn{
         width:100%;
         height:50px;
+    }
+}
+@media screen and (max-width:370px) {
+    .newsletter{
+        padding:20px 0px;
     }
 }
