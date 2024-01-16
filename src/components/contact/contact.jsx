@@ -38,7 +38,7 @@ const Contactus = () => {
           <ul>
              <h1>Our Address</h1>
              <p className='p-a'>Lahore (Main Office)</p>
-             <p>1108, Kashif Centre Main Shahrah-e-Faisal, near Hotel Mehran, Lahore</p>
+             <p>239-2-C1 Lajna chonk College Road township, lahore</p>
              <p className='p-b'>Work time – 24/7</p>
           </ul>
         </div>
@@ -47,9 +47,9 @@ const Contactus = () => {
           <ul>
              <h1>Our Phones</h1>
              <p className='p-a'>WhatsApp</p>
-             <p>+92 345 2065321</p>
+             <p>+92 301 3639966</p>
              <p className='p-b'>Landline – 24/7</p>
-             <p>+92 21 35220318</p>
+             <p>+92 301 3639966</p>
           </ul>
         </div>
         <div className="box-a">

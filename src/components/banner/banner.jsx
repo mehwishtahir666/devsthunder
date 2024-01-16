@@ -177,7 +177,7 @@ const [toggle,setToggle] = useState(false);
           </button>
         </div>
         {/* ---------banner component ends */}
-<div className="banner_circlefixed" onClick={()=>{setToggle(toggle==false?true:false)}}>
+{/* <div className="banner_circlefixed" onClick={()=>{setToggle(toggle==false?true:false)}}>
   <AiOutlineMessage className='banner_fixed-icon'/>
 </div>
 {toggle &&  <div className='banner_chatDiv'>
@@ -187,7 +187,7 @@ const [toggle,setToggle] = useState(false);
 </div>
 <button className='banner_chatDiv-btn ms-3 mt-4'>Open Chat</button>
       </div>
-      }
+      } */}
       </div>
       {/* ---------------testing--------------------- */}
       {/* ---------------testing--------------------- */}

@@ -54,9 +54,9 @@ const Footer = () => {
           <div className="col footer_col4 col-12 col-md-6 col-xl-3 border-0 border-warning   mt-5 mt-lg-3 d-flex justify-content-center align-items-center">
             <ul className="footer_sec_4 minheight border-0 border-light text-left">
               <li className="parasize"><h6 className="fw-bold coloryellow">Contact Us</h6></li>
-              <li className="p-0 m-0 mt-3 parasize"><LiaPhoneSolid className="fs-5"/>&nbsp;&nbsp;923013639966</li>
+              <li className="p-0 m-0 mt-3 parasize"><LiaPhoneSolid className="fs-5"/>&nbsp;&nbsp;+92 301 3639966</li>
               <li className="p-0 m-0 mt-2 parasize"><LiaEnvelopeOpenSolid className="fs-5"/>&nbsp;&nbsp;devsthunder@gmail.com</li>
-              <li className="p-0 m-0 mt-2 parasize"><LiaWhatsapp className="fs-5"/>&nbsp;&nbsp;923013639966</li>
+              <li className="p-0 m-0 mt-2 parasize"><LiaWhatsapp className="fs-5"/>&nbsp;&nbsp;92 301 3639966</li>
 <li className="p-0 m-0 mt-2 parasize"><GoLocation/>&nbsp;&nbsp;239-2-C1 township, lahore</li>
             </ul>
           </div>

@@ -39,7 +39,9 @@ const Reviews = () => {
 
     return (
         <div className='reviews'>
+             <h1 className='mainheading px-sm-0 py-3 px-2'>What our clients<span className='indsH'> say about us?</span></h1>
             <div className="right"> 
+    
                 <div>
                     <Carousel id='crouseee' className='crousee' breakPoints={breakPoints} >
                         {items.map((item) => (

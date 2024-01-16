@@ -5,10 +5,20 @@
 .reviews{
     width: 100%;
     display: flex;
+    /* background-color: red; */
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px;
     /* background-color: rgb(249, 249, 249); */
+}
+
+.reviews .mainheading{
+    /* background-color: aqua; */
+    width: 100%;
+    text-align: center !important;
+}
+.reviews .indsH{
+    color:var(--mainColor) !important;
 }
 .reviews .rec-arrow-left , .reviews .rec-arrow-right{
     display: none;
